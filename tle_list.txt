@@ -1,10 +1,10 @@
    Lines starting with spaces are comments.
-# Include ALL_TLE.TXT
 # Include classfd.tle
 # Include inttles.tle
 # Include 02048a.tle
 # Include 07004g.tle
 # Include 08051a.tle
+# Include 09068b.tle
 # Include 10050b.tle
 # Include 11037a.tle
 # Include 11037b.tle
@@ -25,7 +25,56 @@
 # Include 77093e.tle
 # Include 99066a.tle
 # Include 9o0dc57.tle
+# Include s509559.tle
 # Include s510923.tle
 # Include wt1190f.tle
 # Include xl8d.tle
 # Include xw99cec.tle
+
+# Include 09068b16.tle
+
+# Include 10050b10.tle
+# Include 10050b11.tle
+# Include 10050b12.tle
+# Include 10050b13.tle
+# Include 10050b14.tle
+# Include 10050b15.tle
+# Include 10050b16.tle
+
+# Include 11037b13.tle
+# Include 11037b14.tle
+
+# Include 13070b14.tle
+# Include 13070b15.tle
+
+# Include 15007b15.tle
+# Include 15007b16.tle
+# Include 72073a_old.tle
+
+# Include 73078a02.tle
+# Include 73078a10.tle
+
+# Include 9o0_12.tle
+# Include 9o0_15.tle
+
+# Range: 2017-04-10 2020-01-01
+# Include ALL_TLE.TXT
+# Range: 2017-03-20 2017-04-10
+# Include old_tles/20170402.tle
+# Range: 2017-02-10 2017-03-20
+# Include old_tles/20170225.tle
+# Range: 2016-12-10 2017-02-10
+# Include old_tles/20170109.tle
+# Range: 2016-09-20 2016-12-10
+# Include old_tles/20161107.tle
+# Range: 2016-06-20 2016-09-20
+# Include old_tles/20160809.tle
+# Range: 2016-03-20 2016-06-20
+# Include old_tles/20160421.tle
+# Range: 2016-01-01 2016-03-10
+# Include old_tles/20160208.tle
+# Range: 2015-11-01 2016-01-01
+# Include old_tles/20151204.tle
+# Range: 2000-06-01 2015-11-01
+# Include old_tles/20150927.tle
+
