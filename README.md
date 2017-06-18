@@ -1,6 +1,7 @@
 # tles
-Contains various TLEs (Two-Line Elements) computed by me.  I do this by computing
-orbital elements using Find_Orb (http://www.projectpluto.com/find_orb.htm) and generating
+Contains various TLEs (Two-Line Elements) computed by me (Bill Gray;  contact info
+below).  I do this by computing orbital elements using
+[Find_Orb](http://www.projectpluto.com/find_orb.htm) and generating
 ephemerides;  I then do a least-squares-fit of TLEs to those ephemerides,  using the
 `eph2tle` program in my [artificial satellite code]( https://github.com/Bill-Gray/sat_code).
 
@@ -24,5 +25,5 @@ of known artsats.
 
 Maintainer
 ----------
-Bill Gray
-p&#x202e;&ocirc;&#xe7;.&ouml;tulp&#x165;c&eacute;j&ocirc;&#x159;p&#x40;ot&uacute;l&#x202c;m
+Bill Gray:
+(p&#x202e;&ocirc;&#xe7;.&ouml;tulp&#x165;c&eacute;j&ocirc;&#x159;p&#x40;ot&uacute;l&#x202c;m)
