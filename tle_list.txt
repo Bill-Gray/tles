@@ -57,9 +57,13 @@
 # Include 9o0_12.tle
 # Include 9o0_15.tle
 
-# Range: 2017-04-10 2020-01-01
+# Range: 2017-07-10 2020-01-01
 # Include ALL_TLE.TXT
-# Range: 2017-03-20 2017-04-10
+# Range: 2017-06-10 2017-07-10
+# Include old_tles/20170623.tle
+# Range: 2017-05-01 2017-06-10
+# Include old_tles/20170527.tle
+# Range: 2017-03-20 2017-05-01
 # Include old_tles/20170402.tle
 # Range: 2017-02-10 2017-03-20
 # Include old_tles/20170225.tle
