@@ -30,6 +30,7 @@
 # Include wt1190f.tle
 # Include xl8d.tle
 # Include xw99cec.tle
+# Include ys1.tle
 
 # Include 09068b16.tle
 
