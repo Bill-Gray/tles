@@ -6,7 +6,6 @@
 # Include 08051a.tle
 # Include 09068b.tle
 # Include 10050b.tle
-# Include 11037a.tle
 # Include 11037b.tle
 # Include 12003b.tle
 # Include 13041b.tle
@@ -58,8 +57,23 @@
 # Include 9o0_12.tle
 # Include 9o0_15.tle
 
-# Range: 2017-07-10 2020-01-01
-# Include ALL_TLE.TXT
+# Range: 2017-07-08 2020-01-01
+# Include 11037a.tle
+# Range: 2017-01-01 2017-07-08
+# Include 11037a17.tle
+# Range: 2016-01-01 2017-01-01
+# Include 11037a16.tle
+# Range: 2015-01-01 2016-01-01
+# Include 11037a15.tle
+
+# Range: 2017-10-30 2020-01-01
+# Include all_tle.txt
+# Range: 2017-09-10 2017-10-30
+# Include old_tles/20171015.tle
+# Range: 2017-08-05 2017-09-10
+# Include old_tles/20170819.tle
+# Range: 2017-07-10 2017-08-05
+# Include old_tles/20170724.tle
 # Range: 2017-06-10 2017-07-10
 # Include old_tles/20170623.tle
 # Range: 2017-05-01 2017-06-10
