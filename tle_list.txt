@@ -56,6 +56,10 @@
 # Include 15007b15.tle
 # Include 15007b16.tle
 # Include 15007b17.tle
+
+# Include 67040a_13.tle
+# Include 67040a_15.tle
+
 # Include 72073a_old.tle
 
 # Include 73078a02.tle
@@ -73,8 +77,10 @@
 # Range: 2015-01-01 2016-01-01
 # Include 11037a15.tle
 
-# Range: 2017-12-01 2020-01-01
+# Range: 2018-01-05 2020-01-01
 # Include all_tle.txt
+# Range: 2017-12-01 2018-01-05
+# Include old_tles/20171220.tle
 # Range: 2017-10-30 2017-12-01
 # Include old_tles/20171116.tle
 # Range: 2017-09-10 2017-10-30
