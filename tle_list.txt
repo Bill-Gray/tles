@@ -32,6 +32,7 @@
 # Include xl8d.tle
 # Include xw99cec.tle
 # Include ys1.tle
+# Include zgb.tle
 
 # Include 09068b16.tle
 
