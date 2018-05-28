@@ -59,7 +59,7 @@
 # n  11.47210365 +/- 1.1e-5           Peri.   44.75478 +/- 0.00059
 # a420250.396 +/- 0.267               Node   319.83879 +/- 0.00030
 # e   0.7569654 +/- 2.67e-6           Incl.   51.14280 +/- 0.00006
-# P  31.38d                  H 28.3   G  0.15   U  5.1  
+# P  31.38d                  H 28.3   G  0.15   U  5.1
 # q 102135.348 +/- 1.16    Q 738365.443 +/- 0.905
 # 67 of 437 observations 2016 July 5-2018 Jan. 19; mean residual 2".284
 # SGP4 only: these TLEs are _not_ fitted to SDP4,  even for
