@@ -82,9 +82,11 @@
 # Range: 2015-01-01 2016-01-01
 # Include 11037a15.tle
 
-# Range: 2018-06-08 2020-01-01
+# Range: 2018-07-05 2020-01-01
 # Include all_tle.txt
-# Range: 2018-05-10 2018-06-08
+# Range: 2018-06-14 2018-07-05
+# Include old_tles/20180627.tle
+# Range: 2018-05-10 2018-06-14
 # Include old_tles/20180602.tle
 # Range: 2018-04-05 2018-05-10
 # Include old_tles/20180423.tle
