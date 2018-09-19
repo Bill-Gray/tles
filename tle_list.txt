@@ -17,6 +17,7 @@
 # Include 64040b.tle
 # Include 64054a.tle
 # Include 65058a.tle
+# Include 65058b.tle
 # Include 67040a.tle
 # Include 67040f.tle
 # Include 69046f.tle
@@ -38,7 +39,6 @@
 # Include ys1.tle
 # Include 18045a.tle
 # Include 18045d.tle
-# Include zgb.tle
 
 # Include 09068b16.tle
 
