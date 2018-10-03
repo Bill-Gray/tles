@@ -18,9 +18,10 @@ either not tracked by [Space-Track](https://www.space-track.org) or are poorly t
 
 These TLEs are used by my `sat_id` program used for figuring out which satellite
 corresponds to a given object found in an image by an asteroid hunter. (`sat_id` is
-also in the `sat_code` repository,  and there is [an on-line version of `sat_id`]
-(https://www.projectpluto.com/sat_id2.htm) which also uses the TLEs in this
-repository.  However,  these TLEs can be used with any software that uses TLEs.
+also in the `sat_code` repository,  and there is
+[an on-line version of `sat_id`](https://www.projectpluto.com/sat_id2.htm) which
+also uses the TLEs in this repository.  However,  these TLEs can be used with
+any software that uses TLEs.
 
 Note that updates will occur as new artsats are found and new observations are made
 of known artsats.
