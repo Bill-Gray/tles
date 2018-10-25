@@ -72,6 +72,10 @@
 # Include 67040a_13.tle
 # Include 67040a_15.tle
 
+# Include 69046f14.tle
+# Include 69046f15.tle
+# Include 69046f17.tle
+
 # Include 72073a_old.tle
 
 # Include 73078a02.tle
@@ -89,8 +93,21 @@
 # Range: 2015-01-01 2016-01-01
 # Include 11037a15.tle
 
-# Range: 2018-07-05 2020-01-01
+# Range: 2018-10-15 2020-01-01
 # Include all_tle.txt
+
+# Range: 2018-10-01 2018-10-15
+# Include old_tles/20181007.tle
+
+# Range: 2018-09-04 2018-10-01
+# Include old_tles/20180912.tle
+
+# Range: 2018-08-07 2018-09-04
+# Include old_tles/20180819.tle
+
+# Range: 2018-07-05 2018-08-07
+# Include old_tles/20180722.tle
+
 # Range: 2018-06-14 2018-07-05
 # Include old_tles/20180627.tle
 # Range: 2018-05-10 2018-06-14
