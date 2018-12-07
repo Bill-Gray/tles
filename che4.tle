@@ -1,9 +1,11 @@
 # Made by eph2tle, compiled Nov 25 2018 10:21:25
-# Run at Thu Dec  6 19:43:44 2018
+# Run at Fri Dec  7 16:22:59 2018
+#
+# UPDATED to reflect the actual launch time
 #
 #    NOTE:  These TLEs may be hilariously wrong.  They are based on
-# the assumption that Chang'e 4 will be launched at 18:15 UTC on
-# December 7,  and will proceed straight east,  shutting down its
+# the assumption that Chang'e 4 was launched at 18:23 UTC on
+# December 7,  and proceeded straight east,  shutting down its
 # engines at a point that will let it coast up to the moon.  When
 # it gets there,  the moon will be at about declination -17.3.  I
 # found a point where a launch from the Xichang Satellite Launch Center,
@@ -14,7 +16,7 @@
 # and (as best I can tell from limited data) Chang'es 2 and 3.
 #
 #    One cause for concern here is that this trajectory requires almost
-# six days (!) to get to the moon,  with perilune at 15:00 UT on
+# six days (!) to get to the moon,  with perilune at 19:00 UT on
 # 13 December.  However,  this Planetary Society blog post :
 #
 # http://www.planetary.org/blogs/guest-blogs/2018/20180615-queqiao-orbit-explainer.html
@@ -22,7 +24,7 @@
 # has an interesting "lunar swing-by to Earth-Moon L2" diagram
 # about a third of the way down.  This looks to be an excellent
 # match.  The diagram specifies a 140-hour transfer time.  The
-# orbit I've found is 140.5 hours.
+# orbit I've found is 144.5 hours.
 #
 #    Once I got a suitable trajectory,  I computed a numerically
 # integrated ephemeris (well,  I did that as part of getting the
@@ -49,96 +51,105 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 58459.000000 58465.000000 0.500000
-# Created Thu Dec  6 19:41:52 2018
-# Ephemeris start:  7 Dec 2018  0:00:00
-# Ephemeris end:   13 Dec 2018  0:00:00
+# Ephem range: 58459.500000 58465.500000 0.500000
+# Created Fri Dec  7 16:22:02 2018
+# Ephemeris start:  7 Dec 2018 12:00:00
+# Ephemeris end:   13 Dec 2018 12:00:00
 # Times are all TDT
 # Positions/velocities are in equatorial J2000
+#
 # Orbital elements:  Chang'e 4
-#    Perigee 2018 Dec 7.771411 TT = 18:30:50 (JD 2458460.271411)
+#    Perigee 2018 Dec 7.776966 TT = 18:38:49 (JD 2458460.276966)
 # Epoch 2018 Dec  8.0 TT = JDT 2458460.5                        Gray
-# M   7.598069783                     (J2000 equator)
-# n  33.239072717    Peri.  149.759994
-# a206777.9568km     Node     3.179963
-# e   0.96836028     Incl.   27.651136
-# P  10.83d           q 6542.395930km  Q 407013.5177km
+# M   7.320835716                     (J2000 equator)
+# n  32.823872667    Peri.  149.759219
+# a208518.0364km     Node     5.185065
+# e   0.96862375     Incl.   27.654738
+# P  10.97d           q 6542.513066km  Q 410493.5598km
+#
+# Orbital elements:  Chang'e 4
+#    Perilune 2018 Dec 13.793593 TT = 19:02:46 (JD 2458466.293593)
+# Epoch 2018 Dec 13.8 TT = JDT 2458466.3                        Gray
+# q  1817.491394km                    (J2000 ecliptic)
+#                    Peri.  333.461214
+#                    Node   227.724442
+# e   1.23083131     Incl.   42.780913
 #
 # 1 NoradU COSPAR   Epoch.epoch     dn/dt/2  d2n/dt2/6 BSTAR    T El# C
 # 2 NoradU Inclina RAAscNode Eccent  ArgPeri MeanAno  MeanMotion Rev# C
 
-# Worst residual: 53.41 km
-# MJD 58459.000000 (2018 Dec  7  0:00)
-Chang'e 4
-1 89988U 18999A   18341.24919926  .00000000  00000-0  00000-0 0  3418
-2 89988 028.9874 001.6954 9786111 151.7229 339.2970 00.09743244    03
-
-# Worst residual: 105.36 km
+# Worst residual: 112.00 km
 # MJD 58459.500000 (2018 Dec  7 12:00)
 Chang'e 4
 1 89988U 18999A   18341.74919926  .00000000  00000-0  00000-0 0  3413
-2 89988 028.8521 001.8709 9762638 151.3983 356.7422 00.10394949    04
+2 89988 028.8197 003.9083 9765643 151.3391 356.9016 00.10355575    06
 
-# Worst residual: 60.96 km
+# Worst residual: 63.55 km
 # MJD 58460.000000 (2018 Dec  8  0:00)
 Chang'e 4
 1 89988U 18999A   18342.24919926  .00000000  00000-0  00000-0 0  3419
-2 89988 029.1717 001.3309 9789822 151.4264 013.8246 00.09717673    09
+2 89988 029.1629 003.3452 9793907 151.3659 013.8852 00.09649338    03
 
-# Worst residual: 21.86 km
+# Worst residual: 22.46 km
 # MJD 58460.500000 (2018 Dec  8 12:00)
 Chang'e 4
 1 89988U 18999A   18342.74919926  .00000000  00000-0  00000-0 0  3414
-2 89988 029.3537 001.0800 9800539 151.6437 030.0637 00.09449462    00
+2 89988 029.3710 003.0656 9805095 151.6181 029.9352 00.09360487    02
 
-# Worst residual: 11.65 km
+# Worst residual: 11.91 km
 # MJD 58461.000000 (2018 Dec  9  0:00)
 Chang'e 4
 1 89988U 18999A   18343.24919926  .00000000  00000-0  00000-0 0  3410
-2 89988 029.4407 000.9598 9806070 151.7260 046.3566 00.09362796    05
+2 89988 029.4819 002.9180 9810704 151.7314 046.0227 00.09265748    00
 
 # Worst residual: 6.97 km
 # MJD 58461.500000 (2018 Dec  9 12:00)
 Chang'e 4
 1 89988U 18999A   18343.74919926  .00000000  00000-0  00000-0 0  3415
-2 89988 029.4732 000.9127 9810217 151.7310 062.7882 00.09334528    03
+2 89988 029.5333 002.8500 9814698 151.7627 062.2415 00.09232784    03
 
-# Worst residual: 5.40 km
+# Worst residual: 4.70 km
 # MJD 58462.000000 (2018 Dec 10  0:00)
 Chang'e 4
 1 89988U 18999A   18344.24919926  .00000000  00000-0  00000-0 0  3411
-2 89988 029.4811 000.8946 9814439 151.6926 079.4057 00.09333933    09
+2 89988 029.5509 002.8234 9818455 151.7427 078.6436 00.09229012    09
 
-# Worst residual: 10.80 km
+# Worst residual: 9.31 km
 # MJD 58462.500000 (2018 Dec 10 12:00)
 Chang'e 4
 1 89988U 18999A   18344.74919926  .00000000  00000-0  00000-0 0  3416
-2 89988 029.5064 000.8501 9820188 151.6504 096.2338 00.09348709    03
+2 89988 029.5732 002.7866 9823249 151.7088 095.2576 00.09241380    09
 
-# Worst residual: 17.40 km
+# Worst residual: 15.33 km
 # MJD 58463.000000 (2018 Dec 11  0:00)
 Chang'e 4
 1 89988U 18999A   18345.24919926  .00000000  00000-0  00000-0 0  3412
-2 89988 029.6088 000.7069 9829489 151.6580 113.2842 00.09373108    06
+2 89988 029.6570 002.6704 9830792 151.7127 112.0992 00.09263605    09
 
-# Worst residual: 26.89 km
+# Worst residual: 23.42 km
 # MJD 58463.500000 (2018 Dec 11 12:00)
 Chang'e 4
 1 89988U 18999A   18345.74919926  .00000000  00000-0  00000-0 0  3417
-2 89988 029.8841 000.3594 9845627 151.7985 130.5643 00.09405128    05
+2 89988 029.8935 002.3726 9843728 151.8364 129.1804 00.09292967    08
 
-# Worst residual: 44.04 km
+# Worst residual: 36.74 km
 # MJD 58464.000000 (2018 Dec 12  0:00)
 Chang'e 4
 1 89988U 18999A   18346.24919926  .00000000  00000-0  00000-0 0  3413
-2 89988 030.4978 359.6467 9875014 152.2027 148.0894 00.09447046    06
+2 89988 030.4590 001.7155 9866796 152.2291 146.5244 00.09330076    01
 
-# Worst residual: 156.81 km
+# Worst residual: 78.24 km
 # MJD 58464.500000 (2018 Dec 12 12:00)
 Chang'e 4
 1 89988U 18999A   18346.74919926  .00000000  00000-0  00000-0 0  3418
-2 89988 030.7874 359.3303 9936533 152.2100 165.9046 00.09515509    03
-Avg worst resid: 43.46 km
-Worst residual in entire run: 156.81 km on MJD 58464.5
+2 89988 031.4228 000.6899 9912544 152.8992 164.2035 00.09384075    03
+
+# Worst residual: 477.63 km
+# MJD 58465.000000 (2018 Dec 13  0:00)
+Chang'e 4
+1 89988U 18999A   18347.24919926  .00000000  00000-0  00000-0 0  3414
+2 89988 052.4684 347.9098 9951888 162.8410 182.5952 00.09424798    08
+Avg worst resid: 71.85 km
+Worst residual in entire run: 477.63 km on MJD 58465.0
        1     3     10    30    100   300   1K    3K    10K   km
-     0     0     2     5     3     2     0     0     0     0
+     0     0     3     4     3     1     1     0     0     0
