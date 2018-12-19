@@ -36,6 +36,8 @@
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
 # Ephem range: 58227.000000 58543.100000 1.000000
+# Ephemeris start: 19 Apr 2018  0:00:00
+# Ephemeris end:   01 Mar 2019  0:00:00
 # Times are all TDT
 # Created from Horizons data by 'jpl2mpc', ver Oct 10 2018
 #
