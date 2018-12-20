@@ -16,7 +16,6 @@
 # Include 64040a.tle
 # Include 64040b.tle
 # Include 64054a.tle
-# Include 65058a.tle
 # Include 65058b.tle
 # Include 67040a.tle
 # Include 67040f.tle
@@ -72,6 +71,15 @@
 # Include 15005b16.tle
 
 # Include 15019c16.tle
+
+# Range: 2019-01-01 2020-01-01
+# Include 65058a19.tle
+# Range: 2018-01-01 2019-01-01
+# Include 65058a18.tle
+# Range: 2017-01-01 2018-01-01
+# Include 65058a17.tle
+# Range: 2016-01-01 2017-01-01
+# Include 65058a16.tle
 
 # Include 67040a_13.tle
 # Include 67040a_15.tle
