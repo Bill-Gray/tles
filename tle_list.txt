@@ -94,10 +94,14 @@
 # Include 9o0_12.tle
 # Include 9o0_15.tle
 
-# Range: 2017-07-08 2020-01-01
-# Include 11037a.tle
+# Range: 2019-01-01 2020-01-01
+# Include 11037a19.tle
+# Range: 2018-01-01 2019-01-01
+# Include 11037a18.tle
+# Range: 2017-07-01 2018-01-01
+# Include 11037a17b.tle
 # Range: 2017-01-01 2017-07-08
-# Include 11037a17.tle
+# Include 11037a17a.tle
 # Range: 2016-01-01 2017-01-01
 # Include 11037a16.tle
 # Range: 2015-01-01 2016-01-01
