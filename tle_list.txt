@@ -10,7 +10,6 @@
 # Include 13041b.tle
 # Include 13070b.tle
 # Include 15005b.tle
-# Include 15007b.tle
 # Include 15019c.tle
 # Include 16031b.tle
 # Include 63039c.tle
@@ -72,10 +71,6 @@
 
 # Include 15005b16.tle
 
-# Include 15007b15.tle
-# Include 15007b16.tle
-# Include 15007b17.tle
-
 # Include 15019c16.tle
 
 # Include 67040a_13.tle
@@ -106,6 +101,17 @@
 # Include 11037a16.tle
 # Range: 2015-01-01 2016-01-01
 # Include 11037a15.tle
+
+# Range: 2019-01-01 2020-01-01
+# Include 15007b19.tle
+# Range: 2018-01-01 2019-01-01
+# Include 15007b18.tle
+# Range: 2017-01-01 2018-01-01
+# Include 15007b17.tle
+# Range: 2016-01-01 2017-01-01
+# Include 15007b16.tle
+# Range: 2015-02-15 2016-01-01
+# Include 15007b15.tle
 
 # Range: 2018-11-15 2020-01-01
 # Include all_tle.txt
