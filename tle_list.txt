@@ -42,6 +42,7 @@
 
 # Include 07004g17.tle
 # Include 07004g18.tle
+# Include 07004g19.tle
 
 # Include 09068b16.tle
 
@@ -54,6 +55,7 @@
 # Include 10050b16.tle
 # Include 10050b17.tle
 # Include 10050b18.tle
+# Include 10050b19.tle
 
 # Include 11037b13.tle
 # Include 11037b14.tle
@@ -70,6 +72,7 @@
 # Include 15019c16.tle
 
 # Include 63039c17.tle
+# Include 63039c19.tle
 
 # Range: 2019-01-01 2020-01-01
 # Include 65058a19.tle
@@ -97,6 +100,7 @@
 # Include 9o0_12.tle
 # Include 9o0_15.tle
 # Include 9o0_17.tle
+# Include 9o0_19.tle
 
 # Range: 2019-01-01 2020-01-01
 # Include 11037a19.tle
