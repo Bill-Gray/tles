@@ -4,11 +4,8 @@
 # Include 08051a.tle
 # Include 09068b.tle
 # Include 11037b.tle
-# Include 12003b.tle
 # Include 13041b.tle
 # Include 13070b.tle
-# Include 15005b.tle
-# Include 15019c.tle
 # Include 16031b.tle
 # Include 64040a.tle
 # Include 64040b.tle
@@ -17,16 +14,12 @@
 # Include 67040a.tle
 # Include 67040f.tle
 # Include 69046f.tle
-# Include 72073a.tle
 # Include 76023c.tle
 # Include 77093a.tle
-# Include 77093e.tle
 # Include 83020d.tle
 # Include 92044a.tle
 # Include 99066a.tle
 # Include s509559.tle
-# Include s510923.tle
-# Include s511443.tle
 # Include tess.tle
 # Include wt1190f.tle
 # Include xl8d.tle
@@ -61,6 +54,8 @@
 # Include 11037b14.tle
 # Include 11037b15.tle
 # Include 12003b17.tle
+# Include 12003b18.tle
+# Include 12003b19.tle
 
 # Include 13070b14.tle
 # Include 13070b15.tle
@@ -68,8 +63,12 @@
 # Include 13070b18.tle
 
 # Include 15005b16.tle
+# Include 15005b18.tle
+# Include 15005b19.tle
 
 # Include 15019c16.tle
+# Include 15019c18.tle
+# Include 15019c19.tle
 
 # Include 63039c17.tle
 # Include 63039c19.tle
@@ -90,17 +89,28 @@
 # Include 69046f15.tle
 # Include 69046f17.tle
 
-# Include 72073a_old.tle
+# Include 72073a13.tle
+# Include 72073a16.tle
+# Include 72073a19.tle
 
 # Include 73078a02.tle
 # Include 73078a10.tle
 # Include 73078a17.tle
 # Include 73078a18.tle
 
+# Include 77093e14.tle
+# Include 77093e17.tle
+# Include 77093e19.tle
+
 # Include 9o0_12.tle
 # Include 9o0_15.tle
 # Include 9o0_17.tle
 # Include 9o0_19.tle
+
+# Include s510923_18.tle
+# Include s510923_19.tle
+# Include s511443_18.tle
+# Include s511443_19.tle
 
 # Range: 2019-01-01 2020-01-01
 # Include 11037a19.tle
