@@ -13,7 +13,6 @@
 # Include 65058b.tle
 # Include 67040a.tle
 # Include 67040f.tle
-# Include 69046f.tle
 # Include 76023c.tle
 # Include 77093a.tle
 # Include 83020d.tle
@@ -88,6 +87,8 @@
 # Include 69046f14.tle
 # Include 69046f15.tle
 # Include 69046f17.tle
+# Include 69046f18.tle
+# Include 69046f19.tle
 
 # Include 72073a13.tle
 # Include 72073a16.tle
