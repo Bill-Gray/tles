@@ -1,11 +1,17 @@
    Lines starting with spaces are comments.
 # Include 02048a.tle
+# Include 07004a.tle
 # Include 07004d.tle
+# Include 07004e.tle
 # Include 08051a.tle
 # Include 09068b.tle
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 # Include 11037b.tle
-# Include 13041b.tle
 # Include 13070b.tle
+# Include tess.tle
+# Include xl8d.tle
+# Max error 180   (Limit removed)
+# Include 13041b.tle
 # Include 16031b.tle
 # Include 64040a.tle
 # Include 64040b.tle
@@ -19,9 +25,7 @@
 # Include 92044a.tle
 # Include 99066a.tle
 # Include s509559.tle
-# Include tess.tle
 # Include wt1190f.tle
-# Include xl8d.tle
 # Include xw99cec.tle
 # Include ys1.tle
 # Include ztf00hf.tle
@@ -38,6 +42,7 @@
 
 # Include 09068b16.tle
 
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 # Include 10050b10.tle
 # Include 10050b11.tle
 # Include 10050b12.tle
@@ -48,6 +53,7 @@
 # Include 10050b17.tle
 # Include 10050b18.tle
 # Include 10050b19.tle
+# Max error 180   (Limit removed)
 
 # Include 11037b13.tle
 # Include 11037b14.tle
@@ -56,10 +62,12 @@
 # Include 12003b18.tle
 # Include 12003b19.tle
 
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 # Include 13070b14.tle
 # Include 13070b15.tle
 # Include 13070b17.tle
 # Include 13070b18.tle
+# Max error 180   (Limit removed)
 
 # Include 15005b16.tle
 # Include 15005b18.tle
@@ -119,6 +127,7 @@
 # Include s511443_18.tle
 # Include s511443_19.tle
 
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 # Range: 2019-01-01 2020-01-01
 # Include 11037a19.tle
 # Range: 2018-01-01 2019-01-01
@@ -143,6 +152,7 @@
 # Range: 2015-02-15 2016-01-01
 # Include 15007b15.tle
 
+# Max error 180
 # Range: 2018-12-22 2020-01-01
 # Include all_tle.txt
 
