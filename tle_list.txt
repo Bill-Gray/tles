@@ -153,8 +153,14 @@
 # Include 15007b15.tle
 
 # Max error 180
-# Range: 2018-12-22 2020-01-01
+# Range: 2019-02-22 2020-01-01
 # Include all_tle.txt
+
+# Range: 2019-01-22 2019-02-22
+# Include old_tles/20190212.tle
+
+# Range: 2018-12-22 2019-01-22
+# Include old_tles/20190110.tle
 
 # Range: 2018-11-05 2018-12-22
 # Include old_tles/20181210.tle
