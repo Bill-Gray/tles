@@ -8,7 +8,7 @@
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 # Include 11037b.tle
 # Include 13070b.tle
-# Include tess.tle
+# Include 18038a.tle
 # Include xl8d.tle
 # Max error 180   (Limit removed)
 # Include 13041b.tle
