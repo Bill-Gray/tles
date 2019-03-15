@@ -69,6 +69,9 @@
 # Include 13070b18.tle
 # Max error 180   (Limit removed)
 
+# Include classfd.tle
+# Include inttles.tle
+
 # Include 15005b16.tle
 # Include 15005b18.tle
 # Include 15005b19.tle
@@ -226,5 +229,3 @@
 # Range: 2000-06-01 2015-11-01
 # Include old_tles/20150927.tle
 
-# Include classfd.tle
-# Include inttles.tle
