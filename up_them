@@ -1,0 +1,32 @@
+#!/bin/bash
+
+: '
+   Grabs ephems for three THEMIS objects from UC Berkeley site and computes
+   TLEs from them,  concatenating them with existing element sets for those
+   objects.  The ephems run a bit more than two weeks in advance,  so it
+   should suffice to run this about once a week.
+'
+
+grab_themis() {
+echo "Filename : http://soleil.ssl.berkeley.edu/ground_systems/products/THEMIS/THEMIS_$1/$3//THEMIS_$1.$3.OEM_CARA"
+rm /tmp/themis
+wget -O /tmp/themis "http://soleil.ssl.berkeley.edu/ground_systems/products/THEMIS/THEMIS_$1/$3//THEMIS_$1.$3.OEM_CARA"
+cd /home/phred/lunar
+./themis /tmp/themis > /tmp/themis.eph
+cd /home/phred/find_orb
+./eph2tle /tmp/themis.eph -o /tmp/themis.tle
+cd /home/phred/tles
+../lunar/them_cat "07004$2.tle" /tmp/themis.tle
+}
+
+DATE=$(date +%Y_%j)
+
+cd /home/phred/lunar
+make themis
+make them_cat
+cd /home/phred/find_orb
+make eph2tle
+
+grab_themis "A" "a" "$DATE"
+grab_themis "D" "d" "$DATE"
+grab_themis "E" "e" "$DATE"
