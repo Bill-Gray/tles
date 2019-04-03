@@ -98,6 +98,9 @@
 # Include 67040a_15.tle
 # Include 67040a_17.tle
 
+# Include 69046d17.tle
+# Include 69046d19.tle
+
 # Include 69046f14.tle
 # Include 69046f15.tle
 # Include 69046f17.tle
