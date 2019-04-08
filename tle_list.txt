@@ -56,6 +56,8 @@
 # Include 10050b19.tle
 # Max error 180   (Limit removed)
 
+# Include c05ghg1.tle
+
 # Include 11037b13.tle
 # Include 11037b14.tle
 # Include 11037b15.tle
