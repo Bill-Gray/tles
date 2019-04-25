@@ -264,6 +264,24 @@
 # Include old_tles/20160208.tle
 # Range: 2015-11-01 2016-01-01
 # Include old_tles/20151204.tle
-# Range: 2000-06-01 2015-11-01
+# Range: 2015-08-31 2015-11-01
 # Include old_tles/20150927.tle
+
+# Range: 2015-06-01 2015-08-31
+# Include old_tles/20150808.tle
+# Range: 2014-11-01 2015-06-01
+# Include old_tles/20150324.tle
+# Range: 2014-05-16 2014-11-01
+# Include old_tles/20140612.tle
+
+# TLEs expected: 14000
+# Range: 2014-04-10 2014-05-16
+# Include old_tles/20140420.tle
+# Range: 2014-02-15 2014-04-10
+# Include old_tles/20140330.tle
+# Range: 2013-07-01 2014-02-15
+# Include old_tles/20140101.tle
+# Range: 2000-06-01 2013-07-01
+# Include old_tles/20130209.tle
 # TLEs expected: 0
+
