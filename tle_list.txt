@@ -75,8 +75,10 @@
 # Include 83020d18.tle
 # Include 83020d19.tle
 
+# TLEs expected: 100
 # Include classfd.tle
 # Include inttles.tle
+# TLEs expected: 0
 
 # Include 15005b16.tle
 # Include 15005b18.tle
@@ -184,6 +186,7 @@
 # Include 15007b15.tle
 
 # Max error 180
+# TLEs expected: 17000
 # Range: 2019-03-22 2020-01-01
 # Include all_tle.txt
 
@@ -217,6 +220,8 @@
 # Range: 2018-06-14 2018-07-05
 # Include old_tles/20180627.tle
 # Range: 2018-05-10 2018-06-14
+
+# TLEs expected: 16000
 # Include old_tles/20180602.tle
 # Range: 2018-04-05 2018-05-10
 # Include old_tles/20180423.tle
@@ -244,6 +249,8 @@
 # Range: 2017-03-20 2017-05-01
 # Include old_tles/20170402.tle
 # Range: 2017-02-10 2017-03-20
+
+# TLEs expected: 15000
 # Include old_tles/20170225.tle
 # Range: 2016-12-10 2017-02-10
 # Include old_tles/20170109.tle
@@ -259,4 +266,4 @@
 # Include old_tles/20151204.tle
 # Range: 2000-06-01 2015-11-01
 # Include old_tles/20150927.tle
-
+# TLEs expected: 0
