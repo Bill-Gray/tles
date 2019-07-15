@@ -62,7 +62,6 @@
 
 # Include 12003b17.tle
 # Include 12003b18.tle
-# Include 12003b19.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 # Include 13070b14.tle
