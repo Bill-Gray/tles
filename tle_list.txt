@@ -32,6 +32,9 @@
 # Include 18045a.tle
 # Include 18045d.tle
 
+# Include 19040a.tle
+# Include 19040b.tle
+
 # Include 07004g17.tle
 # Include 07004g18.tle
 # Include 07004g19.tle
