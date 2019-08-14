@@ -81,6 +81,7 @@
 
 # TLEs expected: 100
 # Include classfd.tle
+# TLEs expected: 50
 # Include inttles.tle
 # TLEs expected: 0
 
