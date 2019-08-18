@@ -97,6 +97,19 @@
 # Include 63039c19.tle
 
 # Range: 2019-01-01 2020-01-01
+# Include 13074a19.tle
+# Range: 2018-01-01 2019-01-01
+# Include 13074a18.tle
+# Range: 2017-01-01 2018-01-01
+# Include 13074a17.tle
+# Range: 2016-01-01 2017-01-01
+# Include 13074a16.tle
+# Range: 2015-01-01 2016-01-01
+# Include 13074a15.tle
+# Range: 2013-12-20 2015-01-01
+# Include 13074a14.tle
+
+# Range: 2019-01-01 2020-01-01
 # Include 64040a19.tle
 # Range: 2016-01-01 2019-01-01
 # Include 64040a16.tle
