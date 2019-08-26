@@ -32,8 +32,6 @@
 # Include 18045a.tle
 # Include 18045d.tle
 
-# Include 19040a.tle
-# Include 19040b.tle
 # Include 19042a.tle
 
 # Include 07004g17.tle
@@ -43,6 +41,10 @@
 # Include 09068b16.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
+
+# Include 19040a.tle
+# Include 19040b.tle
+
 # Include 18103b.tle
 # Include 10050b10.tle
 # Include 10050b11.tle
