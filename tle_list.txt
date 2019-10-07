@@ -82,6 +82,8 @@
 # Include 83020d18.tle
 # Include 83020d19.tle
 
+# Include 02048a19.tle
+
 # TLEs expected: 100
 # Include classfd.tle
 # TLEs expected: 50
