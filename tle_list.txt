@@ -223,10 +223,16 @@
 
 # Max error 180
 # TLEs expected: 18000
-# Range: 2019-11-03 2020-01-01
+# Range: 2019-12-05 2030-01-01
 # Include all_tle.txt
 
-# Range: 2019-10-02 2019-11-03
+# Range: 2019-11-13 2019-12-05
+# Include old_tles/20191119.tle
+
+# Range: 2019-10-27 2019-11-13
+# Include old_tles/20191107.tle
+
+# Range: 2019-10-02 2019-10-27
 # Include old_tles/20191017.tle
 
 # Range: 2019-09-07 2019-10-02
