@@ -77,6 +77,12 @@
 # Include 13070b17.tle
 # Include 13070b18.tle
 
+# Include 9o0_04.tle
+# Include 9o0_12.tle
+# Include 9o0_15.tle
+# Include 9o0_17.tle
+# Include 9o0_19.tle
+
 # Max error 180   (Limit removed)
 
 # Include 83020d16.tle
@@ -175,12 +181,6 @@
 # Include 83020a17.tle
 # Include 83020a18.tle
 # Include 83020a19.tle
-
-# Include 9o0_04.tle
-# Include 9o0_12.tle
-# Include 9o0_15.tle
-# Include 9o0_17.tle
-# Include 9o0_19.tle
 
 # Include s510923_18.tle
 # Include s510923_19.tle
