@@ -7,21 +7,29 @@
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 # Include 13070b.tle
 # Include 18038a.tle
+# Include 18038a20.tle
 # Include xl8d.tle
+# Include xl8d_20.tle
 # Include 67040f19.tle
 # Max error 180   (Limit removed)
 # Include 13041b.tle
 # Include 16031b.tle
 # Include 63039a.tle
 # Include 64054a.tle
+# Include 64054a20.tle
 # Include 65058b.tle
+# Include 65058b20.tle
 # Include 67040a.tle
 # Include 67040f.tle
+# Include 67040f20.tle
 # Include 76023c.tle
+# Include 76023c20.tle
 # Include 77093a.tle
 # Include 92044a.tle
+# Include 92044a20.tle
 # Include 99066a.tle
 # Include s509559.tle
+# Include s509559_20.tle
 # Include wt1190f.tle
 # Include xw99cec.tle
 # Include ys1.tle
@@ -31,6 +39,7 @@
 # Include ztf00y9.tle
 # Include ztf01ss.tle
 # Include 19021b19.tle
+# Include 19021b20.tle
 # Include 18045a.tle
 # Include 18045d.tle
 
@@ -39,15 +48,18 @@
 # Include 07004g17.tle
 # Include 07004g18.tle
 # Include 07004g19.tle
+# Include 07004g20.tle
 
 # Include 09068b16.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
+# Include 19040a20.tle
 # Include 19040a.tle
 # Include 19040b.tle
 
 # Include 18103b.tle
+# Include 18103b20.tle
 # Include 10050b10.tle
 # Include 10050b11.tle
 # Include 10050b12.tle
@@ -58,6 +70,7 @@
 # Include 10050b17.tle
 # Include 10050b18.tle
 # Include 10050b19.tle
+# Include 10050b20.tle
 # Max error 180   (Limit removed)
 
 # Include c05ghg1.tle
@@ -67,6 +80,7 @@
 # Include 11037b15.tle
 # Include 11037b18.tle
 # Include 11037b19.tle
+# Include 11037h20.tle
 
 # Include 12003b17.tle
 # Include 12003b18.tle
@@ -76,20 +90,24 @@
 # Include 13070b15.tle
 # Include 13070b17.tle
 # Include 13070b18.tle
+# Include 13070b20.tle
 
 # Include 9o0_04.tle
 # Include 9o0_12.tle
 # Include 9o0_15.tle
 # Include 9o0_17.tle
 # Include 9o0_19.tle
+# Include 9o0_20.tle
 
 # Max error 180   (Limit removed)
 
 # Include 83020d16.tle
 # Include 83020d18.tle
 # Include 83020d19.tle
+# Include 83020d20.tle
 
 # Include 02048a19.tle
+# Include 02048a20.tle
 
 # TLEs expected: 100
 # Include classfd.tle
@@ -100,16 +118,21 @@
 # Include 15005b16.tle
 # Include 15005b18.tle
 # Include 15005b19.tle
+# Include 15005b20.tle
 
 # Include 15019c16.tle
 # Include 15019c18.tle
 # Include 15019c19.tle
+# Include 15019c20.tle
 
 # Include 63039c17.tle
 # Include 63039c19.tle
+# Include 63039c20.tle
 
 # Include tmg0011.tle
 
+# Range: 2020-01-01 2021-01-01
+# Include 13074a20.tle
 # Range: 2019-01-01 2020-01-01
 # Include 13074a19.tle
 # Range: 2018-01-01 2019-01-01
@@ -123,6 +146,8 @@
 # Range: 2013-12-20 2015-01-01
 # Include 13074a14.tle
 
+# Range: 2020-01-01 2021-01-01
+# Include 64040a20.tle
 # Range: 2019-01-01 2020-01-01
 # Include 64040a19.tle
 # Range: 2016-01-01 2019-01-01
@@ -132,6 +157,8 @@
 # Range: 2010-01-01 2013-01-01
 # Include 64040a10.tle
 
+# Range: 2020-01-01 2021-01-01
+# Include 64040b20.tle
 # Range: 2019-01-01 2020-01-01
 # Include 64040b19.tle
 # Range: 2018-01-01 2019-01-01
@@ -141,6 +168,8 @@
 # Range: 2016-01-01 2017-01-01
 # Include 64040b16.tle
 
+# Range: 2020-01-01 2021-01-01
+# Include 65058a20.tle
 # Range: 2019-01-01 2020-01-01
 # Include 65058a19.tle
 # Range: 2018-01-01 2019-01-01
@@ -153,42 +182,53 @@
 # Include 67040a_13.tle
 # Include 67040a_15.tle
 # Include 67040a_17.tle
+# Include 67040a20.tle
 
 # Include 69046d17.tle
 # Include 69046d19.tle
+# Include 69046d20.tle
 
 # Include 69046f14.tle
 # Include 69046f15.tle
 # Include 69046f17.tle
 # Include 69046f18.tle
 # Include 69046f19.tle
+# Include 69046f20.tle
 
 # Include 72073a13.tle
 # Include 72073a16.tle
 # Include 72073a19.tle
+# Include 72073a20.tle
 
 # Include 73078a02.tle
 # Include 73078a10.tle
 # Include 73078a17.tle
 # Include 73078a18.tle
 # Include 73078a19.tle
+# Include 73078a20.tle
 
 # Include 77093e14.tle
 # Include 77093e17.tle
 # Include 77093e19.tle
+# Include 77093e20.tle
 
 # Include 83020a16.tle
 # Include 83020a17.tle
 # Include 83020a18.tle
 # Include 83020a19.tle
+# Include 83020a20.tle
 
 # Include s510923_18.tle
 # Include s510923_19.tle
+# Include s510923_20.tle
 # Include s511443_18.tle
 # Include s511443_19.tle
 # Include s511502.tle
+# Include s511502_20.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
+# Range: 2020-01-01 2021-01-01
+# Include 11037a20.tle
 # Range: 2019-01-01 2020-01-01
 # Include 11037a19.tle
 # Range: 2018-01-01 2019-01-01
@@ -210,6 +250,8 @@
 # Range: 2011-07-18 2012-01-01
 # Include 11037a11.tle
 
+# Range: 2020-01-01 2021-01-01
+# Include 15007b20.tle
 # Range: 2019-01-01 2020-01-01
 # Include 15007b19.tle
 # Range: 2018-01-01 2019-01-01
