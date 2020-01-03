@@ -264,9 +264,14 @@
 # Include 15007b15.tle
 
 # Max error 180
-# TLEs expected: 18000
-# Range: 2019-12-05 2030-01-01
+# TLEs expected: 17000
+# Range: 2019-12-25 2030-01-01
 # Include all_tle.txt
+
+# TLEs expected: 18000
+
+# Range: 2019-12-05 2019-12-25
+# Include old_tles/20191212.tle
 
 # Range: 2019-11-13 2019-12-05
 # Include old_tles/20191119.tle
