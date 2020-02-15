@@ -30,3 +30,12 @@ make eph2tle
 grab_themis "A" "a" "$DATE"
 grab_themis "D" "d" "$DATE"
 grab_themis "E" "e" "$DATE"
+
+echo "cd /home/projectp/public_html/tles" > /tmp/put
+echo "-ls -l 07004?.tle" >> /tmp/put
+echo "put 07004a.tle" >> /tmp/put
+echo "put 07004d.tle" >> /tmp/put
+echo "put 07004e.tle" >> /tmp/put
+echo "-ls -l 07004?.tle" >> /tmp/put
+sftp -b /tmp/put -P 2900 projectp@projectpluto.com
+rm /tmp/put
