@@ -230,6 +230,7 @@
 # Include s511443_19.tle
 # Include s511502.tle
 # Include s511502_20.tle
+# Include s512009.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 # Range: 2020-01-01 2021-01-01
