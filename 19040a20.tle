@@ -65,9 +65,10 @@
 # q 0.99381967626 +/- 3.89e-7    Q 1.05782575546 +/- 4.3e-6
 # 23 of 472 observations 2019 Dec. 2-2020 Jan. 29; mean residual 0".644
 #
-# ...and these TLEs are used for later dates.  I'll almost certainly have
-# to add a new section after still further maneuvers are made,  probably
-# one every few months.
+# ...and these TLEs are used for later dates.  Observations made on 3 April
+# show residuals of about 15",  and those on 13 April have 2' residuals.
+# Once I have enough data,  I'll be posting revised TLEs for dates after
+# the presumed maneuver date of ~ 1 April.
 #
 # Orbital elements:  2019-040A = NORAD 44432 = Spektr-RG
 #    Perihelion 2020 Feb 29.840167 +/- 0.000345 TT = 20:09:50 (JD 2458909.340167)
