@@ -272,147 +272,406 @@
 # Include 18080a.tle
 
 # Max error 180
-# TLEs expected: 17000
-# Range: 2020-03-10 2030-01-01
-# Include all_tle.txt
-
 # TLEs expected: 18000
 
-# Range: 2020-02-15 2020-03-10
+# Range: 2020-04-18 2030-01-01
+# Include all_tle.txt
+
+# Range: 2020-04-07 2020-04-18
+# TLEs expected: 19051
+# Include old_tles/20200411.tle
+
+# Range: 2020-03-26 2020-04-07
+# TLEs expected: 18999
+# Include old_tles/20200404.tle
+
+# Range: 2020-03-10 2020-03-26
+# TLEs expected: 18906
+# Include old_tles/20200318.tle
+
+# Range: 2020-02-29 2020-03-10
+# TLEs expected: 18875
+# Include old_tles/20200302.tle
+
+# Range: 2020-02-21 2020-02-29
+# TLEs expected: 18848
 # Include old_tles/20200227.tle
 
-# Range: 2020-01-21 2020-02-15
+# Range: 2020-02-09 2020-02-21
+# TLEs expected: 18749
+# Include old_tles/20200215.tle
+
+# Range: 2020-01-25 2020-02-09
+# TLEs expected: 18658
 # Include old_tles/20200204.tle
 
-# Range: 2019-12-25 2020-01-21
+# Range: 2020-01-12 2020-01-25
+# TLEs expected: 18615
+# Include old_tles/20200116.tle
+
+# Range: 2020-01-05 2020-01-12
+# TLEs expected: 18512
 # Include old_tles/20200108.tle
 
-# Range: 2019-12-05 2019-12-25
+# Range: 2019-12-28 2020-01-05
+# TLEs expected: 17658
+# Include old_tles/20200103.tle
+
+# Range: 2019-12-20 2019-12-28
+# TLEs expected: 18489
+# Include old_tles/20191223.tle
+
+# Range: 2019-12-14 2019-12-20
+# TLEs expected: 18457
+# Include old_tles/20191217.tle
+
+# Range: 2019-12-07 2019-12-14
+# TLEs expected: 18441
 # Include old_tles/20191212.tle
 
-# Range: 2019-11-13 2019-12-05
+# Range: 2019-11-26 2019-12-07
+# TLEs expected: 18397
+# Include old_tles/20191203.tle
+
+# Range: 2019-11-13 2019-11-26
+# TLEs expected: 18364
 # Include old_tles/20191119.tle
 
 # Range: 2019-10-27 2019-11-13
+# TLEs expected: 18287
 # Include old_tles/20191107.tle
 
 # Range: 2019-10-02 2019-10-27
+# TLEs expected: 18251
 # Include old_tles/20191017.tle
 
-# Range: 2019-09-07 2019-10-02
+# Range: 2019-09-08 2019-10-02
+# TLEs expected: 18206
 # Include old_tles/20190917.tle
 
-# Range: 2019-08-12 2019-09-07
+# Range: 2019-08-11 2019-09-08
+# TLEs expected: 18156
 # Include old_tles/20190830.tle
 
-# Range: 2019-07-10 2019-08-12
+# Range: 2019-07-13 2019-08-11
+# TLEs expected: 18099
 # Include old_tles/20190724.tle
 
-# Range: 2019-06-18 2019-07-10
+# Range: 2019-06-18 2019-07-13
+# TLEs expected: 18016
 # Include old_tles/20190703.tle
 
-# TLEs expected: 17000
-# Range: 2019-05-19 2019-06-18
+# Range: 2019-05-21 2019-06-18
+# TLEs expected: 17986
 # Include old_tles/20190603.tle
 
-# Range: 2019-04-29 2019-05-19
+# Range: 2019-04-26 2019-05-21
+# TLEs expected: 17932
 # Include old_tles/20190509.tle
 
-# Range: 2019-03-30 2019-04-29
+# Range: 2019-03-30 2019-04-26
+# TLEs expected: 17979
 # Include old_tles/20190414.tle
 
-# Range: 2019-02-22 2019-03-30
+# Range: 2019-02-27 2019-03-30
+# TLEs expected: 17922
 # Include old_tles/20190315.tle
 
-# Range: 2019-01-22 2019-02-22
+# Range: 2019-01-26 2019-02-27
+# TLEs expected: 17919
 # Include old_tles/20190212.tle
 
-# Range: 2018-12-22 2019-01-22
+# Range: 2018-12-25 2019-01-26
+# TLEs expected: 17798
 # Include old_tles/20190110.tle
 
-# Range: 2018-11-05 2018-12-22
+# Range: 2018-11-24 2018-12-25
+# TLEs expected: 17701
 # Include old_tles/20181210.tle
 
-# Range: 2018-10-05 2018-11-15
+# Range: 2018-10-23 2018-11-24
+# TLEs expected: 17548
 # Include old_tles/20181108.tle
 
-# Range: 2018-10-01 2018-10-15
+# Range: 2018-09-24 2018-10-23
+# TLEs expected: 17578
 # Include old_tles/20181007.tle
 
-# Range: 2018-09-04 2018-10-01
+# Range: 2018-08-31 2018-09-24
+# TLEs expected: 17038
 # Include old_tles/20180912.tle
 
-# Range: 2018-08-07 2018-09-04
+# Range: 2018-08-05 2018-08-31
+# TLEs expected: 17061
 # Include old_tles/20180819.tle
 
-# Range: 2018-07-05 2018-08-07
+# Range: 2018-07-09 2018-08-05
+# TLEs expected: 17017
 # Include old_tles/20180722.tle
 
-# Range: 2018-06-14 2018-07-05
+# Range: 2018-06-14 2018-07-09
+# TLEs expected: 17022
 # Include old_tles/20180627.tle
-# Range: 2018-05-10 2018-06-14
 
-# TLEs expected: 16000
+# Range: 2018-05-13 2018-06-14
+# TLEs expected: 17000
 # Include old_tles/20180602.tle
-# Range: 2018-04-05 2018-05-10
+
+# Range: 2018-04-05 2018-05-13
+# TLEs expected: 16975
 # Include old_tles/20180423.tle
-# Range: 2018-03-05 2018-04-05
+
+# Range: 2018-03-04 2018-04-05
+# TLEs expected: 16786
 # Include old_tles/20180319.tle
-# Range: 2018-02-05 2018-03-05
+
+# Range: 2018-02-03 2018-03-04
+# TLEs expected: 16795
 # Include old_tles/20180217.tle
-# Range: 2018-01-05 2018-02-05
+
+# Range: 2018-01-04 2018-02-03
+# TLEs expected: 16829
 # Include old_tles/20180120.tle
 
-# Range: 2017-12-01 2018-01-05
+# Range: 2017-12-03 2018-01-04
+# TLEs expected: 16783
 # Include old_tles/20171220.tle
-# Range: 2017-10-30 2017-12-01
-# Include old_tles/20171116.tle
-# Range: 2017-09-10 2017-10-30
-# Include old_tles/20171015.tle
-# Range: 2017-08-05 2017-09-10
-# Include old_tles/20170819.tle
-# Range: 2017-07-10 2017-08-05
-# Include old_tles/20170724.tle
-# Range: 2017-06-10 2017-07-10
-# Include old_tles/20170623.tle
-# Range: 2017-05-01 2017-06-10
-# Include old_tles/20170527.tle
-# Range: 2017-03-20 2017-05-01
-# Include old_tles/20170402.tle
-# Range: 2017-02-10 2017-03-20
 
-# TLEs expected: 15000
+# Range: 2017-10-31 2017-12-03
+# TLEs expected: 16704
+# Include old_tles/20171116.tle
+
+# Range: 2017-09-16 2017-10-31
+# TLEs expected: 16694
+# Include old_tles/20171015.tle
+
+# Range: 2017-08-06 2017-09-16
+# TLEs expected: 16657
+# Include old_tles/20170819.tle
+
+# Range: 2017-07-08 2017-08-06
+# TLEs expected: 16630
+# Include old_tles/20170724.tle
+
+# Range: 2017-06-09 2017-07-08
+# TLEs expected: 16515
+# Include old_tles/20170623.tle
+
+# Range: 2017-04-29 2017-06-09
+# TLEs expected: 16479
+# Include old_tles/20170527.tle
+
+# Range: 2017-03-20 2017-04-29
+# TLEs expected: 16255
+# Include old_tles/20170402.tle
+
+# Range: 2017-03-02 2017-03-20
+# TLEs expected: 15932
+# Include old_tles/20170308.tle
+
+# Range: 2017-02-01 2017-03-02
+# TLEs expected: 15872
 # Include old_tles/20170225.tle
-# Range: 2016-12-10 2017-02-10
+
+# Range: 2017-01-01 2017-02-01
+# TLEs expected: 15765
 # Include old_tles/20170109.tle
-# Range: 2016-09-20 2016-12-10
+
+# Range: 2016-12-16 2017-01-01
+# TLEs expected: 15736
+# Include old_tles/20161225.tle
+
+# Range: 2016-11-22 2016-12-16
+# TLEs expected: 15689
+# Include old_tles/20161207.tle
+
+# Range: 2016-09-23 2016-11-22
+# TLEs expected: 15641
 # Include old_tles/20161107.tle
-# Range: 2016-06-20 2016-09-20
+
+# Range: 2016-07-27 2016-09-23
+# TLEs expected: 15609
 # Include old_tles/20160809.tle
-# Range: 2016-03-20 2016-06-20
+
+# Range: 2016-07-06 2016-07-27
+# TLEs expected: 15623
+# Include old_tles/20160714.tle
+
+# Range: 2016-06-22 2016-07-06
+# TLEs expected: 15563
+# Include old_tles/20160628.tle
+
+# Range: 2016-06-07 2016-06-22
+# TLEs expected: 15489
+# Include old_tles/20160616.tle
+
+# Range: 2016-05-10 2016-06-07
+# TLEs expected: 15480
+# Include old_tles/20160529.tle
+
+# Range: 2016-04-14 2016-05-10
+# TLEs expected: 15422
 # Include old_tles/20160421.tle
-# Range: 2016-01-01 2016-03-10
+
+# Range: 2016-04-03 2016-04-14
+# TLEs expected: 15481
+# Include old_tles/20160407.tle
+
+# Range: 2016-03-24 2016-04-03
+# TLEs expected: 15497
+# Include old_tles/20160331.tle
+
+# Range: 2016-03-10 2016-03-24
+# TLEs expected: 15426
+# Include old_tles/20160318.tle
+
+# Range: 2016-02-19 2016-03-10
+# TLEs expected: 15427
+# Include old_tles/20160302.tle
+
+# Range: 2016-01-25 2016-02-19
+# TLEs expected: 15435
 # Include old_tles/20160208.tle
-# Range: 2015-11-01 2016-01-01
+
+# Range: 2016-01-07 2016-01-25
+# TLEs expected: 15358
+# Include old_tles/20160112.tle
+
+# Range: 2015-12-19 2016-01-07
+# TLEs expected: 15346
+# Include old_tles/20160103.tle
+
+# Range: 2015-10-31 2015-12-19
+# TLEs expected: 15255
 # Include old_tles/20151204.tle
-# Range: 2015-08-31 2015-11-01
+
+# Range: 2015-09-02 2015-10-31
+# TLEs expected: 15279
 # Include old_tles/20150927.tle
 
-# Range: 2015-06-01 2015-08-31
+# Range: 2015-05-31 2015-09-02
+# TLEs expected: 15069
 # Include old_tles/20150808.tle
-# Range: 2014-11-01 2015-06-01
+
+# Range: 2014-11-01 2015-05-31
+# TLEs expected: 15112
 # Include old_tles/20150324.tle
+
 # Range: 2014-05-16 2014-11-01
+# TLEs expected: 15001
 # Include old_tles/20140612.tle
 
-# TLEs expected: 14000
-# Range: 2014-04-10 2014-05-16
+# Range: 2014-04-09 2014-05-16
+# TLEs expected: 14922
 # Include old_tles/20140420.tle
-# Range: 2014-02-15 2014-04-10
-# Include old_tles/20140330.tle
-# Range: 2013-07-01 2014-02-15
-# Include old_tles/20140101.tle
-# Range: 2000-06-01 2013-07-01
-# Include old_tles/20130209.tle
-# TLEs expected: 0
 
+# Range: 2014-02-19 2014-04-09
+# TLEs expected: 14883
+# Include old_tles/20140330.tle
+
+# Range: 2014-01-06 2014-02-19
+# TLEs expected: 14832
+# Include old_tles/20140111.tle
+
+# Range: 2013-12-20 2014-01-06
+# TLEs expected: 14862
+# Include old_tles/20140101.tle
+
+# Range: 2013-11-24 2013-12-20
+# TLEs expected: 14933
+# Include old_tles/20131208.tle
+
+# Range: 2013-06-26 2013-11-24
+# TLEs expected: 14920
+# Include old_tles/20131111.tle
+
+# Range: 2013-01-23 2013-06-26
+# TLEs expected: 15079
+# Include old_tles/20130209.tle
+
+# Range: 2012-11-29 2013-01-23
+# TLEs expected: 14904
+# Include old_tles/20130107.tle
+
+# Range: 2012-03-19 2012-11-29
+# TLEs expected: 15025
+# Include old_tles/20121022.tle
+
+# Range: 2011-06-09 2012-03-19
+# TLEs expected: 14702
+# Include old_tles/20110816.tle
+
+# Range: 2010-11-29 2011-06-09
+# TLEs expected: 14550
+# Include old_tles/20110402.tle
+
+# Range: 2010-06-08 2010-11-29
+# TLEs expected: 14412
+# Include old_tles/20100728.tle
+
+# Range: 2010-03-19 2010-06-08
+# TLEs expected: 14731
+# Include old_tles/20100420.tle
+
+# Range: 2009-10-08 2010-03-19
+# TLEs expected: 14171
+# Include old_tles/20100215.tle
+
+# Range: 2009-02-04 2009-10-08
+# TLEs expected: 13110
+# Include old_tles/20090531.tle
+
+# Range: 2008-06-10 2009-02-04
+# TLEs expected: 11892
+# Include old_tles/20081011.tle
+
+# Range: 2007-12-30 2008-06-10
+# TLEs expected: 11364
+# Include old_tles/20080209.tle
+
+# Range: 2007-09-04 2007-12-30
+# TLEs expected: 11221
+# Include old_tles/20071119.tle
+
+# Range: 2007-03-05 2007-09-04
+# TLEs expected: 10866
+# Include old_tles/20070621.tle
+
+# Range: 2005-12-24 2007-03-05
+# TLEs expected: 9085
+# Include old_tles/20061117.tle
+
+# Range: 2004-07-08 2005-12-24
+# TLEs expected: 8697
+# Include old_tles/20050131.tle
+
+# Range: 2003-01-31 2004-07-08
+# TLEs expected: 8862
+# Include old_tles/20031214.tle
+
+# Range: 2002-03-09 2003-01-31
+# TLEs expected: 8485
+# Include old_tles/20020321.tle
+
+# Range: 2002-01-28 2002-03-09
+# TLEs expected: 8529
+# Include old_tles/20020226.tle
+
+# Range: 2001-08-21 2002-01-28
+# TLEs expected: 8316
+# Include old_tles/20011231.tle
+
+# Range: 2000-08-05 2001-08-21
+# TLEs expected: 8302
+# Include old_tles/20010411.tle
+
+# Range: 1998-11-08 2000-08-05
+# TLEs expected: 8087
+# Include old_tles/19991130.tle
+
+# Range: 1957-12-31 1998-11-08
+# TLEs expected: 8149
+# Include old_tles/19971018.tle
+
+# We don't actually expect to get TLEs from tle_list.txt itself:
+# TLEs expected: 0
