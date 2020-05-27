@@ -43,6 +43,8 @@
 # Include ztf00v9.tle
 # Include ztf00y9.tle
 # Include ztf01ss.tle
+# Include ztf09ps.tle
+# Include ztf0dxh.tle
 # Include 19021b19.tle
 # Include 19021b20.tle
 # Include 18045a.tle
