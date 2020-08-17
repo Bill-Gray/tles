@@ -294,10 +294,50 @@
 # Max error 180
 # TLEs expected: 18000
 
-# Range: 2020-04-18 2030-01-01
+# Range: 2020-08-15 2030-01-01
 # Include all_tle.txt
 
-# Range: 2020-04-07 2020-04-18
+# Range: 2020-07-30 2020-08-15
+# TLEs expected: 19511
+# Include old_tles/20200812.tle
+
+# Range: 2020-07-07 2020-07-30
+# TLEs expected: 19334
+# Include old_tles/20200717.tle
+
+# Range: 2020-06-23 2020-07-07
+# TLEs expected: 19251
+# Include old_tles/20200627.tle
+
+# Range: 2020-06-17 2020-06-23
+# TLEs expected: 19221
+# Include old_tles/20200620.tle
+
+# Range: 2020-06-03 2020-06-17
+# TLEs expected: 19162
+# Include old_tles/20200614.tle
+
+# Range: 2020-05-18 2020-06-03
+# TLEs expected: 19089
+# Include old_tles/20200524.tle
+
+# Range: 2020-05-09 2020-05-18
+# TLEs expected: 19091
+# Include old_tles/20200513.tle
+
+# Range: 2020-05-01 2020-05-09
+# TLEs expected: 19099
+# Include old_tles/20200505.tle
+
+# Range: 2020-04-23 2020-05-01
+# TLEs expected: 19037
+# Include old_tles/20200427.tle
+
+# Range: 2020-04-15 2020-04-23
+# TLEs expected: 19053
+# Include old_tles/20200420.tle
+
+# Range: 2020-04-07 2020-04-15
 # TLEs expected: 19051
 # Include old_tles/20200411.tle
 
@@ -665,11 +705,15 @@
 # TLEs expected: 8697
 # Include old_tles/20050131.tle
 
-# Range: 2003-01-31 2004-07-08
+# Range: 2003-04-03 2004-07-08
 # TLEs expected: 8862
 # Include old_tles/20031214.tle
 
-# Range: 2002-03-09 2003-01-31
+# Range: 2002-05-22 2003-04-03
+# TLEs expected: 19395
+# Include old_tles/20020723.tle
+
+# Range: 2002-03-09 2002-05-22
 # TLEs expected: 8485
 # Include old_tles/20020321.tle
 
