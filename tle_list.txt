@@ -665,15 +665,11 @@
 # TLEs expected: 14550
 # Include old_tles/20110402.tle
 
-# Range: 2010-06-08 2010-11-29
+# Range: 2010-05-07 2010-11-29
 # TLEs expected: 14412
 # Include old_tles/20100728.tle
 
-# Range: 2010-03-19 2010-06-08
-# TLEs expected: 14731
-# Include old_tles/20100420.tle
-
-# Range: 2009-10-08 2010-03-19
+# Range: 2009-10-08 2010-05-07
 # TLEs expected: 14171
 # Include old_tles/20100215.tle
 
