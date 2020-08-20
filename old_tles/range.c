@@ -5,23 +5,23 @@
 #include "watdefs.h"
 #include "date.h"
 
-/* A utility probably of use only to me.  The TLEs in this directory
+/* A utility probably of use only to me.  The TLEs in 'old_tles'
 have names YYYYMMDD.tle;  each file should be used,  roughly speaking,
 over a time span extending halfway to its neighboring file.
 'tle_list.txt' shows how this works.  Maintaining those date spans
 without messing them up can be annoying.
 
-Run as './range 20*.tle',  this will figure out the ranges over which
-the TLEs ought to be used and output them in the form desired by
-'tle_list.txt'.  We rely here on the above command causing main() to
-get the TLE names as command line arguments sorted in correct order...
-which,  on most *nix/BSD* systems,  ought to be true.  You do have to
-modify the first line to deal with 'all_tle.txt',  but that's
+Run as './range *.tle' in the 'old_tles' directory,  this will figure out
+the ranges over which the TLEs ought to be used and output them in the
+form desired by 'tle_list.txt'.  We rely here on the above command causing
+main() to get the TLE names as command line arguments sorted in correct
+order... which,  on most *nix/BSD* systems,  ought to be true.  You do
+have to modify the first line to deal with 'all_tle.txt',  but that's
 relatively easy.  Compile with
 
 gcc -Wall -Wextra -pedantic -o range range.c -I ~/include ~/lunar/liblunar.a -lm
 
-*/
+(uses date-parsing routines from the 'lunar' library.)             */
 
 static char *make_date_text( const long jd, char *buff)
 {
@@ -33,19 +33,29 @@ static char *make_date_text( const long jd, char *buff)
 
 int main( const int argc, const char **argv)
 {
-   int i, month, day;
-   long year, *jds = (long *)calloc( argc, sizeof( long));
+   int i, j;
+   long *jds = (long *)calloc( argc, sizeof( long));
 
-   for( i = 1; i < argc; i++)
+   for( i = j = 1; i < argc; i++)
       {
-      long dmy = atol( argv[i]);
+      const long dmy = atol( argv[i]);
 
-      day = (int)( dmy % 100L);
-      month = (int)( (dmy / 100L) % 100L);
-      year = dmy / 10000L;
-      jds[i] = dmy_to_day( day, month, year, CALENDAR_GREGORIAN);
+      if( dmy > 19570000 && dmy < 20570000 && !strcmp( argv[i] + 8, ".tle"))
+         {
+         int month, day;
+         long year;
+
+         day = (int)( dmy % 100L);
+         month = (int)( (dmy / 100L) % 100L);
+         year = dmy / 10000L;
+         jds[j] = dmy_to_day( day, month, year, CALENDAR_GREGORIAN);
+         argv[j] = argv[i];
+         j++;
+         }
+      else
+         printf( "# Ignoring '%s'\n", argv[i]);
       }
-   for( i = argc - 1; i > 0; i--)
+   for( i = j - 1; i > 0; i--)
       {
       char t1[20], t2[20], buff[100];
       long jd_start = 2436204L, jd_end = 3000000L;
@@ -70,5 +80,6 @@ int main( const int argc, const char **argv)
 
    printf( "# We don't actually expect to get TLEs from tle_list.txt itself:\n");
    printf( "# TLEs expected: 0\n");
+   free( jds);
    return( 0);
 }
