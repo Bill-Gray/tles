@@ -18,10 +18,14 @@ either not tracked by [Space-Track](https://www.space-track.org) or are poorly t
 
 These TLEs are used by my `sat_id` program used for figuring out which satellite
 corresponds to a given object found in an image by an asteroid hunter. (`sat_id` is
-also in the `sat_code` repository,  and there is
+also in the [`sat_code` repository](https://www.github.com/Bill-Gray/sat_code),  and there is
 [an on-line version of `sat_id`](https://www.projectpluto.com/sat_id2.htm) which
-also uses the TLEs in this repository.  However,  these TLEs can be used with
-any software that uses TLEs.
+also uses the TLEs in this repository.)  However,  these TLEs can be used with
+any software that uses TLEs... with one minor warning : if your software ignores
+the [ephemeris type indicator in TLEs](https://www.projectpluto.com/tle_info.htm#eph_type_comment),
+you'll get wrong data for some objects in very high orbits (usually orbital
+periods greater than about three days).  Unfortunately,  ignoring the ephemeris
+type indicator is relatively common behavior.
 
 Note that updates will occur as new artsats are found and new observations are made
 of known artsats.
