@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
+#include <time.h>
 #include "watdefs.h"
 #include "date.h"
+#include "afuncs.h"
 
 /* A utility probably of use only to me.  The TLEs in 'old_tles'
 have names YYYYMMDD.tle;  each file should be used,  roughly speaking,
@@ -58,15 +60,18 @@ int main( const int argc, const char **argv)
    for( i = j - 1; i > 0; i--)
       {
       char t1[20], t2[20], buff[100];
-      long jd_start = 2436204L, jd_end = 3000000L;
+      long jd_start = 2436204L, jd_end;
       int n_tles = 0;
       FILE *ifile = fopen( argv[i], "rb");
+      const long JD_1970 = 2440587;  /* 1969 Dec 31.5 = JD 2440587 */
 
       assert( ifile);
       if( i > 1)
          jd_start = (jds[i - 1] + jds[i]) / 2;
       if( i < argc - 1)
          jd_end = (jds[i + 1] + jds[i]) / 2;
+      else     /* assume 'all_tle.txt' is for 'right now */
+         jd_end = (JD_1970 + (long)time( NULL) / seconds_per_day + jds[i]) / 2;
       printf( "# Range: %s %s\n", make_date_text( jd_start, t1),
                                   make_date_text( jd_end, t2));
       while( fgets( buff, sizeof( buff), ifile))
