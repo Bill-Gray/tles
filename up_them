@@ -39,3 +39,8 @@ echo "put 07004e.tle" >> /tmp/put
 echo "-ls -l 07004?.tle" >> /tmp/put
 sftp -b /tmp/put -P 2900 projectp@projectpluto.com
 rm /tmp/put
+
+git add 07004a.tle
+git add 07004d.tle
+git add 07004e.tle
+git commit -m "Routine updates for 2007-004A, D, E = THEMIS-A, D, E"
