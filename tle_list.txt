@@ -19,7 +19,9 @@
 # Include 76023c19.tle
 # Include 76023c20.tle
 # Include 76023c21.tle
+# Include 99066b19.tle
 # Include 99066b20.tle
+# Include 99066b21.tle
 # Max error 180   (Limit removed)
 # Include 13041b.tle
 # Include 16031b.tle
