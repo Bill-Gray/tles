@@ -5,7 +5,6 @@
 # Include 08051a.tle
 # Include 09068b.tle
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
-# Include 13070b.tle
 # Include 18038a.tle
 # Include 18038a20.tle
 # Include xl8d.tle
@@ -122,7 +121,9 @@
 # Include 13070b15.tle
 # Include 13070b17.tle
 # Include 13070b18.tle
+# Include 13070b19.tle
 # Include 13070b20.tle
+# Include 13070b21.tle
 
 # Include 9o0_04.tle
 # Include 9o0_12.tle
