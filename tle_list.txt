@@ -313,10 +313,34 @@
 # Max error 180
 # TLEs expected: 18000
 
-# Range: 2020-10-01 2030-01-01
+# Range: 2020-12-14 2030-01-01
 # Include all_tle.txt
 
-# Range: 2020-09-16 2020-10-01
+# Range: 2020-12-02 2020-12-14
+# TLEs expected: 20373
+# Include old_tles/20201207.tle
+
+# Range: 2020-11-19 2020-12-02
+# TLEs expected: 20324
+# Include old_tles/20201128.tle
+
+# Range: 2020-11-04 2020-11-19
+# TLEs expected: 20132
+# Include old_tles/20201111.tle
+
+# Range: 2020-10-24 2020-11-04
+# TLEs expected: 20015
+# Include old_tles/20201028.tle
+
+# Range: 2020-10-15 2020-10-24
+# TLEs expected: 19972
+# Include old_tles/20201021.tle
+
+# Range: 2020-10-02 2020-10-15
+# TLEs expected: 19869
+# Include old_tles/20201010.tle
+
+# Range: 2020-09-16 2020-10-02
 # TLEs expected: 19857
 # Include old_tles/20200924.tle
 
