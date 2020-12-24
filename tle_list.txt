@@ -25,7 +25,6 @@
 # Max error 180   (Limit removed)
 # Include 13041b.tle
 # Include 16031b.tle
-# Include 63039a.tle
 # Include 64054a.tle
 # Include 64054a20.tle
 # Include 65058b.tle
@@ -82,6 +81,13 @@
 # Include 09068b16.tle
 
 # Include 19040a21.tle
+
+# Range: 2021-01-01 2022-01-01
+# Include 63039a21.tle
+# Range: 2020-01-01 2021-01-01
+# Include 63039a20.tle
+# Range: 2019-01-01 2020-01-01
+# Include 63039a19.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
