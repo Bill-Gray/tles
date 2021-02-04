@@ -70,8 +70,12 @@ int main( const int argc, const char **argv)
          jd_start = (jds[i - 1] + jds[i]) / 2;
       if( i < argc - 1)
          jd_end = (jds[i + 1] + jds[i]) / 2;
-      else     /* assume 'all_tle.txt' is for 'right now */
+      else     /* assume 'all_tle.txt' is for 'right now' */
+         {
          jd_end = (JD_1970 + (long)time( NULL) / seconds_per_day + jds[i]) / 2;
+         printf( "# Range: %s %s\n", make_date_text( jd_end, t2), "3000-01-01");
+         printf( "# Include all_tle.txt\n\n");
+         }
       printf( "# Range: %s %s\n", make_date_text( jd_start, t1),
                                   make_date_text( jd_end, t2));
       while( fgets( buff, sizeof( buff), ifile))
