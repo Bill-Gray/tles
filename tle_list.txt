@@ -63,6 +63,7 @@
 # Include ztf0fs0.tle
 # Include ztf0g7b.tle
 # Include ztf0isn.tle
+# Include ztf0koi.tle
 # Include 19021b19.tle
 # Include 19021b20.tle
 # Include 19021b21.tle
@@ -371,7 +372,7 @@
 # Max error 180
 # TLEs expected: 18000
 
-# Range: 2021-01-23 3000-01-01
+# Range: 2021-01-23 2049-01-01
 # Include all_tle.txt
 
 # Range: 2021-01-03 2021-01-23
