@@ -65,6 +65,7 @@
 # Include ztf0isn.tle
 # Include ztf0koi20.tle
 # Include ztf0koi21.tle
+# Include ztf0kbq.tle
 # Include 19021b19.tle
 # Include 19021b20.tle
 # Include 19021b21.tle
