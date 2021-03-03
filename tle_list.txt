@@ -1,377 +1,832 @@
    Lines starting with spaces are comments.
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
+
+# Range: 2019-01-23 2022-03-06
+# ID: 30580  07004A
 # Include 07004a.tle
+# Range: 2019-01-22 2022-03-06
+# ID: 30797  07004D
 # Include 07004d.tle
+# Range: 2019-01-23 2022-03-06
+# ID: 30798  07004E
 # Include 07004e.tle
+
+# Range: 2018-01-01 2020-01-01
+# ID: 33401  08051A
 # Include 08051a.tle
-# Include 09068b.tle
-# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
-# Include 18038a.tle
-# Include 18038a20.tle
-# Include 18038a21.tle
-# Include xl8d.tle
-# Include xl8d_20.tle
-# Include xl8d_21.tle
-# Include 66084b.tle
-# Include 67040f19.tle
-# Include 76023c15.tle
-# Include 76023c16.tle
-# Include 76023c17.tle
-# Include 76023c18.tle
-# Include 76023c19.tle
-# Include 76023c20.tle
-# Include 76023c21.tle
-# Include 99066b19.tle
-# Include 99066b20.tle
-# Include 99066b21.tle
-# Max error 180   (Limit removed)
-# Include 13041b.tle
-# Include 16031b.tle
-# Include 64054a.tle
-# Include 64054a20.tle
-# Include 65058b.tle
-# Include 65058b20.tle
-# Include 65058b21.tle
-# Include 67040a.tle
-# Include 67040f.tle
-# Include 67040f20.tle
-# Include 67040f21.tle
-# Include 77093a.tle
-# Include 92044a.tle
-# Include 92044a20.tle
-# Include 92044a21.tle
-# Include 99066a.tle
-# Include s509559.tle
-# Include s509559_20.tle
-# Include s509559_21.tle
-# Include wt1190f.tle
-# Include xw99cec.tle
-# Include ys1.tle
-# Include ztf00hf.tle
-# Include ztf00pm.tle
-# Include ztf00v9.tle
-# Include ztf00y9.tle
-# Include ztf01ss.tle
-# Include ztf02tw.tle
-# Include ztf09ps.tle
-# Include ztf0dxh.tle
-# Include ztf0dky.tle
-# Include a10pgty.tle
-# Include a10pgty_21.tle
-# Include a10v8km.tle
-# Include ztf0dy2.tle
-# Include ztf0ewd.tle
-# Include ztf0ew1.tle
-# Include ztf0ew1_21.tle
-# Include ztf0fs0.tle
-# Include ztf0g7b.tle
-# Include ztf0isn.tle
-# Include ztf0koi20.tle
-# Include ztf0koi21.tle
-# Include ztf0kbq.tle
-# Include 19021b19.tle
-# Include 19021b20.tle
-# Include 19021b21.tle
-# Include 18045a.tle
-# Include 18045d.tle
 
-# Include 19042a.tle
-
-# Include 20087a.tle
-# Include 20087b.tle
-
-# Include 07004g17.tle
-# Include 07004g18.tle
-# Include 07004g19.tle
-# Include 07004g20.tle
-
-# Include 09068b16.tle
-
-# Include 19040a21.tle
-
-# Range: 2020-10-01 2021-06-01
-# Include c4cjnd2.tle
-# Range: 2020-06-01 2021-06-01
-# Include c1nhy61.tle
-
-# Range: 2021-01-01 2022-01-01
-# Include 63039a21.tle
-# Range: 2020-01-01 2021-01-01
-# Include 63039a20.tle
-# Range: 2019-01-01 2020-01-01
-# Include 63039a19.tle
-
-# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
-
-# Include 19040a20.tle
-# Include 19040a.tle
-# Include 19040b.tle
-
-# Include 18103b.tle
-# Include 18103b20.tle
-# Include 18103b21.tle
+# Range: 2010-10-08 2011-01-01
+# ID: 37175  10050B
 # Include 10050b10.tle
+# Range: 2011-01-01 2012-01-01
+# ID: 37175  10050B
 # Include 10050b11.tle
+# Range: 2012-01-01 2013-01-01
+# ID: 37175  10050B
 # Include 10050b12.tle
+# Range: 2013-01-01 2014-01-01
+# ID: 37175  10050B
 # Include 10050b13.tle
+# Range: 2014-01-01 2015-01-01
+# ID: 37175  10050B
 # Include 10050b14.tle
+# Range: 2015-01-01 2016-01-01
+# ID: 37175  10050B
 # Include 10050b15.tle
+# Range: 2016-01-01 2017-01-01
+# ID: 37175  10050B
 # Include 10050b16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 37175  10050B
 # Include 10050b17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 37175  10050B
 # Include 10050b18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 37175  10050B
 # Include 10050b19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 37175  10050B
 # Include 10050b20.tle
+# Range: 2021-01-01 2021-11-01
+# ID: 37175  10050B
 # Include 10050b21.tle
-# Max error 180   (Limit removed)
 
-# Include c05ghg1.tle
-# Include c0z1jl1.tle
-# Include c1auge1_20.tle
-# Include c1auge1_21.tle
+# Range: 2011-07-18 2012-01-01
+# ID: 37755  11037A
+# Include 11037a11.tle
+# Range: 2012-01-01 2013-01-01
+# ID: 37755  11037A
+# Include 11037a12.tle
+# Range: 2013-01-01 2014-01-01
+# ID: 37755  11037A
+# Include 11037a13.tle
+# Range: 2014-01-01 2015-01-01
+# ID: 37755  11037A
+# Include 11037a14.tle
+# Range: 2015-01-01 2016-01-01
+# ID: 37755  11037A
+# Include 11037a15.tle
+# Range: 2016-01-01 2017-01-01
+# ID: 37755  11037A
+# Include 11037a16.tle
+# Range: 2017-01-01 2017-07-01
+# ID: 37755  11037A
+# Include 11037a17a.tle
+# Range: 2017-07-01 2018-01-01
+# ID: 37755  11037A
+# Include 11037a17b.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 37755  11037A
+# Include 11037a18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 37755  11037A
+# Include 11037a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 37755  11037A
+# Include 11037a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 37755  11037A
+# Include 11037a21.tle
 
-# Include 11037b13.tle
-# Include 11037b14.tle
-# Include 11037b15.tle
-# Include 11037b18.tle
-# Include 11037b19.tle
-# Include 11037nd20.tle
-# Include 11037nd21.tle
-
-# Include 12003b17.tle
-# Include 12003b18.tle
-
-# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
+# Range: 2013-12-10 2015-01-01
+# ID: 39459  13070B
 # Include 13070b14.tle
+# Range: 2015-01-01 2016-09-01
+# ID: 39459  13070B
 # Include 13070b15.tle
+# Range: 2016-09-01 2018-01-01
+# ID: 39459  13070B
 # Include 13070b17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 39459  13070B
 # Include 13070b18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 39459  13070B
 # Include 13070b19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 39459  13070B
 # Include 13070b20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 39459  13070B
 # Include 13070b21.tle
 
-# Include 9o0_04.tle
-# Include 9o0_12.tle
-# Include 9o0_15.tle
-# Include 9o0_17.tle
-# Include 9o0_19.tle
-# Include 9o0_20.tle
-# Include 9o0_21.tle
+# Range: 2015-02-15 2016-01-01
+# ID: 40391  15007B
+# Include 15007b15.tle
+# Range: 2016-01-01 2016-12-31
+# ID: 40391  15007B
+# Include 15007b16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 40391  15007B
+# Include 15007b17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 40391  15007B
+# Include 15007b18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 40391  15007B
+# Include 15007b19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 40391  15007B
+# Include 15007b20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 40391  15007B
+# Include 15007b21.tle
 
+# Range: 2018-04-19 2020-01-01
+# ID: 43435  18038A
+# Include 18038a.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 43435  18038A
+# Include 18038a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 43435  18038A
+# Include 18038a21.tle
+
+# Range: 2020-04-09 2020-06-01
+# ID: 43653  18080A
+# Include 18080a.tle
+# Range: 2018-12-08 2020-01-01
+# ID: 43846  18103B
+# Include 18103b.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 43846  18103B
+# Include 18103b20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 43846  18103B
+# Include 18103b21.tle
+# Range: 2019-07-14 2020-01-01
+# ID: 44432  19040A
+# Include 19040a.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 44432  19040A
+# Include 19040a20.tle
+# Range: 2021-01-01 2021-04-01
+# ID: 44432  19040A
+# Include 19040a21.tle
+# Range: 2019-07-15 2019-09-28
+# ID: 44433  19040B
+# Include 19040b.tle
+
+# Range: 2020-10-15 2021-04-13
+# ID: 02426  66084B
+# Include 66084b.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 02770  67040F
+# Include 67040f19.tle
+# Range: 2015-01-01 2016-01-01
+# ID: 08748  76023C
+# Include 76023c15.tle
+# Range: 2016-01-01 2017-01-01
+# ID: 08748  76023C
+# Include 76023c16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 08748  76023C
+# Include 76023c17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 08748  76023C
+# Include 76023c18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 08748  76023C
+# Include 76023c19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 08748  76023C
+# Include 76023c20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 08748  76023C
+# Include 76023c21.tle
+
+# Range: 2016-01-01 2017-01-01
+# ID: 13901  83020A
 # Include 83020a16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 13901  83020A
 # Include 83020a17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 13901  83020A
 # Include 83020a18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 13901  83020A
 # Include 83020a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 13901  83020A
 # Include 83020a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 13901  83020A
 # Include 83020a21.tle
 
+# Range: 2016-01-01 2018-01-01
+# ID: 20413  83020D
 # Include 83020d16.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 20413  83020D
 # Include 83020d18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 20413  83020D
 # Include 83020d19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 20413  83020D
 # Include 83020d20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 20413  83020D
 # Include 83020d21.tle
+
+# Range: 2019-01-01 2020-01-01
+# ID: 25990  99066B
+# Include 99066b19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 25990  99066B
+# Include 99066b20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 25990  99066B
+# Include 99066b21.tle
+
+# Range: 2004-01-01 2010-01-01
+# ID: 90084  09710A
+# Include 9o0_04.tle
+# Range: 2012-01-01 2015-01-01
+# ID: 90084  09710A
+# Include 9o0_12.tle
+# Range: 2015-01-01 2017-01-01
+# ID: 90084  09710A
+# Include 9o0_15.tle
+# Range: 2017-01-01 2019-01-01
+# ID: 90084  09710A
+# Include 9o0_17.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 90084  09710A
+# Include 9o0_19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 90084  09710A
+# Include 9o0_20.tle
+# Range: 2021-01-01 2021-04-01
+# ID: 90084  09710A
+# Include 9o0_21.tle
+
+# Range: 2016-07-01 2020-01-01
+# ID: 89996  00000AAD
+# Include xl8d.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89996  00000AAD
+# Include xl8d_20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 89996  00000AAD
+# Include xl8d_21.tle
 
 # Max error 180   (Limit removed)
 
+# Range: 2019-05-01 2020-01-01
+# ID: 27540  02048A
 # Include 02048a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 27540  02048A
 # Include 02048a20.tle
+
+# Range: 2016-11-01 2018-01-01
+# ID: 30799  07004G
+# Include 07004g17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 30799  07004G
+# Include 07004g18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 30799  07004G
+# Include 07004g19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 30799  07004G
+# Include 07004g20.tle
+
+# Range: 2017-01-01 2018-01-01
+# ID: 36109  09068B
+# Include 09068b.tle
+# Range: 2016-07-01 2017-01-01
+# ID: 36109  09068B
+# Include 09068b16.tle
+
+# Range: 2013-01-01 2014-01-01
+# ID: 46736  11037ND
+# Include 11037b13.tle
+# Range: 2014-01-01 2015-07-01
+# ID: 46736  11037ND
+# Include 11037b14.tle
+# Range: 2015-07-01 2018-01-01
+# ID: 46736  11037ND
+# Include 11037b15.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 46736  11037ND
+# Include 11037b18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 46736  11037ND
+# Include 11037b19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 46736  11037ND
+# Include 11037nd20.tle
+# Range: 2021-01-01 2021-08-09
+# ID: 46736  11037ND
+# Include 11037nd21.tle
+
+# Range: 2017-01-01 2018-01-01
+# ID: 38071  12003B
+# Include 12003b17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 38071  12003B
+# Include 12003b18.tle
+# Range: 2016-04-01 2017-07-12
+# ID: 39223  13041B
+# Include 13041b.tle
+
+# Range: 2013-12-20 2015-01-01
+# ID: 39479  13074A
+# Include 13074a14.tle
+# Range: 2015-01-01 2016-01-01
+# ID: 39479  13074A
+# Include 13074a15.tle
+# Range: 2016-01-01 2017-01-01
+# ID: 39479  13074A
+# Include 13074a16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 39479  13074A
+# Include 13074a17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 39479  13074A
+# Include 13074a18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 39479  13074A
+# Include 13074a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 39479  13074A
+# Include 13074a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 39479  13074A
+# Include 13074a21.tle
+
+# Range: 2016-01-01 2018-01-01
+# ID: 40385  15005B
+# Include 15005b16.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 40385  15005B
+# Include 15005b18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 40385  15005B
+# Include 15005b19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 40385  15005B
+# Include 15005b20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 40385  15005B
+# Include 15005b21.tle
+
+# Range: 2016-01-01 2018-01-01
+# ID: 41929  15019C
+# Include 15019c16.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 41929  15019C
+# Include 15019c18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 41929  15019C
+# Include 15019c19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 41929  15019C
+# Include 15019c20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 41929  15019C
+# Include 15019c21.tle
+
+# Range: 2018-07-01 2019-01-05
+# ID: 41553  16031B
+# Include 16031b.tle
+# Range: 2018-05-21 2018-05-25
+# ID: 43470  18045A
+# Include 18045a.tle
+# Range: 2018-05-21 2018-09-25
+# ID: 43473  18045D
+# Include 18045d.tle
+# Range: 2019-04-12 2020-01-01
+# Include 19021b19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 44187  19021B
+# Include 19021b20.tle
+# Range: 2021-01-01 2021-06-17
+# ID: 44187  19021B
+# Include 19021b21.tle
+
+# Range: 2019-07-22 2019-08-17
+# ID: 44441  19042A
+# Include 19042a.tle
+
+# Range: 2020-07-20 2020-11-01
+# ID: 45918  20047A
+# Include 20047a.tle
+# Range: 2020-07-20 2020-08-29
+# ID: 45919  20047B
+# Include 20047b.tle
+# Range: 2020-07-31 2020-08-30
+# ID: 45983  20052A
+# Include 20052a.tle
+# Range: 2020-07-31 2020-08-30
+# ID: 45984  20052B
+# Include 20052b.tle
+# Range: 2020-11-24 2020-11-28
+# ID: 47097  20087A
+# Include 20087a.tle
+# Range: 2020-11-24 2020-11-30
+# ID: 47098  20087B
+# Include 20087b.tle
+
+# Range: 2019-01-01 2020-01-01
+# ID: 00674  63039A
+# Include 63039a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 00674  63039A
+# Include 63039a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 00674  63039A
+# Include 63039a21.tle
+
+# Range: 2017-07-01 2019-01-01
+# ID: 00692  63039C
+# Include 63039c17.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 00692  63039C
+# Include 63039c19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 00692  63039C
+# Include 63039c20.tle
+# Range: 2021-01-01 2021-04-01
+# ID: 00692  63039C
+# Include 63039c21.tle
+
+# Range: 2010-01-01 2013-01-01
+# ID: 00836  64040A
+# Include 64040a10.tle
+# Range: 2013-01-01 2016-01-01
+# ID: 00836  64040A
+# Include 64040a13.tle
+# Range: 2016-01-01 2019-01-01
+# ID: 00836  64040A
+# Include 64040a16.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 00836  64040A
+# Include 64040a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 00836  64040A
+# Include 64040a20.tle
+# Range: 2021-01-01 2022-01-02
+# ID: 00836  64040A
+# Include 64040a21.tle
+
+# Range: 2016-01-01 2017-01-01
+# ID: 00837  64040B
+# Include 64040b16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 00837  64040B
+# Include 64040b17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 00837  64040B
+# Include 64040b18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 00837  64040B
+# Include 64040b19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 00837  64040B
+# Include 64040b20.tle
+# Range: 2021-01-01 2022-01-02
+# ID: 00837  64040B
+# Include 64040b21.tle
+
+# Range: 2017-07-01 2020-01-01
+# ID: 00879  64054A
+# Include 64054a.tle
+# Range: 2020-01-01 2020-08-30
+# ID: 00879  64054A
+# Include 64054a20.tle
+# Range: 2016-01-01 2017-01-01
+# ID: 01458  65058A
+# Include 65058a16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 01458  65058A
+# Include 65058a17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 01458  65058A
+# Include 65058a18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 01458  65058A
+# Include 65058a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 01458  65058A
+# Include 65058a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 01458  65058A
+# Include 65058a21.tle
+
+# Range: 2017-06-01 2020-01-01
+# ID: 01459  65058B
+# Include 65058b.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 01459  65058B
+# Include 65058b20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 01459  65058B
+# Include 65058b21.tle
+
+# Range: 2019-02-01 2020-01-01
+# ID: 02765  67040A
+# Include 67040a.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 02765  67040A
+# Include 67040a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 02765  67040A
+# Include 67040a21.tle
+# Range: 2013-01-01 2015-01-01
+# ID: 02765  67040A
+# Include 67040a_13.tle
+# Range: 2015-01-01 2017-01-01
+# ID: 02765  67040A
+# Include 67040a_15.tle
+# Range: 2016-09-01 2019-02-01
+# ID: 02765  67040A
+# Include 67040a_17.tle
+
+# Range: 2016-08-01 2018-01-01
+# ID: 02770  67040F
+# Include 67040f.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 02770  67040F
+# Include 67040f20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 02770  67040F
+# Include 67040f21.tle
+
+# Range: 2016-01-01 2017-01-01
+# ID: 03954  69046D
+# Include 69046d16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 03954  69046D
+# Include 69046d17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 03954  69046D
+# Include 69046d18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 03954  69046D
+# Include 69046d19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 03954  69046D
+# Include 69046d20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 03954  69046D
+# Include 69046d21.tle
+
+# Range: 2014-01-01 2014-09-01
+# ID: 03956  69046F
+# Include 69046f14.tle
+# Range: 2014-09-01 2016-09-01
+# ID: 03956  69046F
+# Include 69046f15.tle
+# Range: 2016-09-01 2018-01-01
+# ID: 03956  69046F
+# Include 69046f17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 03956  69046F
+# Include 69046f18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 03956  69046F
+# Include 69046f19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 03956  69046F
+# Include 69046f20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 03956  69046F
+# Include 69046f21.tle
+
+# Range: 2013-01-01 2016-09-01
+# ID: 06197  72073A
+# Include 72073a13.tle
+# Range: 2016-09-01 2019-01-01
+# ID: 06197  72073A
+# Include 72073a16.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 06197  72073A
+# Include 72073a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 06197  72073A
+# Include 72073a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 06197  72073A
+# Include 72073a21.tle
+
+# Range: 2002-01-01 2010-01-01
+# ID: 06893  73078A
+# Include 73078a02.tle
+# Range: 2010-01-01 2016-10-01
+# ID: 06893  73078A
+# Include 73078a10.tle
+# Range: 2016-10-01 2018-01-01
+# ID: 06893  73078A
+# Include 73078a17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 06893  73078A
+# Include 73078a18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 06893  73078A
+# Include 73078a19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 06893  73078A
+# Include 73078a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 06893  73078A
+# Include 73078a21.tle
+
+# Range: 2018-01-01 2019-01-01
+# ID: 08753  76023H
+# Include 76023h18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 08753  76023H
+# Include 76023h19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 08753  76023H
+# Include 76023h20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 08753  76023H
+# Include 76023h21.tle
+
+# Range: 2017-08-01 2019-01-16
+# ID: 10370  77093A
+# Include 77093a.tle
+# Range: 2014-11-01 2017-01-01
+# ID: 32705  77093E
+# Include 77093e14.tle
+# Range: 2017-01-01 2019-01-01
+# ID: 32705  77093E
+# Include 77093e17.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 32705  77093E
+# Include 77093e19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 32705  77093E
+# Include 77093e20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 32705  77093E
+# Include 77093e21.tle
+
+# Range: 2018-01-01 2020-01-01
+# ID: 22049  92044A
+# Include 92044a.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 22049  92044A
+# Include 92044a20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 22049  92044A
+# Include 92044a21.tle
+# Range: 2016-04-01 2017-01-01
+# ID: 25989  99066A
+# Include 99066a.tle
+
+# Range: 2020-01-01 2021-01-01
+# ID: 89977  00000AAW
+# Include a10pgty.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 89977  00000AAW
+# Include a10pgty_21.tle
+# Range: 2020-09-01 2021-05-01
+# ID: 88864  00000ABJ
+# Include a10v8km.tle
+
+# Range: 2019-01-01 2020-01-01
+# ID: 89983  00000AAQ
+# Include c05ghg1.tle
+# Range: 2020-01-01 2020-10-27
+# ID: 89983  00000AAQ
+# Include c0z1jl1.tle
+# Range: 2020-06-01 2021-01-01
+# ID: 89983  00000AAQ
+# Include c1auge1_20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 89983  00000AAQ
+# Include c1auge1_21.tle
+# Range: 2020-06-01 2021-06-01
+# ID: 99999  00000
+# Include c1nhy61.tle
+# Range: 2020-06-01 2021-06-01
+# ID: 99999  99999ZZZ
+# Include c4cjnd2.tle
+
+# Range: 2016-01-01 2020-01-01
+# ID: 89990  00000AAJ
+# Include s509559.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89990  00000AAJ
+# Include s509559_20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 89990  00000AAJ
+# Include s509559_21.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 99999  00000
+# Include s511443_18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 99999  00000
+# Include s511443_19.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 89982  00000AAR
+# Include s511502.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89982  00000AAR
+# Include s511502_20.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89970  00000ABD
+# Include s512009_20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 89970  00000ABD
+# Include s512009_21.tle
+
+# Range: 2020-07-24 2020-08-13
+# ID: 45935  20049A
+# Include tianwea.tle
+# Range: 2020-07-24 2020-08-13
+# ID: 45936  20049B
+# Include tianweb.tle
+# Range: 2019-09-01 2019-12-01
+# ID: 89976  00000AAX
+# Include tmg0011.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89975  00000AAY
+# Include tmg0025.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89979  00000AAU
+# Include tmg0027.tle
+# Range: 2015-10-01 2015-11-13
+# ID: 89997  00000AAC
+# Include wt1190f.tle
+# Range: 2016-11-01 2018-01-01
+# ID: 99999  00000
+# Include xw99cec.tle
+# Range: 2017-06-01 2017-12-31
+# ID: 99999  00000
+# Include ys1.tle
+
+# Range: 2018-01-01 2019-01-01
+# ID: 89993  00000AAG
+# Include ztf00hf.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 89992  00000AAH
+# Include ztf00pm.tle
+# Range: 2018-04-30 2018-10-16
+# ID: 89991  00000AAI
+# Include ztf00v9.tle
+# Range: 2018-01-01 2019-03-01
+# ID: 89994  00000AAF
+# Include ztf00y9.tle
+# Range: 2018-07-01 2019-03-01
+# ID: 89988  00000AAL
+# Include ztf01ss.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 89968  00000ABF
+# Include ztf02tw.tle
+# Range: 2020-01-01 2020-09-01
+# ID: 89980  00000AAT
+# Include ztf09ps.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89973  00000ABA
+# Include ztf0dky.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89971  00000ABC
+# Include ztf0dxh.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89974  00000AAZ
+# Include ztf0dy2.tle
+
+# Range: 2020-06-01 2021-01-01
+# ID: 89978  00000AAV
+# Include ztf0ew1.tle
+# Range: 2021-01-01 2021-03-01
+# ID: 89978  00000AAV
+# Include ztf0ew1_21.tle
+# Range: 2020-06-01 2021-06-01
+# ID: 89972  00000ABB
+# Include ztf0ewd.tle
+# Range: 2020-08-01 2021-01-01
+# ID: 99999  00000
+# Include ztf0fs0.tle
+# Range: 2020-10-01 2021-02-01
+# ID: 89967  00000ABG
+# Include ztf0g7b.tle
+# Range: 2020-10-01 2021-05-01
+# ID: 99999  99999ZZY
+# Include ztf0isn.tle
+# Range: 2020-06-01 2021-07-01
+# ID: 88865  00000ABI
+# Include ztf0kbq.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 88866  00000ABH
+# Include ztf0koi20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 88866  00000ABH
+# Include ztf0koi21.tle
 
 # TLEs expected: 100
 # Include classfd.tle
 # TLEs expected: 50
 # Include inttles.tle
 # TLEs expected: 0
-
-# Include 15005b16.tle
-# Include 15005b18.tle
-# Include 15005b19.tle
-# Include 15005b20.tle
-# Include 15005b21.tle
-
-# Include 15019c16.tle
-# Include 15019c18.tle
-# Include 15019c19.tle
-# Include 15019c20.tle
-# Include 15019c21.tle
-
-# Include 63039c17.tle
-# Include 63039c19.tle
-# Include 63039c20.tle
-# Include 63039c21.tle
-
-# Include tmg0011.tle
-# Include tmg0025.tle
-# Include tmg0027.tle
-
-# Range: 2020-07-20 2020-08-09
-# Include 20047a.tle
-# Range: 2020-07-20 2020-08-29
-# Include 20047b.tle
-
-# Range: 2020-07-24 2020-08-13
-# Include tianwea.tle
-# Range: 2020-07-24 2020-08-13
-# Include tianweb.tle
-
-# Range: 2020-07-30 2020-08-31
-# Include 20052a.tle
-# Range: 2020-07-30 2020-08-31
-# Include 20052b.tle
-
-# Range: 2021-01-01 2022-01-01
-# Include 13074a21.tle
-# Range: 2020-01-01 2021-01-01
-# Include 13074a20.tle
-# Range: 2019-01-01 2020-01-01
-# Include 13074a19.tle
-# Range: 2018-01-01 2019-01-01
-# Include 13074a18.tle
-# Range: 2017-01-01 2018-01-01
-# Include 13074a17.tle
-# Range: 2016-01-01 2017-01-01
-# Include 13074a16.tle
-# Range: 2015-01-01 2016-01-01
-# Include 13074a15.tle
-# Range: 2013-12-20 2015-01-01
-# Include 13074a14.tle
-
-# Range: 2021-01-01 2022-01-01
-# Include 64040a21.tle
-# Range: 2020-01-01 2021-01-01
-# Include 64040a20.tle
-# Range: 2019-01-01 2020-01-01
-# Include 64040a19.tle
-# Range: 2016-01-01 2019-01-01
-# Include 64040a16.tle
-# Range: 2013-01-01 2016-01-01
-# Include 64040a13.tle
-# Range: 2010-01-01 2013-01-01
-# Include 64040a10.tle
-
-# Range: 2021-01-01 2022-01-01
-# Include 64040b21.tle
-# Range: 2020-01-01 2021-01-01
-# Include 64040b20.tle
-# Range: 2019-01-01 2020-01-01
-# Include 64040b19.tle
-# Range: 2018-01-01 2019-01-01
-# Include 64040b18.tle
-# Range: 2017-01-01 2018-01-01
-# Include 64040b17.tle
-# Range: 2016-01-01 2017-01-01
-# Include 64040b16.tle
-
-# Range: 2021-01-01 2022-01-01
-# Include 65058a21.tle
-# Range: 2020-01-01 2021-01-01
-# Include 65058a20.tle
-# Range: 2019-01-01 2020-01-01
-# Include 65058a19.tle
-# Range: 2018-01-01 2019-01-01
-# Include 65058a18.tle
-# Range: 2017-01-01 2018-01-01
-# Include 65058a17.tle
-# Range: 2016-01-01 2017-01-01
-# Include 65058a16.tle
-
-# Include 67040a_13.tle
-# Include 67040a_15.tle
-# Include 67040a_17.tle
-# Include 67040a20.tle
-# Include 67040a21.tle
-
-# Range: 2016-01-01 2017-01-01
-# Include 69046d16.tle
-# Range: 2017-01-01 2018-01-01
-# Include 69046d17.tle
-# Range: 2018-01-01 2019-01-01
-# Include 69046d18.tle
-# Range: 2019-01-01 2020-01-01
-# Include 69046d19.tle
-# Range: 2020-01-01 2021-01-01
-# Include 69046d20.tle
-# Range: 2021-01-01 2022-01-01
-# Include 69046d21.tle
-
-# Include 69046f14.tle
-# Include 69046f15.tle
-# Include 69046f17.tle
-# Include 69046f18.tle
-# Include 69046f19.tle
-# Include 69046f20.tle
-# Include 69046f21.tle
-
-# Include 72073a13.tle
-# Include 72073a16.tle
-# Include 72073a19.tle
-# Include 72073a20.tle
-# Include 72073a21.tle
-
-# Include 73078a02.tle
-# Include 73078a10.tle
-# Include 73078a17.tle
-# Include 73078a18.tle
-# Include 73078a19.tle
-# Include 73078a20.tle
-# Include 73078a21.tle
-
-# Include 77093e14.tle
-# Include 77093e17.tle
-# Include 77093e19.tle
-# Include 77093e20.tle
-# Include 77093e21.tle
-
-# Include 76023h18.tle
-# Include 76023h19.tle
-# Include 76023h20.tle
-# Include 76023h21.tle
-# Include s511443_18.tle
-# Include s511443_19.tle
-# Include s511502.tle
-# Include s511502_20.tle
-# Include s512009_20.tle
-# Include s512009_21.tle
-
-# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
-# Range: 2021-01-01 2022-01-01
-# Include 11037a21.tle
-# Range: 2020-01-01 2021-01-01
-# Include 11037a20.tle
-# Range: 2019-01-01 2020-01-01
-# Include 11037a19.tle
-# Range: 2018-01-01 2019-01-01
-# Include 11037a18.tle
-# Range: 2017-07-01 2018-01-01
-# Include 11037a17b.tle
-# Range: 2017-01-01 2017-07-08
-# Include 11037a17a.tle
-# Range: 2016-01-01 2017-01-01
-# Include 11037a16.tle
-# Range: 2015-01-01 2016-01-01
-# Include 11037a15.tle
-# Range: 2014-01-01 2015-01-01
-# Include 11037a14.tle
-# Range: 2013-01-01 2014-01-01
-# Include 11037a13.tle
-# Range: 2012-01-01 2013-01-01
-# Include 11037a12.tle
-# Range: 2011-07-18 2012-01-01
-# Include 11037a11.tle
-
-# Range: 2021-01-01 2022-01-01
-# Include 15007b21.tle
-# Range: 2020-01-01 2021-01-01
-# Include 15007b20.tle
-# Range: 2019-01-01 2020-01-01
-# Include 15007b19.tle
-# Range: 2018-01-01 2019-01-01
-# Include 15007b18.tle
-# Range: 2017-01-01 2018-01-01
-# Include 15007b17.tle
-# Range: 2016-01-01 2017-01-01
-# Include 15007b16.tle
-# Range: 2015-02-15 2016-01-01
-# Include 15007b15.tle
-# Range: 2020-04-09 2020-06-01
-# Include 18080a.tle
 
 # Max error 180
 # TLEs expected: 18000
