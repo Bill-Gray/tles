@@ -46,7 +46,7 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 59215.000000 59580.100000 1.000000
+# Ephem range: 59215.000000 59580.000000 1.000000
 # Created from Horizons data by 'jpl2mpc', ver Nov 27 2020
 # *******************************************************************************
 #  Revised: Sep 06, 2020             Gaia Observatory                     -139479

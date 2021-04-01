@@ -39,7 +39,7 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 58686.500000 58712.275000 0.250000
+# Ephem range: 58686.500000 58712.250000 0.250000
 # Created from Horizons data by 'jpl2mpc', ver Aug 11 2019
 # *******************************************************************************
 #  Revised: 2019-Aug-14       Chandrayaan-2 Spacecraft / (Moon)              -152

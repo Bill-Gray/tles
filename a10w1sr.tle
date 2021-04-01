@@ -36,7 +36,7 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 58757.000000 59396.000000 1.000000
+# Ephem range: 59123.000000 59396.000000 1.000000
 # Created Wed Mar 24 22:20:20 2021
 # Ephemeris start:  1 Oct 2019  0:00:00
 # Ephemeris end:    1 Jul 2021  0:00:00

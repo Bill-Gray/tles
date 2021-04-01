@@ -36,7 +36,7 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 59215.000000 59580.100000 1.000000
+# Ephem range: 59215.000000 59580.000000 1.000000
 # Created from Horizons data by 'jpl2mpc', ver Feb 12 2021
 # *******************************************************************************
 # Ephemeris / WWW_USER Fri Feb 12 05:57:53 2021 Pasadena, USA      / Horizons
@@ -51,7 +51,7 @@
 # *******************************************************************************
 # Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
 # Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
-# Center radii    : 6378.1 x 6378.1 x 6356.8 km     {Equator, meridian, pole}    
+# Center radii    : 6378.1 x 6378.1 x 6356.8 km     {Equator, meridian, pole}
 # Output units    : KM-S
 # Output type     : GEOMETRIC cartesian states
 # Output format   : 2 (position and velocity)

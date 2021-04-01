@@ -47,7 +47,7 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 58849.000000 59215.100000 1.000000
+# Ephem range: 58849.000000 59215.000000 1.000000
 # Created from Horizons data by 'jpl2mpc', ver Feb 12 2021
 # *******************************************************************************
 # Ephemeris / WWW_USER Fri Feb 12 07:45:20 2021 Pasadena, USA      / Horizons
