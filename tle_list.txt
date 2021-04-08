@@ -694,7 +694,7 @@
 # Range: 2021-01-01 2022-01-01
 # ID: 89977  00000AAW
 # Include a10pgty_21.tle
-# Range: 2020-09-01 2021-09-01
+# Range: 2021-01-01 2022-01-01
 # ID: 88864  00000ABJ
 # Include a10v8km.tle
 
