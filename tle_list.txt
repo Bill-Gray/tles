@@ -877,10 +877,22 @@
 # Max error 180
 # TLEs expected: 18000
 
-# Range: 2021-03-09 2049-01-01
+# Range: 2021-05-10 2049-01-01
 # Include all_tle.txt
 
-# Range: 2021-02-21 2021-03-09
+# Range: 2021-04-19 2021-05-10
+# TLEs expected: 21167
+# Include old_tles/20210502.tle
+
+# Range: 2021-03-28 2021-04-19
+# TLEs expected: 21054
+# Include old_tles/20210406.tle
+
+# Range: 2021-03-11 2021-03-28
+# TLEs expected: 20826
+# Include old_tles/20210319.tle
+
+# Range: 2021-02-21 2021-03-11
 # TLEs expected: 20652
 # Include old_tles/20210303.tle
 
