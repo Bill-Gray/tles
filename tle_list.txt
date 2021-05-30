@@ -412,7 +412,7 @@
 # Range: 2020-01-01 2021-01-01
 # ID: 44187  19021B
 # Include 19021b20.tle
-# Range: 2021-01-01 2021-06-17
+# Range: 2021-01-01 2021-06-10
 # ID: 44187  19021B
 # Include 19021b21.tle
 
@@ -770,9 +770,12 @@
 # Range: 2020-01-01 2021-01-01
 # ID: 89970  00000ABD
 # Include s512009_20.tle
-# Range: 2021-01-01 2022-01-01
-# ID: 89970  00000ABD
-# Include s512009_21.tle
+   S512009 = ZTF0D86 was initially unidentified.  But in much of
+   2021,  Space-Track has IDed it as 2019-067C.  At least tentatively,
+   I don't think we need to apply our TLEs to it.
+   # Range: 2021-01-01 2022-01-01
+   # ID: 89970  00000ABD
+   # Include s512009_21.tle
 
 # Range: 2021-01-01 2021-08-01
 # ID: 89963  00000ABK
