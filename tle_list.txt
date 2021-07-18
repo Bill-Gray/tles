@@ -17,8 +17,7 @@
 # ID: 33401  08051A
 # Include 08051a.tle
 
-                     (speculative linkage here)
-# Range: 2021-05-01 2021-10-01
+# Range: 2021-03-01 2021-10-01
 # Include a10z0ha.tle
 
 # Range: 2021-01-01 2022-01-01
