@@ -17,6 +17,12 @@
 # ID: 33401  08051A
 # Include 08051a.tle
 
+# Range: 2021-03-01 2021-11-01
+# Include a10we4i.tle
+# Range: 2021-02-01 2021-09-01
+# Include a10xpe2.tle
+# Range: 2021-04-01 2021-11-01
+# Include a10ygro.tle
 # Range: 2021-03-01 2021-10-01
 # Include a10z0ha.tle
 
@@ -507,7 +513,7 @@
 # Range: 2020-01-01 2021-01-01
 # ID: 00837  64040B
 # Include 64040b20.tle
-# Range: 2021-01-01 2022-01-02
+# Range: 2021-01-01 2022-01-01
 # ID: 00837  64040B
 # Include 64040b21.tle
 
