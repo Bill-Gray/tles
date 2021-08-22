@@ -298,12 +298,6 @@
 # Range: 2021-05-01 2021-09-01
 # Include temp.tle
 
-      (quick update for ZTF0LAq = ZTF0LAZ = ZTF0LBm,  using 12-13 Aug obs
-      of ZTF0LT0 = A10zTVv = ZTF0LTn = A10zXKN.  These will be removed in
-      a day or two after I catch up with a backlog of other work...)
-# Range: 2021-06-01 2021-10-01
-# Include temp2.tle
-
 # Range: 2021-01-01 2022-01-01
 # Include a10w1sr.tle
 # Range: 2021-01-01 2021-10-01
@@ -897,7 +891,7 @@
 # Range: 2020-09-01 2021-11-01
 # ID: 88858  00000ABP
 # Include ztf0l5g.tle
-# Range: 2021-02-01 2021-09-01
+# Range: 2021-01-01 2022-01-01
 # ID: 88857  00000ABQ
 # Include ztf0laq.tle
 
