@@ -21,7 +21,7 @@
 # Include a10we4i.tle
 # Range: 2021-02-01 2022-01-01
 # Include a10xpe2.tle
-# Range: 2021-04-01 2021-11-01
+# Range: 2021-04-01 2022-01-01
 # Include a10ygro.tle
 # Range: 2021-03-01 2022-01-01
 # Include a10z0ha.tle
