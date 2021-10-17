@@ -13,8 +13,10 @@
 # Include 07004e.tle
 # Range_check 1      (check ranges for everybody else)
 
-# Range: 2021-10-16.5 2021-10-23.5
-# Include lucy.tle
+# Range: 2021-10-16.5 2021-11-15.5
+# Include lucy1.tle
+# Range: 2021-10-16.5 2021-11-15.5
+# Include lucy2.tle
 
 # Range: 2018-01-01 2020-01-01
 # ID: 33401  08051A
