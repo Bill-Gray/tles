@@ -18,6 +18,11 @@
 # Range: 2021-09-01 2022-01-01
 # Include tmg0059.tle
 
+# Temporarily inserted until Space-Track corrects TLEs for this object
+INTEGRAL
+1 27540U 02048A   21340.65972222  .00000422  00000-0  00000+0 0  9994
+2 27540  69.5116  72.1654 8967103 299.8610 335.8692  0.37591098 20428
+
 # Range: 2021-10-16.5 2021-11-15.5
 # Include lucy1.tle
 # Range: 2021-10-16.5 2021-11-15.5
