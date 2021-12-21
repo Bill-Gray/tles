@@ -71,6 +71,9 @@ INTEGRAL
 # Range: 2021-09-11 2022-01-01
 # Include 20087a21.tle
 
+# Range: 2022-01-01 2023-01-01
+# ID: 33401  08051A
+# Include 08051a22.tle
 # Range: 2021-01-01 2022-01-01
 # ID: 33401  08051A
 # Include 08051a21.tle
