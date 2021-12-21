@@ -46,7 +46,7 @@ INTEGRAL
 # Include a10cpdo.tle
 # Range: 2021-09-01 2022-03-01
 # Include a10dmih.tle
-# Range: 2021-08-01 2022-01-01
+# Range: 2021-08-01 2022-08-01
 # Include a10doip.tle
 # Range: 2021-03-01 2021-11-01
 # Include a10we4i.tle
