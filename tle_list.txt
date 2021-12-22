@@ -332,26 +332,29 @@ INTEGRAL
 # Include 99066b21.tle
 
 # Range: 2004-01-01 2010-01-01
-# ID: 90084  09710A
-# Include 9o0_04.tle
+# ID: 50000  70027C
+# Include 70027c04.tle
 # Range: 2012-01-01 2015-01-01
-# ID: 90084  09710A
-# Include 9o0_12.tle
+# ID: 50000  70027C
+# Include 70027c12.tle
 # Range: 2015-01-01 2017-01-01
-# ID: 90084  09710A
-# Include 9o0_15.tle
+# ID: 50000  70027C
+# Include 70027c15.tle
 # Range: 2017-01-01 2019-01-01
-# ID: 90084  09710A
-# Include 9o0_17.tle
+# ID: 50000  70027C
+# Include 70027c17.tle
 # Range: 2019-01-01 2020-01-01
-# ID: 90084  09710A
-# Include 9o0_19.tle
+# ID: 50000  70027C
+# Include 70027c19.tle
 # Range: 2020-01-01 2021-01-01
-# ID: 90084  09710A
-# Include 9o0_20.tle
+# ID: 50000  70027C
+# Include 70027c20.tle
 # Range: 2021-01-01 2022-01-01
-# ID: 90084  09710A
-# Include 9o0_21.tle
+# ID: 50000  70027C
+# Include 70027c21.tle
+# Range: 2022-01-01 2023-01-01
+# ID: 50000  70027C
+# Include 70027c22.tle
 
 # Range: 2016-07-01 2020-01-01
 # ID: 89996  00000AAD
