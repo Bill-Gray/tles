@@ -1082,15 +1082,26 @@
 # Include classfd.tle
 # TLEs expected: 50
 # Include inttles.tle
-# TLEs expected: 0
 
 # Max error 180
-# TLEs expected: 18000
 
-# Range: 2021-11-01 2049-01-01
+# Range: 2021-12-24 2049-01-01
+# TLEs expected: 22000
 # Include all_tle.txt
 
-# Range: 2021-09-27 2021-11-01
+# Range: 2021-12-09 2021-12-24
+# TLEs expected: 22833
+# Include old_tles/20211222.tle
+
+# Range: 2021-11-17 2021-12-09
+# TLEs expected: 22148
+# Include old_tles/20211126.tle
+
+# Range: 2021-10-28 2021-11-17
+# TLEs expected: 22055
+# Include old_tles/20211109.tle
+
+# Range: 2021-09-27 2021-10-28
 # TLEs expected: 22045
 # Include old_tles/20211016.tle
 
