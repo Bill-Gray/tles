@@ -57,7 +57,7 @@ int main( const int argc, const char **argv)
       else
          printf( "# Ignoring '%s'\n", argv[i]);
       }
-   for( i = j - 1; i > 0; i--)
+   for( i = 1; i < j; i++)
       {
       char t1[20], t2[20], buff[100];
       long jd_start = 2436204L, jd_end;
@@ -71,11 +71,7 @@ int main( const int argc, const char **argv)
       if( i < argc - 1)
          jd_end = (jds[i + 1] + jds[i]) / 2;
       else     /* assume 'all_tle.txt' is for 'right now' */
-         {
          jd_end = (JD_1970 + (long)time( NULL) / seconds_per_day + jds[i]) / 2;
-         printf( "# Range: %s %s\n", make_date_text( jd_end, t2), "3000-01-01");
-         printf( "# Include all_tle.txt\n\n");
-         }
       printf( "# Range: %s %s\n", make_date_text( jd_start, t1),
                                   make_date_text( jd_end, t2));
       while( fgets( buff, sizeof( buff), ifile))
@@ -85,6 +81,12 @@ int main( const int argc, const char **argv)
       fclose( ifile);
       printf( "# TLEs expected: %d\n", n_tles);
       printf( "# Include old_tles/%s\n\n", argv[i]);
+
+      if( i == argc - 1)
+         {
+         printf( "# Range: %s %s\n", make_date_text( jd_end, t2), "2049-01-01");
+         printf( "# Include all_tle.txt\n\n");
+         }
       }
 
    printf( "# We don't actually expect to get TLEs from tle_list.txt itself:\n");
