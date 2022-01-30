@@ -1,6 +1,16 @@
    Lines starting with spaces are comments.
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
+# Range: 2019-01-23 2022-01-01
+# ID: 30580  07004A
+# Include 07004a19.tle
+# Range: 2019-01-23 2022-01-01
+# ID: 30797  07004D
+# Include 07004d19.tle
+# Range: 2019-01-23 2022-01-01
+# ID: 30798  07004E
+# Include 07004e19.tle
+
 # Range_check 0      (temporarily suspend range checking for THEMIS)
 # Range: 2022-01-01 2022-03-06
 # ID: 30580  07004A
@@ -25,16 +35,6 @@
 # ID: 79997  22999ZZX
 # Include a10duj3.tle
 
-# Range: 2019-01-23 2022-01-01
-# ID: 30580  07004A
-# Include 07004a19.tle
-# Range: 2019-01-23 2022-01-01
-# ID: 30797  07004D
-# Include 07004d19.tle
-# Range: 2019-01-23 2022-01-01
-# ID: 30798  07004E
-# Include 07004e19.tle
-
 # Range: 2021-12-26 2023-01-01
 # ID: 50463  21130A
 # Include 21130a.tle
@@ -56,10 +56,6 @@
 # Range: 2021-10-16.5 2021-11-15.5
 # ID: 49328  21093A
 # Include lucy2.tle
-
-# Range: 2018-01-01 2020-01-01
-# ID: 33401  08051A
-# Include 08051a.tle
 
 # Range: 2021-11-24.3 2021-12-31.3
 # ID: 99999  00000A
@@ -124,15 +120,18 @@
 # ID: 47097  20087A
 # Include 20087a22.tle
 
-# Range: 2022-01-01 2023-01-01
+# Range: 2018-01-01 2020-01-01
 # ID: 33401  08051A
-# Include 08051a22.tle
+# Include 08051a.tle
 # Range: 2021-01-01 2022-01-01
 # ID: 33401  08051A
 # Include 08051a21.tle
+# Range: 2022-01-01 2023-01-01
+# ID: 33401  08051A
+# Include 08051a22.tle
+
 # Range: 2010-10-08 2011-01-01
 # ID: 37175  10050B
-
 # Include 10050b10.tle
 # Range: 2011-01-01 2012-01-01
 # ID: 37175  10050B
@@ -274,6 +273,7 @@
 # Range: 2020-04-09 2020-06-01
 # ID: 43653  18080A
 # Include 18080a.tle
+
 # Range: 2018-12-08 2020-01-01
 # ID: 43846  18103B
 # Include 18103b.tle
@@ -307,9 +307,7 @@
 # Range: 2020-10-15 2021-04-13
 # ID: 02426  66084B
 # Include 66084b.tle
-# Range: 2019-01-01 2020-01-01
-# ID: 02770  67040F
-# Include 67040f19.tle
+
 # Range: 2015-01-01 2016-01-01
 # ID: 08748  76023C
 # Include 76023c15.tle
@@ -680,6 +678,7 @@
 # Range: 2020-01-01 2020-08-30
 # ID: 00879  64054A
 # Include 64054a20.tle
+
 # Range: 2016-01-01 2017-01-01
 # ID: 01458  65058A
 # Include 65058a16.tle
@@ -715,6 +714,15 @@
 # ID: 01459  65058B
 # Include 65058b22.tle
 
+# Range: 2013-01-01 2015-01-01
+# ID: 02765  67040A
+# Include 67040a_13.tle
+# Range: 2015-01-01 2017-01-01
+# ID: 02765  67040A
+# Include 67040a_15.tle
+# Range: 2016-09-01 2019-02-01
+# ID: 02765  67040A
+# Include 67040a_17.tle
 # Range: 2019-02-01 2020-01-01
 # ID: 02765  67040A
 # Include 67040a.tle
@@ -728,19 +736,12 @@
 # ID: 02765  67040A
 # Include 67040a22.tle
 
-# Range: 2013-01-01 2015-01-01
-# ID: 02765  67040A
-# Include 67040a_13.tle
-# Range: 2015-01-01 2017-01-01
-# ID: 02765  67040A
-# Include 67040a_15.tle
-# Range: 2016-09-01 2019-02-01
-# ID: 02765  67040A
-# Include 67040a_17.tle
-
 # Range: 2016-08-01 2018-01-01
 # ID: 02770  67040F
 # Include 67040f.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 02770  67040F
+# Include 67040f19.tle
 # Range: 2020-01-01 2021-01-01
 # ID: 02770  67040F
 # Include 67040f20.tle
@@ -861,6 +862,7 @@
 # Range: 2017-08-01 2019-01-16
 # ID: 10370  77093A
 # Include 77093a.tle
+
 # Range: 2014-11-01 2017-01-01
 # ID: 32705  77093E
 # Include 77093e14.tle
@@ -920,39 +922,39 @@
 # ID: 89983  00000AAQ
 # Include c1auge1_21.tle
 
-# Range: 2022-00-01 2023-01-01
-# ID: 03955  69046E
-# Include 69046e22.tle
-# Range: 2021-00-01 2022-01-01
-# ID: 03955  69046E
-# Include 69046e21.tle
-# Range: 2020-01-01 2021-01-01
-# ID: 03955  69046E
-# Include 69046e20.tle
-# Range: 2019-01-01 2020-01-01
-# ID: 03955  69046E
-# Include 69046e19.tle
-# Range: 2018-01-01 2019-01-01
-# ID: 03955  69046E
-# Include 69046e18.tle
-# Range: 2017-01-01 2018-01-01
-# ID: 03955  69046E
-# Include 69046e17.tle
-# Range: 2016-01-01 2017-01-01
-# ID: 03955  69046E
-# Include 69046e16.tle
-# Range: 2015-01-01 2016-01-01
-# ID: 03955  69046E
-# Include 69046e15.tle
-# Range: 2014-01-01 2015-01-01
-# ID: 03955  69046E
-# Include 69046e14.tle
-# Range: 2013-01-01 2014-01-01
-# ID: 03955  69046E
-# Include 69046e13.tle
 # Range: 2012-01-01 2013-01-01
 # ID: 03955  69046E
 # Include 69046e12.tle
+# Range: 2013-01-01 2014-01-01
+# ID: 03955  69046E
+# Include 69046e13.tle
+# Range: 2014-01-01 2015-01-01
+# ID: 03955  69046E
+# Include 69046e14.tle
+# Range: 2015-01-01 2016-01-01
+# ID: 03955  69046E
+# Include 69046e15.tle
+# Range: 2016-01-01 2017-01-01
+# ID: 03955  69046E
+# Include 69046e16.tle
+# Range: 2017-01-01 2018-01-01
+# ID: 03955  69046E
+# Include 69046e17.tle
+# Range: 2018-01-01 2019-01-01
+# ID: 03955  69046E
+# Include 69046e18.tle
+# Range: 2019-01-01 2020-01-01
+# ID: 03955  69046E
+# Include 69046e19.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 03955  69046E
+# Include 69046e20.tle
+# Range: 2021-00-01 2022-01-01
+# ID: 03955  69046E
+# Include 69046e21.tle
+# Range: 2022-00-01 2023-01-01
+# ID: 03955  69046E
+# Include 69046e22.tle
 
 # Range: 2020-06-01 2021-06-01
 # ID: 99999  99999ZZZ
@@ -977,12 +979,16 @@
 # Range: 2019-01-01 2020-01-01
 # ID: 99999  00000
 # Include s511443_19.tle
+   S511443 appears to have been identified as 36109U = 2009-068B by
+   Space-Track,  so I've stopped supplying TLEs for it.
+
 # Range: 2019-01-01 2020-01-01
 # ID: 89982  00000AAR
 # Include s511502.tle
 # Range: 2020-01-01 2021-01-01
 # ID: 89982  00000AAR
 # Include s511502_20.tle
+
 # Range: 2020-01-01 2021-01-01
 # ID: 89970  00000ABD
 # Include s512009_20.tle
@@ -1062,6 +1068,7 @@
 # Range: 2021-01-01 2021-03-01
 # ID: 89978  00000AAV
 # Include ztf0ew1_21.tle
+
 # Range: 2020-06-01 2021-06-01
 # ID: 89972  00000ABB
 # Include ztf0ewd.tle
@@ -1077,12 +1084,14 @@
 # Range: 2020-08-01 2021-08-01
 # ID: 88865  00000ABI
 # Include ztf0kbq.tle
+
 # Range: 2020-01-01 2021-01-01
 # ID: 88866  00000ABH
 # Include ztf0koi20.tle
 # Range: 2021-01-01 2022-01-01
 # ID: 88866  00000ABH
 # Include ztf0koi21.tle
+
 # Range: 2020-09-01 2021-11-01
 # ID: 88858  00000ABP
 # Include ztf0l5g.tle
