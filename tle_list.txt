@@ -39,6 +39,10 @@
 # ID: 79996  22999ZZW
 # Include a10enm4.tle
 
+# Range: 2021-08-01 2022-06-01
+# ID: 79996  22999ZZW
+# Include a10f6vd.tle
+
 # Range: 2021-12-26 2023-01-01
 # ID: 50463  21130A
 # Include 21130a.tle
