@@ -59,6 +59,14 @@
 # ID: 79992  22999ZZS
 # Include a10gco8.tle
 
+# Range: 2022-02-01 2022-05-01
+# ID: 79991  22999ZZR
+# Include c7ew3f2.tle
+
+# Range: 2022-02-01 2022-05-01
+# ID: 79990  22999ZZQ
+# Include a10gxdk.tle
+
 # Range: 2021-12-26 2023-01-01
 # ID: 50463  21130A
 # Include 21130a.tle
