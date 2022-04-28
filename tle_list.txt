@@ -27,6 +27,31 @@
 # ID: 49498  21110B
 # Include 21110b.tle
 
+# Range: 2021-12-26 2023-01-01
+# ID: 50463  21130A
+# Include 21130a.tle
+
+# Range: 2021-12-25 2022-04-01
+# ID: 50464  21130B
+# Include 21130b.tle
+
+# Range: 2021-10-16.5 2021-11-15.5
+# ID: 49329  21093B
+# Include lucy1.tle
+# Range: 2021-10-16.5 2021-11-15.5
+# ID: 49328  21093A
+# Include lucy2.tle
+
+# Range: 2021-11-25 2022-02-01
+# ID: 49497  21110A
+# Include dart.tle
+
+# Range: 2021-11-16 2021-12-31
+# ID: 45167  20010A
+# Include solo21.tle
+
+# Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
+
 # Range: 2021-09-01 2022-05-01
 # ID: 79999  22999ZZZ
 # Include c6y9412.tle
@@ -83,14 +108,6 @@
 # ID: 79986  22999ZZL
 # Include a10hkic.tle
 
-# Range: 2021-12-26 2023-01-01
-# ID: 50463  21130A
-# Include 21130a.tle
-
-# Range: 2021-12-25 2022-04-01
-# ID: 50464  21130B
-# Include 21130b.tle
-
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
 # Include ztf0nev.tle
@@ -101,21 +118,6 @@
 # Range: 2021-09-01 2022-01-01
 # ID: 99999  00000A
 # Include tmg0059.tle
-
-# Range: 2021-10-16.5 2021-11-15.5
-# ID: 49329  21093B
-# Include lucy1.tle
-# Range: 2021-10-16.5 2021-11-15.5
-# ID: 49328  21093A
-# Include lucy2.tle
-
-# Range: 2021-11-25 2022-02-01
-# ID: 49497  21110A
-# Include dart.tle
-
-# Range: 2021-11-16 2021-12-31
-# ID: 45167  20010A
-# Include solo21.tle
 
 # Range: 2021-07-01 2022-07-01
 # ID: 89946  00000ACB
@@ -165,12 +167,7 @@
 # ID: 89948  00000ABZ
 # Include c5vrl32.tle
 
-# Range: 2021-09-11 2022-01-01
-# ID: 47097  20087A
-# Include 20087a21.tle
-# Range: 2022-01-01 2023-01-01
-# ID: 47097  20087A
-# Include 20087a22.tle
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
 # Range: 2018-01-01 2020-01-01
 # ID: 33401  08051A
@@ -178,9 +175,21 @@
 # Range: 2021-01-01 2022-01-01
 # ID: 33401  08051A
 # Include 08051a21.tle
+
+# Max error 2.0   (We've not seen 2008-051A = IBEX for a while;  TLEs may not be spot-on)
+
 # Range: 2022-01-01 2023-01-01
 # ID: 33401  08051A
 # Include 08051a22.tle
+
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
+
+# Range: 2021-09-11 2022-01-01
+# ID: 47097  20087A
+# Include 20087a21.tle
+# Range: 2022-01-01 2023-01-01
+# ID: 47097  20087A
+# Include 20087a22.tle
 
 # Range: 2010-10-08 2011-01-01
 # ID: 37175  10050B
@@ -460,6 +469,8 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 50000  70027C
 # Include 70027c22.tle
+
+# Max error 1.0         (XL8D89E = 6Q0B44E drifts off course a bit)
 
 # Range: 2016-07-01 2020-01-01
 # ID: 89996  00000AAD
