@@ -1712,11 +1712,19 @@
 # TLEs expected: 23965
 # Include old_tles/20220218.tle
 
-# Range: 2022-03-02 2022-03-18
+# Range: 2022-03-02 2022-04-01
 # TLEs expected: 23999
 # Include old_tles/20220314.tle
 
-# Range: 2022-03-18 3000-01-01
+# Range: 2022-04-01 2022-04-29
+# TLEs expected: 24006
+# Include old_tles/20220414.tle
+
+# Range: 2022-04-29 2022-05-27
+# TLEs expected: 23854
+# Include old_tles/20220513.tle
+
+# Range: 2022-05-27 3000-01-01
 # TLEs expected: 23000
 # Include all_tle.txt
 
