@@ -11,18 +11,6 @@
 # ID: 30798  07004E
 # Include 07004e19.tle
 
-# Range_check 0      (temporarily suspend range checking for THEMIS)
-# Range: 2022-01-01 2092-03-06
-# ID: 30580  07004A
-# Include 07004a.tle
-# Range: 2022-01-01 2092-03-06
-# ID: 30797  07004D
-# Include 07004d.tle
-# Range: 2022-01-01 2092-03-06
-# ID: 30798  07004E
-# Include 07004e.tle
-# Range_check 1      (check ranges for everybody else)
-
 # Range: 2021-11-25 2023-01-01
 # ID: 49498  21110B
 # Include 21110b.tle
