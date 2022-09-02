@@ -1736,11 +1736,31 @@
 # TLEs expected: 24006
 # Include old_tles/20220414.tle
 
-# Range: 2022-04-29 2022-05-27
+# Range: 2022-04-29 2022-05-22
 # TLEs expected: 23854
 # Include old_tles/20220513.tle
 
-# Range: 2022-05-27 3000-01-01
+# Range: 2022-05-22 2022-06-08
+# TLEs expected: 23938
+# Include old_tles/20220531.tle
+
+# Range: 2022-06-08 2022-06-27
+# TLEs expected: 23866
+# Include old_tles/20220617.tle
+
+# Range: 2022-06-27 2022-07-15
+# TLEs expected: 23850
+# Include old_tles/20220708.tle
+
+# Range: 2022-07-15 2022-08-06
+# TLEs expected: 23964
+# Include old_tles/20220722.tle
+
+# Range: 2022-08-06 2022-08-27
+# TLEs expected: 24134
+# Include old_tles/20220822.tle
+
+# Range: 2022-08-27 3000-01-01
 # TLEs expected: 23000
 # Include all_tle.txt
 
