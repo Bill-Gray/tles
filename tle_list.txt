@@ -175,6 +175,14 @@
 # ID: 89948  00000ABZ
 # Include c5vrl32.tle
 
+# Range: 2022-06-01 2023-01-01
+# ID: 89947  00000ACA
+# Include a10kdzy.tle
+
+# Range: 2022-06-01 2023-01-01
+# ID: 89946  00000ACB
+# Include a10jzj9.tle
+
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
 # Range: 2018-01-01 2020-01-01
