@@ -36,7 +36,7 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 59580.000000 59945.100000 1.000000
+# Ephem range: 59580.000000 59945.000000 1.000000
 # Created from Horizons data by 'jpl2mpc', ver Apr 24 2022
 # *******************************************************************************
 #  Revised: Oct 07, 2022              TESS / (Earth)                          -95
