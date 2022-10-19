@@ -26,6 +26,10 @@
 # Range: 2021-10-16.5 2021-11-15.5
 # ID: 49329  21093B
 # Include lucy1.tle
+# Range: 2022-10-16 2022-11-05
+# ID: 49329  21093B
+# Include 21093b22.tle
+
 # Range: 2021-10-16.5 2021-11-15.5
 # ID: 49328  21093A
 # Include lucy2.tle
