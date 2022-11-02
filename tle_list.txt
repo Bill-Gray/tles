@@ -41,6 +41,10 @@
 # ID: 49497  21110A
 # Include dart.tle
 
+# Range: 2022-10-29 2022-11-28
+# ID: 52916  22070C
+# Include 22070c.tle
+
 # Range: 2021-11-16 2021-12-31
 # ID: 45167  20010A
 # Include solo21.tle
@@ -130,6 +134,10 @@
 # Range: 2022-10-01 2023-01-01
 # ID: 79979  22999ZZE
 # Include a10phhu.tle
+
+# Range: 2022-09-01 2023-01-01
+# ID: 79978  22999ZZD
+# Include a10okad.tle
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
