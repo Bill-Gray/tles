@@ -139,7 +139,7 @@
 # ID: 79978  22999ZZD
 # Include a10okad.tle
 
-# Range: 2022-09-01 2023-01-01
+# Range: 2022-09-01 2023-03-01
 # ID: 79977  22999ZZC
 # Include tmg0079.tle
 
@@ -219,7 +219,7 @@
 # ID: 89947  00000ACA
 # Include a10kdzy.tle
 
-# Range: 2022-06-01 2023-01-01
+# Range: 2022-06-01 2023-03-01
 # ID: 89946  00000ACB
 # Include a10jzj9.tle
 
