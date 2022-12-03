@@ -147,6 +147,10 @@
 # ID: 79976  22156ZZZ
 # Include neascout.tle
 
+# Range: 2022-11-16.5 2022-12-11.5
+# ID: 54257  22156A
+# Include 22156a.tle
+
 # Range: 2022-11-17 2023-05-01
 # ID: 54258  22156B
 # Include 22156b.tle
