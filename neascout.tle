@@ -54,53 +54,53 @@
 # *******************************************************************************
 #  Revised: Nov 21, 2022         NEA Scout / Spacecraft (Sun)                -182
 #                         https://www.nasa.gov/content/nea-scout
-# 
+#
 #  BACKGROUND:
 #   NEA Scout is a 6U CubeSat deployed by the Artemis I mission. Nominal launch
 #   is 2022-Nov-16 at 06:04 UTC from Kennedy Pad 39-B.
-# 
+#
 #   After Orion has separated from the upper stage, NEA Scout will deploy from
 #   the SLS. Once in the vicinity of the Moon, NEA Scout will do imaging to
 #   calibrate instruments.
-# 
+#
 #   Cold gas thrusters will provide initial propulsive maneuvers to place the
 #   spacecraft on the right trajectory for target rendevous.
-# 
+#
 #   NEA Scout will then deploy an 86-m^2 aluminized polymer solar sail on four
 #   6.8-m booms and spiral out of lunar orbit, propelled by solar radiation
 #   pressure to a slow (30 m/s) flyby of "Near Earth Asteroid" (NEA), 2020 GE.
 #   Having an estimated ~18 meters diameter, this will be the smallest asteroid
 #   visited so far.
-# 
+#
 #   Solar sail deployment takes about 30 minutes. The solar sail will enable
 #   extended propulsion capability and efficient transit to the target asteroid
 #   during a two-year cruise.
-# 
+#
 #   The solar sail will offer approximately 2 km/s of delta-v capability,
 #   which greatly exceeds the performance of other currently available
 #   CubeSat-sized propulsion systems.
-# 
+#
 #   Nominal arrival is September 2024.
-# 
+#
 #   NEA Scout will take photographs at resolutions of 10-50 cm/pixel or less to
 #   determine physical properties, such as shape, volume, rotation, debris/dust
 #   field, and regolith characteristics. On-board image compression will be done
 #   to speed downlink time.
-# 
+#
 #  SPACECRAFT PHYSICAL CHARACTERISTICS:
 #    * Dimensions          : 10.0 x 20 x 30 cm (6U CubeSat, shoebox sized)
 #    * Total mass          : 14 kg
 #    * Communications      : X-band, 2 watts
-# 
+#
 #  SPACECRAFT TRAJECTORY:
 #   Post-launch NEA Scout trajectory from JPL navigation:
-# 
+#
 #   Trajector name                          Start (TDB)        Stop (TDB)
 #   ----------------------------------    -----------------  -----------------
 #   neas_trj_ops_od000v3                  2022-Nov-16 10:24  2022-Dec-30 12:01
 # *******************************************************************************
-# 
-# 
+#
+#
 # *******************************************************************************
 # Ephemeris / WWW_USER Sat Nov 26 09:53:02 2022 Pasadena, USA      / Horizons
 # *******************************************************************************
@@ -133,216 +133,259 @@
 
 # Worst residual: 0.66 km
 # MJD 59900.000000 (2022 Nov 17  0:00)
+NEAScout
 1 79976U 22156ZZZ 22320.99919926 -002HOUA4 -000JT77N -0001D3MBH 17913
 2 79976                          -0009CSXK -0004KSN3 -0001KTJC     00
 
 # Worst residual: 0.89 km
 # MJD 59901.000000 (2022 Nov 18  0:00)
+NEAScout
 1 79976U 22156ZZZ 22321.99919926 -004330XC -001GZF0D -000DYNIZH 17911
 2 79976                          -0004RPVR -00038K0W -0001BMG5     04
 
 # Worst residual: 2.15 km
 # MJD 59902.000000 (2022 Nov 19  0:00)
+NEAScout
 1 79976U 22156ZZZ 22322.99919926 -004YC4DM -00250ANK -000O90OTH 17915
 2 79976                          -0002MT7K -0002CZG2 -000127JN     06
 
 # Worst residual: 11.58 km
 # MJD 59903.000000 (2022 Nov 20  0:00)
+NEAScout
 1 79976U 22156ZZZ 22323.99919926 -005EE11R -002M3UAR -000WAX5WH 17919
 2 79976                          -00015C7H -0001LNAH -0000SRAS     07
 
 # Worst residual: 1595.66 km
 # MJD 59904.000000 (2022 Nov 21  0:00)
+NEAScout
 1 79976U 22156ZZZ 22324.99919926 -005J28DH -002WD3LX -0011TYE2H 17917
 2 79976                          +00000HIW -0000PDWR -0000G1OI     03
 
 # Worst residual: 344.27 km
 # MJD 59905.000000 (2022 Nov 22  0:00)
+NEAScout
 1 79976U 22156ZZZ 22325.99919926 -004PFYM3 -002V2VJH -001CG3FKH 17919
 2 79976                          +0008UEKR -0001GTQH -0003ITAZ     04
 
 # Worst residual: 4.89 km
 # MJD 59906.000000 (2022 Nov 23  0:00)
+NEAScout
 1 79976U 22156ZZZ 22326.99919926 -002HGHFC -0034WB69 -0023LJONH 17914
 2 79976                          +0009VSX3 -0000HCPO -0002NBEH     06
 
 # Worst residual: 1.01 km
 # MJD 59907.000000 (2022 Nov 24  0:00)
+NEAScout
 1 79976U 22156ZZZ 22327.99919926 +0000KEXU -002ZF85Y -002J4TB8H 17914
 2 79976                          +000APRKC +0001WZYY -0000RET5     07
 
 # Worst residual: 0.55 km
 # MJD 59908.000000 (2022 Nov 25  0:00)
+NEAScout
 1 79976U 22156ZZZ 22328.99919926 +002HJVIR -0027O3AO -002FDALVH 17912
 2 79976                          +0009JNWY +0004C020 +0001K29N     07
 
 # Worst residual: 0.41 km
 # MJD 59909.000000 (2022 Nov 26  0:00)
+NEAScout
 1 79976U 22156ZZZ 22329.99919926 +004IPIAJ -0010QBH9 -001V6BXUH 17918
 2 79976                          +0007DZUC +0005DWNI +0002XGU5     09
 
 # Worst residual: 0.22 km
 # MJD 59910.000000 (2022 Nov 27  0:00)
+NEAScout
 1 79976U 22156ZZZ 22330.99919926 +0062IOT5 +000AUDR4 -00137SKUH 17916
 2 79976                          +0005MOJ3 +0005JGER +0003G334     06
 
 # Worst residual: 0.23 km
 # MJD 59911.000000 (2022 Nov 28  0:00)
+NEAScout
 1 79976U 22156ZZZ 22331.99919926 +0079KHNL +001M6DAN -0008OCJJH 17910
 2 79976                          +0004ETHZ +0005E54F +0003L2S8     01
 
 # Worst residual: 0.45 km
 # MJD 59912.000000 (2022 Nov 29  0:00)
+NEAScout
 1 79976U 22156ZZZ 22332.99919926 +0087TCZF +002VU9T1 +000MC4TQH 17910
 2 79976                          +0003KBFQ +000569IN +0003KV39     08
 
 # Worst residual: 0.79 km
 # MJD 59913.000000 (2022 Nov 30  0:00)
+NEAScout
 1 79976U 22156ZZZ 22333.99919926 +008ZTZAI +0043L3XK +001H0ZQCH 17919
 2 79976                          +0002Y9SG +0004YD04 +0003IPEU     02
 
 # Worst residual: 0.77 km
 # MJD 59914.000000 (2022 Dec  1  0:00)
+NEAScout
 1 79976U 22156ZZZ 22334.99919926 +009N9C5Q +0059IC6Y +002B3Q8OH 17917
 2 79976                          +0002HOM4 +0004R4JF +0003FVB1     08
 
 # Worst residual: 0.90 km
 # MJD 59915.000000 (2022 Dec  2  0:00)
+NEAScout
 1 79976U 22156ZZZ 22335.99919926 +00A767BV +006DSHJE +0034H0COH 17915
 2 79976                          +00024RGV +0004KOPF +0003CV64     03
 
 # Worst residual: 0.96 km
 # MJD 59916.000000 (2022 Dec  3  0:00)
+NEAScout
 1 79976U 22156ZZZ 22336.99919926 +00AOB5TY +007GMBNL +003X4FY2H 17914
 2 79976                          +0001UEXP +0004F07S +00039WPV     04
 
 # Worst residual: 0.99 km
 # MJD 59917.000000 (2022 Dec  4  0:00)
+NEAScout
 1 79976U 22156ZZZ 22337.99919926 +00B378L5 +008I6415 +004P2W25H 17914
 2 79976                          +0001LY6S +0004A0J6 +000373BE     00
 
 # Worst residual: 1.01 km
 # MJD 59918.000000 (2022 Dec  5  0:00)
+NEAScout
 1 79976U 22156ZZZ 22338.99919926 +00BG8N4X +009ILI0L +005GDRNLH 17911
 2 79976                          +0001EX77 +00045N5D +00034GGC     06
 
 # Worst residual: 1.03 km
 # MJD 59919.000000 (2022 Dec  6  0:00)
+NEAScout
 1 79976U 22156ZZZ 22339.99919926 +00BRQFMR +00AI1K8Q +00672Q2WH 17912
 2 79976                          +000191AJ +00041TRZ +000320O8     09
 
 # Worst residual: 1.04 km
 # MJD 59920.000000 (2022 Dec  7  0:00)
+NEAScout
 1 79976U 22156ZZZ 22340.99919926 +00C1XIQT +00BGMUIK +006X7GT0H 17912
 2 79976                          +000142X8 +0003YICU +0002ZRZ4     04
 
 # Worst residual: 1.03 km
 # MJD 59921.000000 (2022 Dec  8  0:00)
+NEAScout
 1 79976U 22156ZZZ 22341.99919926 +00CB18JR +00CEHG55 +007MTO0NH 17915
 2 79976                          +0000ZWDN +0003VN58 +0002XQ3Q     01
 
 # Worst residual: 1.01 km
 # MJD 59922.000000 (2022 Dec  9  0:00)
+NEAScout
 1 79976U 22156ZZZ 22342.99919926 +00CJ7P41 +00DBP30R +008BYXC1H 17914
 2 79976                          +0000WD3Z +0003T6S5 +0002VUQS     09
 
 # Worst residual: 0.98 km
 # MJD 59923.000000 (2022 Dec 10  0:00)
+NEAScout
 1 79976U 22156ZZZ 22343.99919926 +00CQM0Y2 +00E8D6UA +0090ORSCH 17916
 2 79976                          +0000TDE8 +0003R497 +0002U5MD     08
 
 # Worst residual: 0.95 km
 # MJD 59924.000000 (2022 Dec 11  0:00)
+NEAScout
 1 79976U 22156ZZZ 22344.99919926 +00CXCJ73 +00F4KZRY +009P0OA4H 17919
 2 79976                          +0000QU4O +0003PETL +0002SMIO     09
 
 # Worst residual: 0.94 km
 # MJD 59925.000000 (2022 Dec 12  0:00)
+NEAScout
 1 79976U 22156ZZZ 22345.99919926 +00D3IUCF +00G0FKFV +00AD023BH 17911
 2 79976                          +0000OOOQ +0003O1XC +0002R99S     04
 
 # Worst residual: 0.96 km
 # MJD 59926.000000 (2022 Dec 13  0:00)
+NEAScout
 1 79976U 22156ZZZ 22346.99919926 +00D97ZSV +00GVZV8P +00B0OB98H 17915
 2 79976                          +0000MUSU +0003N154 +0002Q1RA     06
 
 # Worst residual: 1.02 km
 # MJD 59927.000000 (2022 Dec 14  0:00)
+NEAScout
 1 79976U 22156ZZZ 22347.99919926 +00DEIINM +00HRCRBY +00BO2SVNH 17917
 2 79976                          +0000LAHE +0003MC4Y +0002OZVS     09
 
 # Worst residual: 1.08 km
 # MJD 59928.000000 (2022 Dec 15  0:00)
+NEAScout
 1 79976U 22156ZZZ 22348.99919926 +00DJGHQ6 +00IML1BJ +00CB8VDOH 17911
 2 79976                          +0000JXY0 +0003LYNJ +0002O3KX     08
 
 # Worst residual: 1.09 km
 # MJD 59929.000000 (2022 Dec 16  0:00)
+NEAScout
 1 79976U 22156ZZZ 22349.99919926 +00DO3KZQ +00JHRFUG +00CY7UPXH 17917
 2 79976                          +0000IRIX +0003LWHO +0002NCT9     04
 
 # Worst residual: 1.25 km
 # MJD 59930.000000 (2022 Dec 17  0:00)
+NEAScout
 1 79976U 22156ZZZ 22350.99919926 +00DSH2E8 +00KCYO09 +00DL12LQH 17911
 2 79976                          +0000HPMJ +0003M5HK +0002MRK1     01
 
 # Worst residual: 1.37 km
 # MJD 59931.000000 (2022 Dec 18  0:00)
+NEAScout
 1 79976U 22156ZZZ 22351.99919926 +00DWLU1D +00L89DJY +00E7PUL9H 17914
 2 79976                          +0000GQMO +0003MPHH +0002MBSO     05
 
 # Worst residual: 1.34 km
 # MJD 59932.000000 (2022 Dec 19  0:00)
+NEAScout
 1 79976U 22156ZZZ 22352.99919926 +00E0IDSC +00M3Q6O3 +00EUBI1JH 17914
 2 79976                          +0000FSUK +0003NK9M +0002M1HU     05
 
 # Worst residual: 1.18 km
 # MJD 59933.000000 (2022 Dec 20  0:00)
+NEAScout
 1 79976U 22156ZZZ 22353.99919926 +00E46SGM +00MZFN2D +00FGVBQFH 17914
 2 79976                          +0000EUHK +0003OPGK +0002LWJP     05
 
 # Worst residual: 1.00 km
 # MJD 59934.000000 (2022 Dec 21  0:00)
+NEAScout
 1 79976U 22156ZZZ 22354.99919926 +00E7MOYN +00NVG65H +00G3EKZOH 17914
 2 79976                          +0000DTO1 +0003Q4F3 +0002LWPL     03
 
 # Worst residual: 0.94 km
 # MJD 59935.000000 (2022 Dec 22  0:00)
+NEAScout
 1 79976U 22156ZZZ 22355.99919926 +00EAT9ZD +00ORU05L +00GPYG8WH 17916
 2 79976                          +0000COJJ +0003RS40 +0002M1JO     00
 
 # Worst residual: 1.08 km
 # MJD 59936.000000 (2022 Dec 23  0:00)
+NEAScout
 1 79976U 22156ZZZ 22356.99919926 +00EDPB3Z +00PON2GX +00HCJZ3QH 17913
 2 79976                          +0000BDI3 +0003TN26 +0002MADE     06
 
 # Worst residual: 1.31 km
 # MJD 59937.000000 (2022 Dec 24  0:00)
+NEAScout
 1 79976U 22156ZZZ 22357.99919926 +00EG97Z4 +00QLWW0C +00HZ8090H 17913
 2 79976                          +00009VFJ +0003VNEW +0002MMA2     06
 
 # Worst residual: 1.44 km
 # MJD 59938.000000 (2022 Dec 25  0:00)
+NEAScout
 1 79976U 22156ZZZ 22358.99919926 +00EIF9GQ +00RJOIPJ +00ILZ5UAH 17911
 2 79976                          +000085WP +0003XR50 +0002N080     01
 
 # Worst residual: 1.35 km
 # MJD 59939.000000 (2022 Dec 26  0:00)
+NEAScout
 1 79976U 22156ZZZ 22359.99919926 +00EK5O4L +00SHYJ8G +00J8TSX4H 17917
 2 79976                          +0000699O +0003ZWBH +0002NF5W     04
 
 # Worst residual: 1.08 km
 # MJD 59940.000000 (2022 Dec 27  0:00)
+NEAScout
 1 79976U 22156ZZZ 22360.99919926 +00ELEU7W +00TGR35W +00JVS25LH 17912
 2 79976                          +000046GP +000421EY +0002NU81     08
 
 # Worst residual: 0.78 km
 # MJD 59941.000000 (2022 Dec 28  0:00)
+NEAScout
 1 79976U 22156ZZZ 22361.99919926 +00EM5FZ7 +00UG210D +00KITVMWH 17916
 2 79976                          +00001YSX +000445F2 +0002O8RN     06
 
 # Worst residual: 0.98 km
 # MJD 59942.000000 (2022 Dec 29  0:00)
+NEAScout
 1 79976U 22156ZZZ 22362.99919926 +00EMCHHV +00VFV0W3 +00L5Z366H 17915
 2 79976                          -00000CBH +000467UG +0002OMFQ     00
 Avg worst resid: 46.39 km
