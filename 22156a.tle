@@ -70,6 +70,8 @@
 # 104 of 193 observations 2022 Dec. 5-10; mean residual 0".080
 # IMPACT at  11 Dec 2022 17:21:47.67 lat -16.13334 lon W119.63486
 #
+#      H 26.76    (from optical obs on the return leg)
+#
 # 1 NoradU COSPAR   Epoch.epoch     dn/dt/2  d2n/dt2/6 BSTAR    T El# C
 # 2 NoradU Inclina RAAscNode Eccent  ArgPeri MeanAno  MeanMotion Rev# C
 
