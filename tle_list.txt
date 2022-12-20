@@ -173,11 +173,11 @@
 # Include ztf0nev.tle
 
 # Range: 2021-09-01 2022-01-01
-# ID: 99999  00000A
+# ID: 99999  00000
 # Include tmg0058.tle
 
 # Range: 2021-09-01 2022-01-01
-# ID: 99999  00000A
+# ID: 99999  00000
 # Include tmg0059.tle
 
 # Range: 2021-07-01 2022-07-01
@@ -185,7 +185,7 @@
 # Include a10cpzv.tle
 
 # Range: 2021-09-01 2022-03-01
-# ID: 99999  00000A
+# ID: 99999  00000
 # Include a10dmih.tle
 
 # Range: 2021-08-01 2022-08-01
@@ -561,12 +561,17 @@
 # Max error 180   (Limit removed)
 
 # Range: 2021-01-01 2022-01-01
+# ID: 89950  00000ABX
 # Include a10acm6.tle
 # Range: 2021-01-01 2022-01-01
+# ID: 89947  00000ACA
 # Include a10akvk.tle
+
 # Range: 2021-01-01 2022-01-01
+# ID: 89960  00000ABN
 # Include a10w1sr.tle
 # Range: 2021-01-01 2021-10-01
+# ID: 89961  00000ABM
 # Include a10whak.tle
 
 # Range: 2019-05-01 2020-01-01
@@ -1262,7 +1267,7 @@
 # ID: 89967  00000ABG
 # Include ztf0g7b.tle
 # Range: 2020-10-01 2021-05-01
-# ID: 99999  99999ZZY
+# ID: 89949  00000ABY
 # Include ztf0isn.tle
 # Range: 2020-08-01 2021-08-01
 # ID: 88865  00000ABI
@@ -1276,10 +1281,10 @@
 # Include ztf0koi21.tle
 
 # Range: 2020-09-01 2021-11-01
-# ID: 88858  00000ABP
+# ID: 89958  00000ABP
 # Include ztf0l5g.tle
 # Range: 2021-01-01 2022-01-01
-# ID: 88857  00000ABQ
+# ID: 89957  00000ABQ
 # Include ztf0laq.tle
 
 # ID off
