@@ -31,6 +31,9 @@
 # Range: 2021-12-26 2023-01-01
 # ID: 50463  21130A
 # Include 21130a.tle
+# Range: 2023-01-01 2024-01-01
+# ID: 50463  21130A
+# Include 21130a23.tle
 
 # Range: 2021-12-25 2022-04-01
 # ID: 50464  21130B
@@ -71,6 +74,9 @@
 # Range: 2021-09-01 2023-01-01
 # ID: 79998  22999ZZY
 # Include c6zak42.tle
+# Range: 2023-01-01 2024-01-01
+# ID: 79998  22999ZZY
+# Include c6zak42_23.tle
 
 # Range: 2021-06-01 2022-06-01
 # ID: 79997  22999ZZX
@@ -156,7 +162,7 @@
 # ID: 79977  22999ZZC
 # Include tmg0079.tle
 
-# Range: 2022-11-17 2022-12-30
+# Range: 2022-11-17 2023-07-01
 # ID: 79976  22156ZZZ
 # Include neascout.tle
 
@@ -254,6 +260,9 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 33401  08051A
 # Include 08051a22.tle
+# Range: 2023-01-01 2024-01-01
+# ID: 33401  08051A
+# Include 08051a23.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
@@ -263,6 +272,9 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 47097  20087A
 # Include 20087a22.tle
+# Range: 2023-01-01 2024-01-01
+# ID: 47097  20087A
+# Include 20087a23.tle
 
 # Range: 2010-10-08 2011-01-01
 # ID: 37175  10050B
@@ -340,6 +352,9 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 37755  11037A
 # Include 11037a22.tle
+# Range: 2023-01-01 2024-01-01
+# ID: 37755  11037A
+# Include 11037a23.tle
 
 # Range: 2013-12-10 2015-01-01
 # ID: 39459  13070B
@@ -365,6 +380,9 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 39459  13070B
 # Include 13070b22.tle
+# Range: 2023-01-01 2024-01-01
+# ID: 39459  13070B
+# Include 13070b23.tle
 
 # Range: 2015-02-15 2016-01-01
 # ID: 40391  15007B
@@ -569,6 +587,9 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 89996  00000AAD
 # Include xl8d_22.tle
+# Range: 2023-01-01 2024-01-01
+# ID: 89996  00000AAD
+# Include xl8d_23.tle
 
 # Max error 180   (Limit removed)
 
