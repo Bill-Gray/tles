@@ -166,6 +166,12 @@
 # ID: 79976  22156ZZZ
 # Include neascout.tle
 
+# Range: 2023-01-01 2023-05-01
+# ID: 79975  23999ZZZ
+# Include a10sl2c.tle
+
+# note : next artsat will be 79974, 23999ZZY
+
 # Range: 2022no16.5 2022de11.5
 # ID: 54257  22156A
 # Include 22156a.tle
