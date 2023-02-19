@@ -10,7 +10,7 @@
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
-# Range: 2022-12-12 2023-03-1
+# Range: 2022-12-12 2023-06-01
 # ID: 54698  22168C
 # Include 22168c.tle
 
@@ -57,7 +57,7 @@
 # ID: 49497  21110A
 # Include dart.tle
 
-# Range: 2022-10-20 2023-03-01
+# Range: 2022-10-20 2023-03-24
 # ID: 52916  22070C
 # Include 22070c.tle
 
