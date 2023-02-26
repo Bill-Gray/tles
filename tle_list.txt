@@ -170,7 +170,11 @@
 # ID: 79975  23999ZZZ
 # Include a10sl2c.tle
 
-# note : next artsat will be 79974, 23999ZZY
+# Range: 2023-01-01 2023-06-01
+# ID: 79974  23999ZZY
+# Include a10ss9h.tle
+
+# note : next artsat will be 79973, 23999ZZX
 
 # Range: 2022no16.5 2022de11.5
 # ID: 54257  22156A
