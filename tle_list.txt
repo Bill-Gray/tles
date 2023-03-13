@@ -471,9 +471,17 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 44432  19040A
 # Include 19040a22.tle
+
+# Spektr-RG has maneuvered again.  We'll temporarily increase the
+# error tolerance until we get enough data to update the orbit...
+# Max error 1.0
+
 # Range: 2023-01-01 2024-01-01
 # ID: 44432  19040A
 # Include 19040a23.tle
+
+# ...And we'll now return to the previously assumed maximum error :
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
 # Range: 2019-07-15 2019-09-28
 # ID: 44433  19040B
