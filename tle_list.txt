@@ -182,7 +182,11 @@
 # ID: 79972  23999ZZW
 # Include zts0053.tle
 
-# note : next artsat will be 79971, 23999ZZV
+# Range: 2022-11-01 2023-08-01
+# ID: 79971  23999ZZV
+# Include a10tkof.tle
+
+# note : next artsat will be 79970, 23999ZZU
 
 # Range: 2022no16.5 2022de11.5
 # ID: 54257  22156A
@@ -398,6 +402,9 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 39459  13070B
 # Include 13070b22.tle
+
+# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
+
 # Range: 2023-01-01 2024-01-01
 # ID: 39459  13070B
 # Include 13070b23.tle
@@ -632,6 +639,8 @@
 # Range: 2021-01-01 2021-10-01
 # ID: 89961  00000ABM
 # Include a10whak.tle
+
+# Max error 0.2
 
 # Range: 2019-05-01 2020-01-01
 # ID: 27540  02048A
@@ -1151,6 +1160,8 @@
 # ID: 25989  99066A
 # Include 99066a.tle
 
+# Max error 10
+
 # Range: 2020-01-01 2021-01-01
 # ID: 89977  00000AAW
 # Include a10pgty.tle
@@ -1179,6 +1190,23 @@
 # Range: 2023-01-01 2024-01-01
 # ID: 89983  00000AAQ
 # Include c1auge1_23.tle
+
+# Range: 2020-06-01 2021-06-01
+# ID: 99999  99999ZZZ
+# Include c4cjnd2.tle
+
+# Range: 2019-01-01 2020-01-01
+# ID: 89982  00000AAR
+# Include s511502.tle
+# Range: 2020-01-01 2021-01-01
+# ID: 89982  00000AAR
+# Include s511502_20.tle
+
+# Range: 2021-01-01 2021-08-01
+# ID: 89963  00000ABK
+# Include sar2535.tle
+
+# Max error 0.2
 
 # Range: 2012-01-01 2013-01-01
 # ID: 03955  69046E
@@ -1217,10 +1245,6 @@
 # ID: 03955  69046E
 # Include 69046e23.tle
 
-# Range: 2020-06-01 2021-06-01
-# ID: 99999  99999ZZZ
-# Include c4cjnd2.tle
-
 # Range: 2016-01-01 2020-01-01
 # ID: 89990  00000AAJ
 # Include s509559.tle
@@ -1246,16 +1270,10 @@
    S511443 appears to have been identified as 36109U = 2009-068B by
    Space-Track,  so I've stopped supplying TLEs for it.
 
-# Range: 2019-01-01 2020-01-01
-# ID: 89982  00000AAR
-# Include s511502.tle
-# Range: 2020-01-01 2021-01-01
-# ID: 89982  00000AAR
-# Include s511502_20.tle
-
 # Range: 2020-01-01 2021-01-01
 # ID: 89970  00000ABD
 # Include s512009_20.tle
+
    S512009 = ZTF0D86 was initially unidentified.  But in much of
    2021,  Space-Track has IDed it as 2019-067C.  At least tentatively,
    I don't think we need to apply our TLEs to it.
@@ -1263,16 +1281,26 @@
    # ID: 89970  00000ABD
    # Include s512009_21.tle
 
-# Range: 2021-01-01 2021-08-01
-# ID: 89963  00000ABK
-# Include sar2535.tle
-
 # Range: 2020-07-24 2020-08-13
 # ID: 45935  20049A
 # Include tianwea.tle
 # Range: 2020-07-24 2020-08-13
 # ID: 45936  20049B
 # Include tianweb.tle
+
+# Range: 2015-10-01 2015-11-13
+# ID: 89997  00000AAC
+# Include wt1190f.tle
+
+# Range: 2016-11-01 2018-01-01
+# ID: 99999  00000
+# Include xw99cec.tle
+# Range: 2017-06-01 2017-12-31
+# ID: 99999  00000
+# Include ys1.tle
+
+# Max error 10
+
 # Range: 2019-09-01 2019-12-01
 # ID: 89976  00000AAX
 # Include tmg0011.tle
@@ -1285,15 +1313,6 @@
 # Range: 2021-01-01 2022-01-01
 # ID: 89959  00000ABO
 # Include tmg0047.tle
-# Range: 2015-10-01 2015-11-13
-# ID: 89997  00000AAC
-# Include wt1190f.tle
-# Range: 2016-11-01 2018-01-01
-# ID: 99999  00000
-# Include xw99cec.tle
-# Range: 2017-06-01 2017-12-31
-# ID: 99999  00000
-# Include ys1.tle
 
 # Range: 2018-01-01 2019-01-01
 # ID: 89993  00000AAG
