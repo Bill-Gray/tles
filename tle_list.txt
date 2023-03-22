@@ -186,7 +186,22 @@
 # ID: 79971  23999ZZV
 # Include a10tkof.tle
 
-# note : next artsat will be 79970, 23999ZZU
+# Max error -1.0
+# The following object is not _definitely_ artificial.  Until we're
+# sure that it is,  results from Sat_ID will be suppressed.  (But
+# ephemerides can be generated for it with sat_eph.)
+
+# Range: 2022-10-01 2023-08-01
+# ID: 79970  23999ZZU
+# Include a10tgeb.tle
+
+# Max error 3.0   (And now back to ETBOs of usually mediocre quality)
+
+# Range: 2022-10-01 2023-08-01
+# ID: 79969  23999ZZT
+# Include a10tilk.tle
+
+# note : next artsat will be 79968, 23999ZZS
 
 # Range: 2022no16.5 2022de11.5
 # ID: 54257  22156A
