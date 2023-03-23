@@ -65,6 +65,10 @@
 # ID: 45167  20010A
 # Include solo21.tle
 
+# Range: 2022-11-17 2023-06-20
+# ID: 79970  22156Z
+# Include equuleus.tle
+
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
 # Range: 2021-09-01 2022-05-01
@@ -185,17 +189,6 @@
 # Range: 2022-11-01 2023-08-01
 # ID: 79971  23999ZZV
 # Include a10tkof.tle
-
-# Max error -1.0
-# The following object is not _definitely_ artificial.  Until we're
-# sure that it is,  results from Sat_ID will be suppressed.  (But
-# ephemerides can be generated for it with sat_eph.)
-
-# Range: 2022-10-01 2023-08-01
-# ID: 79970  23999ZZU
-# Include a10tgeb.tle
-
-# Max error 3.0   (And now back to ETBOs of usually mediocre quality)
 
 # Range: 2022-10-01 2023-08-01
 # ID: 79969  23999ZZT
