@@ -200,14 +200,6 @@
 
 # note : next artsat will be 79967, 23999ZZR
 
-# Range: 2022no16.5 2022de11.5
-# ID: 54257  22156A
-# Include 22156a.tle
-
-# Range: 2022-11-17 2023-05-01
-# ID: 54258  22156B
-# Include 22156b.tle
-
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
 # Include ztf0nev.tle
@@ -281,6 +273,14 @@
 # Include a10jzj9.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
+
+# Range: 2022no16.5 2022de11.5
+# ID: 54257  22156A
+# Include 22156a.tle
+
+# Range: 2022-11-17 2023-05-01
+# ID: 54258  22156B
+# Include 22156b.tle
 
 # Range: 2018-01-01 2020-01-01
 # ID: 33401  08051A
@@ -494,17 +494,9 @@
 # Range: 2022-01-01 2023-01-01
 # ID: 44432  19040A
 # Include 19040a22.tle
-
-# Spektr-RG has maneuvered again.  We'll temporarily increase the
-# error tolerance until we get enough data to update the orbit...
-# Max error 1.0
-
 # Range: 2023-01-01 2024-01-01
 # ID: 44432  19040A
 # Include 19040a23.tle
-
-# ...And we'll now return to the previously assumed maximum error :
-# Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
 # Range: 2019-07-15 2019-09-28
 # ID: 44433  19040B
