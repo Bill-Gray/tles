@@ -71,6 +71,11 @@
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
+#    Preliminary TLEs from pre-launch ephems
+# Range: 20230414.6 20230514.6
+# ID: 99999  23000A
+# Include juice.tle
+
 # Range: 2021-09-01 2022-05-01
 # ID: 79999  22999ZZZ
 # Include c6y9412.tle
