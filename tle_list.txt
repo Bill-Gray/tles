@@ -69,12 +69,15 @@
 # ID: 79970  22156Z
 # Include equuleus.tle
 
-# Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
-
-#    Preliminary TLEs from pre-launch ephems
 # Range: 20230414.6 20230514.6
-# ID: 99999  23000A
+# ID: 56176  23053A
 # Include juice.tle
+
+# Range: 20230414.6 20230514.6
+# ID: 56177  23053B
+# Include juice_b.tle
+
+# Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
 # Range: 2021-09-01 2022-05-01
 # ID: 79999  22999ZZZ
@@ -2016,6 +2019,7 @@
 # Include old_tles/20230313.tle
 
 # Range: 2023-02-01 3000-01-01
+# TLEs expected: 24000
 # Include all_tle.txt
 
 # We don't actually expect to get TLEs from tle_list.txt itself:
