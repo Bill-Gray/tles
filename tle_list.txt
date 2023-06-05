@@ -218,7 +218,11 @@
 # ID: 79965  23999ZZQ
 # Include c3quej1.tle
 
-# note : next artsat will be 79964, 23999ZZP
+# Range: 2023-01-01 2023-10-01
+# ID: 79964  23999ZZP
+# Include c3r7ac1.tle
+
+# note : next artsat will be 79963, 23999ZZN  (we skip ZZO)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
