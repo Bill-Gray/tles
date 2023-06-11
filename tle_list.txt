@@ -65,7 +65,7 @@
 # ID: 45167  20010A
 # Include solo21.tle
 
-# Range: 2022-11-17 2023-06-20
+# Range: 2022-11-17 2023-08-17
 # ID: 79970  22156Z
 # Include equuleus.tle
 
