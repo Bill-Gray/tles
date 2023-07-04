@@ -81,6 +81,16 @@
 # ID: 41590  16038C
 # Include 16038c.tle
 
+# Range: 2023-07-02 2023-11-01
+# ID: 57217  23092A
+# Include euclid.tle
+
+# Max error 3.0   (following TLEs for the Euclid booster involved guesswork)
+
+# Range: 2023-07-02 2023-11-01
+# ID: 57218  23092B
+# Include euclid_b.tle
+
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
 # Range: 2021-09-01 2022-05-01
@@ -230,7 +240,11 @@
 # ID: 79963  23999ZZN
 # Include c3qhgx1.tle
 
-# note : next artsat will be 79962, 23999ZZM
+# Range: 2023-06-01 2023-09-01
+# ID: 79962  23999ZZM
+# Include a10vlpo.tle
+
+# note : next artsat will be 79961, 23999ZZL
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
