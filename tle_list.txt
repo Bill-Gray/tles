@@ -204,7 +204,7 @@
 # ID: 79973  23999ZZX
 # Include a10t6sl.tle
 
-# Range: 2022-11-01 2023-08-01
+# Range: 2022-11-01 2023-11-01
 # ID: 79972  23999ZZW
 # Include zts0053.tle
 
