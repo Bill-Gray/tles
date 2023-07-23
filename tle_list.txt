@@ -232,10 +232,6 @@
 # ID: 79965  23999ZZQ
 # Include c3quej1.tle
 
-# Range: 2023-01-01 2023-10-01
-# ID: 79964  23999ZZP
-# Include c3r7ac1.tle
-
 # Range: 2023-01-01 2024-01-01
 # ID: 79963  23999ZZN
 # Include c3qhgx1.tle
