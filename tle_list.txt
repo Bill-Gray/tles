@@ -244,7 +244,7 @@
 # ID: 79961  23999ZZL
 # Include 2023nm.tle
 
-# note : next artsat will be 79960, 23999ZZK
+# note : next artsat will be 79959, 23999ZZJ
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
@@ -334,6 +334,19 @@
 # Range: 2021-01-01 2022-01-01
 # ID: 33401  08051A
 # Include 08051a21.tle
+
+# Range: 2020-01-01 2021-01-01
+# ID: 79960 23999ZZK
+# Include ur29394_20.tle
+# Range: 2021-01-01 2022-01-01
+# ID: 79960 23999ZZK
+# Include ur29394_21.tle
+# Range: 2022-01-01 2023-01-01
+# ID: 79960 23999ZZK
+# Include ur29394_22.tle
+# Range: 2023-01-01 2024-01-01
+# ID: 79960 23999ZZK
+# Include ur29394_23.tle
 
 # Max error 2.0   (We've not seen 2008-051A = IBEX for a while;  TLEs may not be spot-on)
 
