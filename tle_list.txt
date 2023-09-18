@@ -57,6 +57,10 @@
 # ID: 49497  21110A
 # Include dart.tle
 
+# Range: 2023-09-10 2023-10-01
+# ID: 41757  16055A
+# Include osiris.tle
+
 # Range: 2022-10-20 2023-03-24
 # ID: 52916  22070C
 # Include 22070c.tle
