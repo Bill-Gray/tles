@@ -89,6 +89,10 @@
 # ID: 57217  23092A
 # Include euclid.tle
 
+# Range: 2023-10-07 2023-11-10
+# ID: 58015  23154C
+# Include 23154c.tle
+
 # Max error 3.0   (following TLEs for the Euclid booster involved guesswork)
 
 # Range: 2023-07-02 2023-11-01
