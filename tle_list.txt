@@ -356,6 +356,10 @@
 # ID: 57601 23118B
 # Include 23118b.tle
 
+# Range: 2023-10-13 2023-11-10
+# ID: 66666 23157ZZZ
+# Include psyche.tle
+
 # Max error 2.0   (We've not seen 2008-051A = IBEX for a while;  TLEs may not be spot-on)
 
 # Range: 2022-01-01 2023-01-01
