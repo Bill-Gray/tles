@@ -348,24 +348,24 @@
 # Include 08051a21.tle
 
 # Range: 2020-01-01 2021-01-01
-# ID: 79960 23999ZZK
+# ID: 79960  23999ZZK
 # Include ur29394_20.tle
 # Range: 2021-01-01 2022-01-01
-# ID: 79960 23999ZZK
+# ID: 79960  23999ZZK
 # Include ur29394_21.tle
 # Range: 2022-01-01 2023-01-01
-# ID: 79960 23999ZZK
+# ID: 79960  23999ZZK
 # Include ur29394_22.tle
 # Range: 2023-01-01 2024-01-01
-# ID: 79960 23999ZZK
+# ID: 79960  23999ZZK
 # Include ur29394_23.tle
 
 # Range: 2023-08-11 2024-02-26
-# ID: 57601 23118B
+# ID: 57601  23118B
 # Include 23118b.tle
 
 # Range: 2023-10-13 2023-11-10
-# ID: 66666 23157ZZZ
+# ID: 66666  23157ZZZ
 # Include psyche.tle
 
 # Max error 2.0   (We've not seen 2008-051A = IBEX for a while;  TLEs may not be spot-on)
@@ -378,11 +378,11 @@
 # Include 08051a23.tle
 
 # Range: 2023-07-15 2023-08-04
-# ID: 57320 23098A
+# ID: 57320  23098A
 # Include chandra3.tle
 
 # Range: 2023-09-08 2023-11-01
-# ID: 57803 23137D
+# ID: 57803  23137D
 # Include slim.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
