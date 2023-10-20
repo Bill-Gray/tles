@@ -85,7 +85,7 @@
 # ID: 41590  16038C
 # Include 16038c.tle
 
-# Range: 2023-07-02 2023-11-01
+# Range: 2023-07-02 2024-01-01
 # ID: 57217  23092A
 # Include euclid.tle
 
