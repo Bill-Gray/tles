@@ -61,7 +61,7 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 60195.000000 60249.000000 1.000000
+# Ephem range: 60195.000000 60310.000000 1.000000
 # Created from Horizons data by 'jpl2mpc', ver Oct  1 2023, at Thu Oct 12 15:14:22 2023 UTC
 # *******************************************************************************
 #  Revised: Oct 09, 2023            SLIM Spacecraft / (Moon)                 -240
