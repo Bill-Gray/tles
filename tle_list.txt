@@ -256,7 +256,7 @@
 # ID: 79958  23999ZZH
 # Include a10wxfe.tle
 
-# Range: 2023-06-01 2024-01-01
+# Range: 2023-06-01 2024-03-01
 # ID: 79957  23999ZZG
 # Include a10xrsw.tle
 
