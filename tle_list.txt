@@ -96,7 +96,7 @@
 # Max error 3.0   (following TLEs for the Euclid booster involved guesswork)
 
 # Range: 2023-07-02 2023-11-01
-# ID: 57218  23092B
+# ID: 57210  23092B
 # Include euclid_b.tle
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
