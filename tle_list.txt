@@ -405,7 +405,7 @@
 # ID: 57320  23098A
 # Include chandra3.tle
 
-# Range: 2023-09-08 2023-11-24
+# Range: 2023-09-08 2023-12-25
 # ID: 57803  23137D
 # Include slim.tle
 
