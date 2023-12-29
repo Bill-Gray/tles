@@ -301,7 +301,15 @@
 # ID: 79949  23999ZYY
 # Include a10zspt.tle
 
-# note : next artsat will be 79948, 23999ZYX
+# Range: 2023-07-01 2024-03-14
+# ID: 79948  23999ZYX
+# Include a10zokq.tle
+
+# Range: 2023-07-01 2024-03-14
+# ID: 79947  23999ZYW
+# Include a10zuus.tle
+
+# note : next artsat will be 79946, 23999ZYV
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
@@ -850,7 +858,7 @@
 # Range: 2023-01-01 2024-01-01
 # ID: 30799  07004G
 # Include 07004g23.tle
-# Range: 2024-01-01 2025-01-01
+# Range: 2024-01-01 2024-05-25
 # ID: 30799  07004G
 # Include 07004g24.tle
 
@@ -2283,11 +2291,20 @@
 # TLEs expected: 25416
 # Include old_tles/20230919.tle
 
-# Range: 2023-10-04 2023-11-03
+# Range: 2023-10-04 2023-10-29
 # TLEs expected: 25556
 # Include old_tles/20231019.tle
 
-# Range: 2023-11-03 3000-01-01
+# Range: 2023-10-29 2023-11-24
+# TLEs expected: 25617
+# Include old_tles/20231109.tle
+
+# Range: 2023-11-24 2023-12-18
+# TLEs expected: 25741
+# Include old_tles/20231209.tle
+
+# TLEs expected: 24000
+# Range: 2023-12-18 3000-01-01
 # Include all_tle.txt
 
 # We don't actually expect to get TLEs from tle_list.txt itself:
