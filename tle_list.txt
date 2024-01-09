@@ -99,15 +99,18 @@
 # ID: 58015  23154C
 # Include 23154c.tle
 
+# Range: 20240108.5 20240122.5
+# ID: 58751  24006A
+# Include peregr.tle
+# Range: 20240108.5 20240229.5
+# ID: 58752  24006B
+# Include 24006b.tle
+
 # Max error 3.0   (following TLEs for the Euclid booster involved guesswork)
 
 # Range: 2023-07-02 2023-11-01
 # ID: 57210  23092B
 # Include euclid_b.tle
-
-# Range: 20240108.5 20240122.5
-# ID: 58751  24006A
-# Include peregr.tle
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
