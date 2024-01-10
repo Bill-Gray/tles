@@ -38,112 +38,24 @@
 #
 # Ephem range: 60317.500000 60331.500000 1.000000
 # Created from Horizons data by 'jpl2mpc', ver Jan  8 2024, at Mon Jan  8 14:18:34 2024 UTC
-# API VERSION: 1.2
-# API SOURCE: NASA/JPL Horizons API
+#   Note : I fitted JPL data to the first (Jan 8.5-9.5) TLE.  After that,
+# it's TLEs from observations.  Those will need to be updated;  the object
+# is still "wiggling around" a bit as fuel leaks.
 #
-# *******************************************************************************
-#  Revised: Jan 06, 2024       Peregrine Mission One / (Moon)                -244
-#          https://www.nasaspaceflight.com/2024/01/vulcan-flight-one-preps/
-# https://www.astrobotic.com/wp-content/uploads/2021/01/Peregrine-Payload-Users-Guide.pdf
+#  SPACECRAFT TRAJECTORY: Pre-launch reference trajectory   (for the JPL TLE)
 #
-#  BACKGROUND
-#   Astrobotic's Peregrine lunar lander is scheduled to launch January 8, 2024
-#   @ 7:18 UTC from SLC-41 at Cape Canaveral (USA). Launch window is 45 minutes.
+# Elements for after 2024 Jan 9.5 :
 #
-#   It will be the first commercial lunar mission by a private company (selected
-#   through NASA's CLPS initiative) and the inaugural flight of the new Vulcan
-#   rocket, intended to replace the Delta IV family. The second stage is a
-#   Centaur V, a new redesign.
-#
-#   After stage separation, one Earth orbit period, and cruise to the Moon, the
-#   lunar orbit phase starts. It will consist of a high, medium, and finally a
-#   circular 100 km altitude orbit.
-#
-#   Peregrine will descend/land autonomously February 23, 2024 shortly after local
-#   sunrise, at a lunar feature called Sinus Viscositatis (Bay of Stickiness),
-#   near the largest dark spot on the near side of the Moon (Gruitheisen Domes)
-#   on the northeast border of Oceanus Procellarum (Ocean of Storms). Landing
-#   ellipse region is 100 x 100 meters.
-#
-#   The mission will conduct scientific experiments to better understand the Moon
-#   prior to the landing of Artemis program astronauts on Artemis III. Operating
-#   span is planned to be about 192 hours from touchdown.
-#
-#   The lander carries five NASA payloads designed to collect data on possible
-#   water molecules underground, on the surface, and in the lunar exosphere.
-#   Experiments will also study how solar radiation interacts with the lunar
-#   surface. There are a total of 20 payloads.
-#
-#   A laser retroreflector array will also be placed on the surface. Similar
-#   to the reflectors left on the lunar surface by Apollo crews, the eight
-#   retro-reflectors will allow for laser ranging and support precise lunar
-#   orbit determination.
-#
-#  MISSION TIMELINE (time since launch)
-#   SRB jettison                     : +0:01:50.3
-#   Booster/Centaur separation       : +0:05:05.0
-#   Centaur main engine start (MES-1): +0:05:14.9
-#   Centaur second cut-off (MECO-2)  : +0:47:37.0
-#   Peregrine separation             : +0:50:26.0  (490 km alt, inc. 30.03 deg.)
-#   Centaur start (MES-3, disposal)  : +1:18:23.9
-#   Centaur cut-off (MECO-3)         : +1:18:43.8
-#
-#  SPACECRAFT (Peregrine)
-#   Mass      : 1283 kg
-#   Payload   :   90 kg
-#   Dimensions: 1.9 x 2.5 meters, box-shaped main body, four landing legs.
-#   Power (at 28V, max. 480 W): 1.8 m^2 solar panel
-#                               840 Whr lithium-ion batteries
-#   Communication: X-band (down), S-band (up) w/med/low gain & WLAN
-#
-#  PROPULSION
-#   - Five TALOS-150 667-N thrusters on bottom of lander
-#   - Four sets of three 45-N attitude control thrusters
-#   - Attitude knowledge from:
-#      Sun and star trackers, inertial measurement, OPAL sensor, Doppler LiDAR
-#   - Lander carries 450 kg MON-25 bi-propellant in four tanks
-#
-#  SCIENCE INSTRUMENTS:
-#   - Laser Retro-Reflector Array (LRA)
-#   - Linear Energy Transfer Spectrometer (LETS)
-#   - Near-Infrared Volatile Spectrometer System (NIRVSS)
-#   - Peregrine Ion-Trap Mass Spectrometer (PITMS)
-#   - Neutron Spectrometer System (NSS)
-#
-#  SPACECRAFT TRAJECTORY: Pre-launch reference trajectory
-#
-#  File name                                        Begins (TDB)     Ends  (TDB)
-#  ---------------------------------------------- -----------------  -----------
-#  8244_Jan08_DescNode_0Loop_North_T-40_V0.3      2024-Jan-08 08:08  2024-Mar-08
-# *******************************************************************************
-#
-#
-# *******************************************************************************
-# Ephemeris / API_USER Mon Jan  8 06:18:30 2024 Pasadena, USA      / Horizons
-# *******************************************************************************
-# Target body name: Peregrine (spacecraft) (-244)   {source: peregrine_DescNode_0Loop}
-# Center body name: Earth (399)                     {source: DE441}
-# Center-site name: BODY CENTER
-# *******************************************************************************
-# Start time      : A.D. 2024-Jan-08 12:00:00.0000 TDB
-# Stop  time      : A.D. 2024-Jan-22 12:00:00.0000 TDB
-# Step-size       : 140 steps
-# *******************************************************************************
-# Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
-# Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
-# Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}
-# Output units    : KM-S
-# Calendar mode   : Mixed Julian/Gregorian
-# Output type     : GEOMETRIC cartesian states
-# Output format   : 2 (position and velocity)
-# EOP file        : eop.240105.p240329
-# EOP coverage    : DATA-BASED 1962-JAN-20 TO 2024-JAN-05. PREDICTS-> 2024-MAR-28
-# Reference frame : Ecliptic of J2000.0
-# *******************************************************************************
-# JDTDB
-#    X     Y     Z
-#    VX    VY    VZ
-# *******************************************************************************
+# Orbital elements:  Peregrine Lander
+#    Perigee 2024 Jan 8.37881 +/- 0.00107 TT =  9:05:29 (JD 2460317.87881)
+# Epoch 2024 Jan  9.0 TT = JDT 2460318.5                           Find_Orb
+# M  18.24044173 +/- 0.14             (J2000 equator)
+# n  29.36394056 +/- 0.2              Peri.  254.88338 +/- 0.041
+# a224591.827 +/- 1021                Node    27.99849 +/- 0.014
+# e   0.9706213 +/- 0.000115          Incl.   29.57250 +/- 0.0038
+# P  12.2597d                H 30.20  G  0.15   U 11.7
+# q 6598.19932 +/- 10.7    Q 442585.455 +/- 2037
+# 40 of 61 observations 2024 Jan. 9-10 (23.3 hr); mean residual 5".883
 #
 # 1 NoradU COSPAR   Epoch.epoch     dn/dt/2  d2n/dt2/6 BSTAR    T El# C
 # 2 NoradU Inclina RAAscNode Eccent  ArgPeri MeanAno  MeanMotion Rev# C
@@ -154,84 +66,84 @@ Peregrine = 2024-000A = NORAD 99999
 1 58751U 24006A   24008.99919926  .00000000  00000-0  00000-0 0 21990
 2 58751 029.6210 026.0142 9500069 256.5056 021.7231 00.08862738    09
 
-# Worst residual: 70.99 km
+# Worst residual: 119.49 km
 # MJD 60318.500000 (2024 Jan  9 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24009.99919926  .00000000  00000-0  00000-0 0 21991
-2 58751 029.5766 026.0081 9494576 256.2219 057.7648 00.09525581    03
+Peregrine Lander
+1 58751U 24006A   24009.99919926  .00000000  00000-0  00000-0 0 22015
+2 58751 029.0759 023.6372 9511003 259.1046 044.4928 00.07501254    04
 
-# Worst residual: 41.99 km
+# Worst residual: 66.16 km
 # MJD 60319.500000 (2024 Jan 10 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24010.99919926  .00000000  00000-0  00000-0 0 21993
-2 58751 029.5121 025.6988 9486010 256.4725 093.6389 00.09664787    00
+Peregrine Lander
+1 58751U 24006A   24010.99919926  .00000000  00000-0  00000-0 0 22017
+2 58751 028.9988 023.2991 9498756 259.4069 074.2464 00.07763292    04
 
-# Worst residual: 25.47 km
+# Worst residual: 46.50 km
 # MJD 60320.500000 (2024 Jan 11 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24011.99919926  .00000000  00000-0  00000-0 0 21994
-2 58751 029.4721 025.4359 9483376 256.6627 129.4186 00.09716603    08
+Peregrine Lander
+1 58751U 24006A   24011.99919926  .00000000  00000-0  00000-0 0 22018
+2 58751 028.9341 022.8916 9489391 259.7462 104.0264 00.07871729    09
 
-# Worst residual: 15.91 km
+# Worst residual: 23.88 km
 # MJD 60321.500000 (2024 Jan 12 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24012.99919926  .00000000  00000-0  00000-0 0 21995
-2 58751 029.4670 025.3555 9491140 256.6909 164.8970 00.09736555    01
+Peregrine Lander
+1 58751U 24006A   24012.99919926  .00000000  00000-0  00000-0 0 22019
+2 58751 028.9058 022.6370 9492750 259.8860 133.5965 00.07921990    03
 
-# Worst residual: 14.87 km
+# Worst residual: 19.09 km
 # MJD 60322.500000 (2024 Jan 13 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24013.99919926  .00000000  00000-0  00000-0 0 21996
-2 58751 029.4834 025.4408 9504401 256.6375 199.8825 00.09745765    03
+Peregrine Lander
+1 58751U 24006A   24013.99919926  .00000000  00000-0  00000-0 0 22010
+2 58751 028.9094 022.6083 9507843 259.8524 162.6260 00.07942390    09
 
-# Worst residual: 16.83 km
+# Worst residual: 11.25 km
 # MJD 60323.500000 (2024 Jan 14 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24014.99919926  .00000000  00000-0  00000-0 0 21997
-2 58751 029.4980 025.5417 9513002 256.6313 234.3952 00.09759000    08
+Peregrine Lander
+1 58751U 24006A   24014.99919926  .00000000  00000-0  00000-0 0 22011
+2 58751 028.9233 022.6872 9522779 259.8085 190.9949 00.07950483    07
 
-# Worst residual: 18.71 km
+# Worst residual: 13.41 km
 # MJD 60324.500000 (2024 Jan 15 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24015.99919926  .00000000  00000-0  00000-0 0 21998
-2 58751 029.4976 025.4734 9509528 256.7414 268.7306 00.09783707    00
+Peregrine Lander
+1 58751U 24006A   24015.99919926  .00000000  00000-0  00000-0 0 22012
+2 58751 028.9288 022.6844 9525984 259.8768 218.8987 00.07956590    02
 
-# Worst residual: 30.17 km
+# Worst residual: 27.11 km
 # MJD 60325.500000 (2024 Jan 16 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24016.99919926  .00000000  00000-0  00000-0 0 21999
-2 58751 029.4917 025.2086 9495631 256.8900 303.3056 00.09813213    07
+Peregrine Lander
+1 58751U 24006A   24016.99919926  .00000000  00000-0  00000-0 0 22013
+2 58751 028.9207 022.4467 9512045 260.0741 246.8109 00.07959891    05
 
-# Worst residual: 23.61 km
+# Worst residual: 33.30 km
 # MJD 60326.500000 (2024 Jan 17 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24017.99919926  .00000000  00000-0  00000-0 0 21990
-2 58751 029.4953 024.9646 9483231 256.8912 338.4376 00.09790865    02
+Peregrine Lander
+1 58751U 24006A   24017.99919926  .00000000  00000-0  00000-0 0 22014
+2 58751 028.9123 022.0389 9486082 260.2395 275.2562 00.07940859    02
 
-# Worst residual: 28.40 km
+# Worst residual: 68.70 km
 # MJD 60327.500000 (2024 Jan 18 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24018.99919926  .00000000  00000-0  00000-0 0 21991
-2 58751 029.5082 024.7641 9488381 257.1319 013.2903 00.09583652    03
+Peregrine Lander
+1 58751U 24006A   24018.99919926  .00000000  00000-0  00000-0 0 22015
+2 58751 028.9122 021.6484 9460622 260.1780 304.5627 00.07840223    03
 
-# Worst residual: 25.80 km
+# Worst residual: 181.73 km
 # MJD 60328.500000 (2024 Jan 19 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24019.99919926  .00000000  00000-0  00000-0 0 21992
-2 58751 029.5354 024.8074 9498776 256.8717 047.7520 00.09621144    09
+Peregrine Lander
+1 58751U 24006A   24019.99919926  .00000000  00000-0  00000-0 0 22016
+2 58751 028.9071 021.4434 9450666 259.7057 334.7953 00.07418830    09
 
-# Worst residual: 51.76 km
+# Worst residual: 1148.72 km
 # MJD 60329.500000 (2024 Jan 20 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24020.99919926  .00000000  00000-0  00000-0 0 21994
-2 58751 029.6356 025.2047 9518059 256.2814 082.5603 00.09667854    03
+Peregrine Lander
+1 58751U 24006A   24020.99919926  .00000000  00000-0  00000-0 0 22018
+2 58751 028.9053 021.0665 9494273 260.9618 001.9171 00.06742896    06
 
-# Worst residual: 183.07 km
+# Worst residual: 294.18 km
 # MJD 60330.500000 (2024 Jan 21 12:00)
-Peregrine = 2024-000A = NORAD 99999
-1 58751U 24006A   24021.99919926  .00000000  00000-0  00000-0 0 21995
-2 58751 029.9642 026.8799 9581906 254.3205 117.9751 00.09748077    03
-Avg worst resid: 62.83 km
-Worst residual in entire run: 332.06 km on MJD 60317.5
+Peregrine Lander
+1 58751U 24006A   24021.99919926  .00000000  00000-0  00000-0 0 22019
+2 58751 028.8950 020.8545 9455598 262.2100 025.2256 00.06506627    06
+Avg worst resid: 157.96 km
+Worst residual in entire run: 1148.72 km on MJD 60329.5
        1     3     10    30    100   300   1K    3K    10K   km
-     0     0     0     8     4     1     1     0     0     0
+     0     0     0     5     4     3     0     1     0     0
