@@ -340,6 +340,10 @@
 # ID: 79942  24999ZZW
 # Include a113vwd.tle
 
+# Range: 2023-11-01 2024-04-13
+# ID: 79941  24999ZZV
+# Include zts0200.tle
+
 # note : next artsat will be 79941, 23999ZYU (or 24999ZZV)
 
 # Range: 2022-01-01 2022-08-01
