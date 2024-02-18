@@ -1,5 +1,5 @@
 # Made by eph2tle, compiled Feb  6 2024 12:03:08
-# Run at Thu Feb 15 08:57:57 2024
+# Run at Sat Feb 17 19:40:49 2024
 #
 # No updates
 #
@@ -38,159 +38,98 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 60355.500000 60361.500000 1.000000
-# Created from Horizons data by 'jpl2mpc', ver Feb 15 2024, at Thu Feb 15 13:57:50 2024 UTC
-# *******************************************************************************
-#  Revised: Feb 15, 2024           IM-1 (Odysseus) / (Moon)                  -229
-#                          https://www.intuitivemachines.com/im-1
-# https://science.nasa.gov/science-research/science-enabling-technology/deploying-and-demonstrating-navigation-aids-on-the-lunar-surface/
-#
-#  BACKGROUND
-#   Intuitive Machine's Nova-C class IM-1 lunar lander "Odysseus" launched
-#   February 15, 2024 @ 06:05 UTC from LC-39A at Cape Canaveral (USA) on a
-#   SpaceX Falcon 9.
-#
-#   It will be the first commercial lunar lander by a private company, and was
-#   selected through NASA's CLPS initiative.
-#
-#   It is planned to land on the Moon about 9 days after launch (~Feb 24) and
-#   operate for about 7 days after touchdown, until lunar night begins at the
-#   lunar south pole landing site, about 300 km from the south pole at crater
-#   Malapert A. This is close to the Malapert Massif, a candidate landing zone
-#   for NASA's Artemis III mission.
-#
-#   The Falcon 9 second stage will place the spacecraft into a 185 x 60000 km
-#   Earth orbit. After ~35 minutes of coasting, the second stage will then propel
-#   Odysseus into a Trans-Lunar Orbit (TLO) intercepting the Moon's orbit.
-#
-#   Deployment of the spacecraft is to occur 48 minutes and 24 seconds after
-#   launch when the second stage will use spring force to push the lander away.
-#
-#   Odysseus will make three small adjustment burns en route before the TLO
-#   trajectory takes IM-1 behind the Moon. The main engine autonomous Lunar
-#   Orbit Injection (LOI) burn will place Odysseus into a near-circular 100-km
-#   Low-Lunar Orbit.
-#
-#   Throughout twelve 2-hour long orbits of the Moon, checks of all spacecraft
-#   systems will be completed before committing to a lunar descent.
-#
-#   The autonomous Descent Orbit Burn will take place on the far side of the
-#   Moon and reduce the craft's orbit to 10 kilometers above the landing site.
-#   The craft will then coast for an hour before powered descent.
-#
-#   The Nova-C class main engine is designed to burn continuously throughout the
-#   powered descent. The lander will be slowed by 1,800 meters per second, then
-#   pitched over to assume landing attitude when 30 meters above the lunar
-#   surface, before bringing the craft to a soft landing.
-#
-#  PURPOSE
-#   The mission' primary objective is to deliver a variety of payloads to the
-#   Moon's south pole region, a part of the Moon that remains unexplored and is
-#   a target for later NASA Artemis manned missions.  These payloads include
-#   scientific instruments and technology demonstrations that aim to inform
-#   future human and robotic exploration of the Moon.
-#
-#  SPACECRAFT
-#   Hexagonal cylinder 4.3 m tall, 1.57 m wide, on six landing legs.
-#   Launch mass  : 1908 kg
-#   Solar panels : ~200 Watts
-#
-#  PROPULSION
-#   Liquid methane and liquid oxygen
-#   ISP > 320 sec.
-#
-#  SCIENCE INSTRUMENTS
-#   NASA
-#    ROLSES: Radio Observations of the Lunar Surface Photoelectron Sheath
-#    LRA: Laser Retro-Reflector Array
-#    NDL: Navigation Doppler Lidar for Precise Velocity and Range Sensing
-#    SCALPSS: Stereo Cameras for Lunar Plume-Surface Studies
-#    LN-1: Lunar Node 1 Navigation Demonstrator (S-band navigation beacon)
-#    RFMG: Radio Frequency Mass Gauge statement
-#   Commerical
-#    Columbia Sportswear: Omni-heat infinity thermal material
-#    Embry-Riddle: Eaglecam
-#    Jeff Koons: Moon Phases (125 artwork items)
-#    International Lunar Observatory Association: ILO-X
-#    Galactic Legacy Labs: LUNAPRISE
-#    Lonestar Data Holdings Inc.
-#
-#  SPACECRAFT TRAJECTORY:
-#   Pre-launch trajectory from Intuitive Machines:
-#
-#  File name                                         Begins (TDB)     Ends  (TDB)
-#  ----------------------------------------------  -----------------  -----------
-#  LND1_n229-Feb15.v2                              2024-Feb-15 06:06  2024-Mar-06
-# *******************************************************************************
-#
-#
-# *******************************************************************************
-# Ephemeris / WWW_USER Thu Feb 15 05:57:32 2024 Pasadena, USA      / Horizons
-# *******************************************************************************
-# Target body name: IM-1 (spacecraft) (-229)        {source: LND1_n229-Feb15}
-# Center body name: Earth (399)                     {source: DE441}
-# Center-site name: BODY CENTER
-# *******************************************************************************
-# Start time      : A.D. 2024-Feb-15 12:00:00.0000 TDB
-# Stop  time      : A.D. 2024-Feb-21 12:00:00.0000 TDB
-# Step-size       : 60 steps
-# *******************************************************************************
-# Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
-# Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
-# Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}
-# Output units    : KM-S
-# Calendar mode   : Mixed Julian/Gregorian
-# Output type     : GEOMETRIC cartesian states
-# Output format   : 3 (position, velocity, LT, range, range-rate)
-# EOP file        : eop.240214.p240509
-# EOP coverage    : DATA-BASED 1962-JAN-20 TO 2024-FEB-14. PREDICTS-> 2024-MAY-08
-# Reference frame : Ecliptic of J2000.0
-# *******************************************************************************
-# JDTDB
-#    X     Y     Z
-#    VX    VY    VZ
-#    LT    RG    RR
-# *******************************************************************************
+# Ephem range: 60355.500000 60361.500000 0.500000
+# Created Sat Feb 17 19:40:46 2024
+# Ephemeris start: 15 Feb 2024 12:00:00
+# Ephemeris end:   21 Feb 2024 12:00:00
+# Times are all TDT
+# Positions/velocities are in ecliptic J2000
+# Orbital elements:  2024-030A = NORAD 58963 = IM-1
+#    Perigee 2024 Feb 15.2832598 +/- 5.89e-5 TT =  6:47:53.64 (JD 2460355.7832598)
+# Epoch 2024 Feb 17.0 TT = JDT 2460357.5                           Find_Orb
+# M  55.1217753519 +/- 0.007          (J2000 equator)
+# n  32.1083969856 +/- 0.00368        Peri.  239.5616379 +/- 0.0006
+# a211604.26825 +/- 16.2              Node    68.0128824 +/- 0.00059
+# e   0.968974289 +/- 3.81e-6         Incl.   28.7562737 +/- 0.00027
+# P  11.2118d                H 28.94  G  0.15   U  9.0
+# q 6565.1727673 +/- 0.489    Q 416643.36373 +/- 32.5
+# 65 of 97 observations 2024 Feb. 16-17 (21.9 hr); mean residual 0".341
 #
 # 1 NoradU COSPAR   Epoch.epoch     dn/dt/2  d2n/dt2/6 BSTAR    T El# C
 # 2 NoradU Inclina RAAscNode Eccent  ArgPeri MeanAno  MeanMotion Rev# C
 
-# Worst residual: 75.27 km
+# Worst residual: 29.57 km
 # MJD 60355.500000 (2024 Feb 15 12:00)
-IM-1 (Odysseus) = 2024-030A = NORAD 58963
-1 58963U 24030A   24046.99919926  .00000000  00000-0  00000-0 0 22377
-2 58963 027.6587 064.2304 9615080 242.5131 027.1086 00.09114299    03
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24046.74919926  .00000000  00000-0  00000-0 0 22404
+2 58963 027.6413 064.2138 9614343 242.5582 018.9707 00.09108546    03
 
-# Worst residual: 16.92 km
+# Worst residual: 11.50 km
+# MJD 60356.000000 (2024 Feb 16  0:00)
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24047.24919926  .00000000  00000-0  00000-0 0 22400
+2 58963 027.6996 064.2652 9620038 242.4963 034.7500 00.08961113    03
+
+# Worst residual: 5.92 km
 # MJD 60356.500000 (2024 Feb 16 12:00)
-IM-1 (Odysseus) = 2024-030A = NORAD 58963
-1 58963U 24030A   24047.99919926  .00000000  00000-0  00000-0 0 22378
-2 58963 027.8204 064.5409 9624449 242.1780 058.9477 00.09003302    03
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24047.74919926  .00000000  00000-0  00000-0 0 22405
+2 58963 027.7898 064.4455 9624587 242.3042 050.4905 00.08915207    05
 
-# Worst residual: 14.60 km
+# Worst residual: 1.98 km
+# MJD 60357.000000 (2024 Feb 17  0:00)
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24048.24919926  .00000000  00000-0  00000-0 0 22401
+2 58963 028.9852 067.5760 9630736 239.2346 068.8242 00.09188376    03
+
+# Worst residual: 2.75 km
 # MJD 60357.500000 (2024 Feb 17 12:00)
-IM-1 (Odysseus) = 2024-030A = NORAD 58963
-1 58963U 24030A   24048.99919926  .00000000  00000-0  00000-0 0 22379
-2 58963 027.9648 064.9019 9629394 241.8227 091.1926 00.09009666    00
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24048.74919926  .00000000  00000-0  00000-0 0 22406
+2 58963 029.0519 067.7205 9632815 239.0943 085.3043 00.09193850    08
 
-# Worst residual: 43.02 km
+# Worst residual: 4.66 km
+# MJD 60358.000000 (2024 Feb 18  0:00)
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24049.24919926  .00000000  00000-0  00000-0 0 22402
+2 58963 029.1262 067.8983 9634793 238.9183 101.9729 00.09209126    09
+
+# Worst residual: 8.13 km
 # MJD 60358.500000 (2024 Feb 18 12:00)
-IM-1 (Odysseus) = 2024-030A = NORAD 58963
-1 58963U 24030A   24049.99919926  .00000000  00000-0  00000-0 0 22370
-2 58963 028.2037 065.6253 9637022 241.1029 124.2594 00.09051952    08
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24049.74919926  .00000000  00000-0  00000-0 0 22407
+2 58963 029.2498 068.2268 9638330 238.5925 118.8641 00.09230442    08
 
-# Worst residual: 129.95 km
+# Worst residual: 13.99 km
+# MJD 60359.000000 (2024 Feb 19  0:00)
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24050.24919926  .00000000  00000-0  00000-0 0 22404
+2 58963 029.4935 068.9135 9646008 237.9292 136.0032 00.09255497    00
+
+# Worst residual: 23.37 km
 # MJD 60359.500000 (2024 Feb 19 12:00)
-IM-1 (Odysseus) = 2024-030A = NORAD 58963
-1 58963U 24030A   24050.99919926  .00000000  00000-0  00000-0 0 22372
-2 58963 029.1259 068.5914 9669067 238.3073 158.4445 00.09111394    02
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24050.74919926  .00000000  00000-0  00000-0 0 22409
+2 58963 029.9897 070.3310 9661294 236.6084 153.4179 00.09283492    04
 
-# Worst residual: 942.73 km
+# Worst residual: 38.35 km
+# MJD 60360.000000 (2024 Feb 20  0:00)
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24051.24919926  .00000000  00000-0  00000-0 0 22405
+2 58963 031.0754 073.2934 9692757 233.9503 171.1788 00.09315096    07
+
+# Worst residual: 105.25 km
 # MJD 60360.500000 (2024 Feb 20 12:00)
-IM-1 (Odysseus) = 2024-030A = NORAD 58963
-1 58963U 24030A   24051.99919926  .00000000  00000-0  00000-0 0 22373
-2 58963 036.6363 085.6347 9814957 223.7003 195.3718 00.09204303    08
-Avg worst resid: 203.75 km
-Worst residual in entire run: 942.73 km on MJD 60360.5
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24051.74919926  .00000000  00000-0  00000-0 0 22400
+2 58963 034.0880 080.2391 9757400 228.0210 189.4934 00.09355148    09
+
+# Worst residual: 551.78 km
+# MJD 60361.000000 (2024 Feb 21  0:00)
+2024-030A = NORAD 58963 = IM-1
+1 58963U 24030A   24052.24919926  .00000000  00000-0  00000-0 0 22406
+2 58963 057.4935 106.9973 9901788 208.7425 208.5975 00.09411986    05
+Avg worst resid: 15.67 km
+Worst residual in entire run: 29.57 km on MJD 60355.5
        1     3     10    30    100   300   1K    3K    10K   km
-     0     0     0     2     2     1     1     0     0     0
+     0     0     1     2     0     0     0     0     0     0
