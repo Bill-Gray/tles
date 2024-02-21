@@ -364,11 +364,11 @@
 # Include ztf0nev.tle
 
 # Range: 2021-09-01 2022-01-01
-# ID: 99999  00000
+# ID: 79941  00000ZZZ
 # Include tmg0058.tle
 
 # Range: 2021-09-01 2022-01-01
-# ID: 99999  00000
+# ID: 79940  00000ZZY
 # Include tmg0059.tle
 
 # Range: 2021-07-01 2022-07-01
@@ -376,7 +376,7 @@
 # Include a10cpzv.tle
 
 # Range: 2021-09-01 2022-03-01
-# ID: 99999  00000
+# ID: 79939  00000ZZX
 # Include a10dmih.tle
 
 # Range: 2021-08-01 2022-08-01
@@ -412,11 +412,11 @@
 # Include ztf0isc.tle
 
 # Range: 2021-06-01 2022-03-01
-# ID: 99999  00000
+# ID: 79938  00000ZZW
 # Include ztf0nwm.tle
 
 # Range: 2022-02-01 2022-08-01
-# ID: 99999  00000
+# ID: 79937  00000ZZV
 # Include a10hso3.tle
 
 # Range: 2021-07-01 2022-01-01
@@ -1491,7 +1491,7 @@
 # Include c1auge1_24.tle
 
 # Range: 2020-06-01 2021-06-01
-# ID: 99999  99999ZZZ
+# ID: 79932  00000ZZQ
 # Include c4cjnd2.tle
 
 # Range: 2019-01-01 2020-01-01
@@ -1567,10 +1567,10 @@
 # Include s509559_24.tle
 
 # Range: 2018-01-01 2019-01-01
-# ID: 99999  00000
+# ID: 79936  00000ZZU
 # Include s511443_18.tle
 # Range: 2019-01-01 2020-01-01
-# ID: 99999  00000
+# ID: 79936  00000ZZU
 # Include s511443_19.tle
    S511443 appears to have been identified as 36109U = 2009-068B by
    Space-Track,  so I've stopped supplying TLEs for it.
@@ -1598,10 +1598,10 @@
 # Include wt1190f.tle
 
 # Range: 2016-11-01 2018-01-01
-# ID: 99999  00000
+# ID: 79935  00000ZZT
 # Include xw99cec.tle
 # Range: 2017-06-01 2017-12-31
-# ID: 99999  00000
+# ID: 79934  00000ZZS
 # Include ys1.tle
 
 # Max error 10
@@ -1674,7 +1674,7 @@
 # Include ztf0ewd_24.tle
 
 # Range: 2020-08-01 2021-01-01
-# ID: 99999  00000
+# ID: 79933  00000ZZR
 # Include ztf0fs0.tle
 # Range: 2020-10-01 2021-02-01
 # ID: 89967  00000ABG
