@@ -51,10 +51,10 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 60317.500000 60369.500000 1.000000
+# Ephem range: 60317.500000 60410.500000 1.000000
 # Created Tue Jan  9 16:53:15 2024
 # Ephemeris start:  8 Jan 2024 12:00:00
-# Ephemeris end:   29 Feb 2024 12:00:00
+# Ephemeris end:   10 Apr 2024 12:00:00
 # Times are all TDT
 # Positions/velocities are in equatorial J2000
 # Orbital elements:  Peregrine Centaur
@@ -380,7 +380,253 @@ Peregrine Centaur
 Peregrine Centaur
 1 58752U 24006B   24059.49919926 -00CQ84PJ +04GLABDL +01X08YZEH 22009
 2 58752                          -0006044Q +000CMTZU +0005G27S     08
-Avg worst resid: 2.92 km
-Worst residual in entire run: 5.14 km on MJD 60368.5
+
+# Worst residual: 5.41 km
+# MJD 60369.500000 (2024 Feb 29 12:00)
+Peregrine Centaur
+1 58752U 24006B   24060.49919926 -00E6MX65 +04K8HEZV +01YK612TH 22678
+2 58752                          -000693BQ +000CLAQD +0005FE39     05
+
+# Worst residual: 5.65 km
+# MJD 60370.500000 (2024 Mar  1 12:00)
+Peregrine Centaur
+1 58752U 24006B   24061.49919926 -00FPOIG7 +04N8ULRK +01ZUVS8KH 22678
+2 58752                          -0006HKW8 +000CHQ3V +0005DW51     08
+
+# Worst residual: 5.78 km
+# MJD 60371.500000 (2024 Mar  2 12:00)
+Peregrine Centaur
+1 58752U 24006B   24062.49919926 -00HARN7X +04Q8C2IN +021589QKH 22677
+2 58752                          -0006Q477 +000CDYB7 +0005CBHM     06
+
+# Worst residual: 5.76 km
+# MJD 60372.500000 (2024 Mar  3 12:00)
+Peregrine Centaur
+1 58752U 24006B   24063.49919926 -00IXWRU4 +04T6W15G +022F6T7MH 22679
+2 58752                          -0006YPJY +000C9YTR +0005ANVW     00
+
+# Worst residual: 5.57 km
+# MJD 60373.500000 (2024 Mar  4 12:00)
+Peregrine Centaur
+1 58752U 24006B   24064.49919926 -00KN4F9G +04W4GKGK +023OQNR2H 22671
+2 58752                          -00077D8N +000C5QZC +00058WZO     00
+
+# Worst residual: 5.34 km
+# MJD 60374.500000 (2024 Mar  5 12:00)
+Peregrine Centaur
+1 58752U 24006B   24065.49919926 -00MEF6M4 +04Z0ZKMA +024XUZ1XH 22675
+2 58752                          -0007G3GN +000C19WQ +000572CO     04
+
+# Worst residual: 5.23 km
+# MJD 60375.500000 (2024 Mar  6 12:00)
+Peregrine Centaur
+1 58752U 24006B   24066.49919926 -00O7TO27 +051WEPCG +0266ISDEH 22671
+2 58752                          -0007OW8M +000BWIIL +000553E3     01
+
+# Worst residual: 5.37 km
+# MJD 60376.500000 (2024 Mar  7 12:00)
+Peregrine Centaur
+1 58752U 24006B   24067.49919926 -00Q3CGNJ +054QNBYV +027EOZE2H 22679
+2 58752                          -0007XR9K +000BRFHY +00052ZEH     03
+
+# Worst residual: 5.77 km
+# MJD 60377.500000 (2024 Mar  8 12:00)
+Peregrine Centaur
+1 58752U 24006B   24068.49919926 -00S100RP +057JMHXO +028MC9AKH 22679
+2 58752                          -00086NQM +000BLZFN +00050PLJ     09
+
+# Worst residual: 6.23 km
+# MJD 60378.500000 (2024 Mar  9 12:00)
+Peregrine Centaur
+1 58752U 24006B   24069.49919926 -00U0SJA0 +05AB8WK6 +029TF4H2H 22674
+2 58752                          -0008FK90 +000BG4Z7 +0004Y97Q     08
+
+# Worst residual: 6.55 km
+# MJD 60379.500000 (2024 Mar 10 12:00)
+Peregrine Centaur
+1 58752U 24006B   24070.49919926 -00W2PS6U +05D1EYS6 +02AZVXBCH 22672
+2 58752                          -0008OESA +000B9V48 +0004VLNF     03
+
+# Worst residual: 6.62 km
+# MJD 60380.500000 (2024 Mar 11 12:00)
+Peregrine Centaur
+1 58752U 24006B   24071.49919926 -00Y6R06M +05FQ0X5S +02C5OW7TH 22677
+2 58752                          -0008X4XH +000B35F4 +0004SQLQ     08
+
+# Worst residual: 6.53 km
+# MJD 60381.500000 (2024 Mar 12 12:00)
+Peregrine Centaur
+1 58752U 24006B   24072.49919926 -010CUUHG +05ICYZGP +02DAS8JSH 22678
+2 58752                          -00095O6Y +000AW04Z +0004PO52     05
+
+# Worst residual: 6.44 km
+# MJD 60382.500000 (2024 Mar 13 12:00)
+Peregrine Centaur
+1 58752U 24006B   24073.49919926 -012KZDRH +05KY5IF2 +02EF47SAH 22671
+2 58752                          -0009DYCW +000AOG53 +0004MEO3     04
+
+# Worst residual: 6.47 km
+# MJD 60383.500000 (2024 Mar 14 12:00)
+Peregrine Centaur
+1 58752U 24006B   24074.49919926 -014V27KZ +05NHH46X +02FIN80KH 22673
+2 58752                          -0009LXPG +000AGIPF +0004IYTW     03
+
+# Worst residual: 6.59 km
+# MJD 60384.500000 (2024 Mar 15 12:00)
+Peregrine Centaur
+1 58752U 24006B   24075.49919926 -01770L2L +05PYUQUN +02GLBTELH 22679
+2 58752                          -0009TL2Q +000A899R +0004FDD8     09
+
+# Worst residual: 6.75 km
+# MJD 60385.500000 (2024 Mar 16 12:00)
+Peregrine Centaur
+1 58752U 24006B   24076.49919926 -019KRJHP +05SE7OWF +02HN4QLLH 22674
+2 58752                          -000A0VSB +0009ZP91 +0004BN0T     03
+
+# Worst residual: 6.88 km
+# MJD 60386.500000 (2024 Mar 17 12:00)
+Peregrine Centaur
+1 58752U 24006B   24077.49919926 -01C07ZV4 +05URHKJ8 +02IO0WEVH 22674
+2 58752                          -000A7TII +0009QVXF +00047SH4     01
+
+# Worst residual: 6.96 km
+# MJD 60387.500000 (2024 Mar 18 12:00)
+Peregrine Centaur
+1 58752U 24006B   24078.49919926 -01EHATGT +05X2MABH +02JNZD5XH 22673
+2 58752                          -000AEE5T +0009HUF3 +00043UBJ     04
+
+# Worst residual: 7.01 km
+# MJD 60388.500000 (2024 Mar 19 12:00)
+Peregrine Centaur
+1 58752U 24006B   24079.49919926 -01GZWVDG +05ZBJZSS +02KMZBYFH 22677
+2 58752                          -000AKLRK +00098LOV +0003ZT2K     02
+
+# Worst residual: 7.08 km
+# MJD 60389.500000 (2024 Mar 20 12:00)
+Peregrine Centaur
+1 58752U 24006B   24080.49919926 -01JJZ1CT +061I92AU +02LL0413H 22671
+2 58752                          -000AQGG1 +0008Z6KY +0003VP6C     04
+
+# Worst residual: 7.19 km
+# MJD 60390.500000 (2024 Mar 21 12:00)
+Peregrine Centaur
+1 58752U 24006B   24081.49919926 -01M5E8GI +063MO1Z1 +02MI1494H 22677
+2 58752                          -000AVYDH +0008PLU3 +0003RJ0Z     04
+
+# Worst residual: 7.35 km
+# MJD 60391.500000 (2024 Mar 22 12:00)
+Peregrine Centaur
+1 58752U 24006B   24082.49919926 -01OS3FG7 +065ORP1C +02NE1UPDH 22679
+2 58752                          -000B13S0 +0008FW49 +0003NAZ5     03
+
+# Worst residual: 7.54 km
+# MJD 60392.500000 (2024 Mar 23 12:00)
+Peregrine Centaur
+1 58752U 24006B   24083.49919926 -01RFZN9A +067OIV4R +02O91WBEH 22673
+2 58752                          -000B5WXJ +0008620O +0003J1C0     05
+
+# Worst residual: 7.75 km
+# MJD 60393.500000 (2024 Mar 24 12:00)
+Peregrine Centaur
+1 58752U 24006B   24084.49919926 -01U4ZZFA +069LWKOQ +02P30WJ4H 22674
+2 58752                          -000BAE5X +0007W41W +0003EQD9     09
+
+# Worst residual: 7.98 km
+# MJD 60394.500000 (2024 Mar 25 12:00)
+Peregrine Centaur
+1 58752U 24006B   24085.49919926 -01WV1MK0 +06BGVY81 +02PVYKWZH 22675
+2 58752                          -000BEJUS +0007M2NH +0003AEAW     02
+
+# Worst residual: 8.24 km
+# MJD 60395.500000 (2024 Mar 26 12:00)
+Peregrine Centaur
+1 58752U 24006B   24086.49919926 -01ZM1UPM +06D9G7L2 +02QNUOQUH 22675
+2 58752                          -000BIEF7 +0007BY5H +000361B3     02
+
+# Worst residual: 8.54 km
+# MJD 60396.500000 (2024 Mar 27 12:00)
+Peregrine Centaur
+1 58752U 24006B   24087.49919926 -022DY1OW +06EZKN2G +02REP0IEH 22673
+2 58752                          -000BLYB6 +00071QS7 +00031NHT     05
+
+# Worst residual: 8.87 km
+# MJD 60397.500000 (2024 Mar 28 12:00)
+Peregrine Centaur
+1 58752U 24006B   24088.49919926 -0256NP5Y +06GN8KHF +02S4HDENH 22677
+2 58752                          -000BP7YV +0006RGNY +0002X8WW     03
+
+# Worst residual: 9.20 km
+# MJD 60398.500000 (2024 Mar 29 12:00)
+Peregrine Centaur
+1 58752U 24006B   24089.49919926 -02804EN7 +06I8FC6B +02ST7KRWH 22670
+2 58752                          -000BS7TZ +0006H3ST +0002STJQ     08
+
+# Worst residual: 9.49 km
+# MJD 60399.500000 (2024 Mar 30 12:00)
+Peregrine Centaur
+1 58752U 24006B   24090.49919926 -02AU9VAG +06JR49ZS +02TGVFIWH 22674
+2 58752                          -000BUYB3 +00066O2L +0002ODBB     09
+
+# Worst residual: 9.67 km
+# MJD 60400.500000 (2024 Mar 31 12:00)
+Peregrine Centaur
+1 58752U 24006B   24091.49919926 -02DP1VJH +06L7AO84 +02U3GPJ1H 22677
+2 58752                          -000BXFQU +0005W58E +0002JW1Y     01
+
+# Worst residual: 9.74 km
+# MJD 60401.500000 (2024 Apr  1 12:00)
+Peregrine Centaur
+1 58752U 24006B   24092.49919926 -02GKEAIT +06MKXQFJ +02UOZ4Y8H 22676
+2 58752                          -000BZOEP +0005LIWB +0002FDJ3     00
+
+# Worst residual: 9.72 km
+# MJD 60402.500000 (2024 Apr  2 12:00)
+Peregrine Centaur
+1 58752U 24006B   24093.49919926 -02JG9144 +06NW0K6R +02V9EDIZH 22678
+2 58752                          -000C1OFG +0005ASIY +0002ATEZ     08
+
+# Worst residual: 9.73 km
+# MJD 60403.500000 (2024 Apr  3 12:00)
+Peregrine Centaur
+1 58752U 24006B   24094.49919926 -02MCK0HB +06P4I3RD +02VSPZSAH 22673
+2 58752                          -000C3FQ6 +0004ZXFK +000267AN     08
+
+# Worst residual: 9.87 km
+# MJD 60404.500000 (2024 Apr  4 12:00)
+Peregrine Centaur
+1 58752U 24006B   24095.49919926 -02P993TT +06QAD4WO +02WAXGBEH 22672
+2 58752                          -000C4XWS +0004OWT1 +00021IOF     02
+
+# Worst residual: 10.19 km
+# MJD 60405.500000 (2024 Apr  5 12:00)
+Peregrine Centaur
+1 58752U 24006B   24096.49919926 -02S6A18E +06RDK866 +02WS03A6H 22672
+2 58752                          -000C6660 +0004DPT0 +0001WR1I     04
+
+# Worst residual: 10.60 km
+# MJD 60406.500000 (2024 Apr  6 12:00)
+Peregrine Centaur
+1 58752U 24006B   24097.49919926 -02V3K9MJ +06SE1R7Q +02X7X4H8H 22678
+2 58752                          -000C736O +00042BPN +0001RVWU     03
+
+# Worst residual: 10.96 km
+# MJD 60407.500000 (2024 Apr  7 12:00)
+Peregrine Centaur
+1 58752U 24006B   24098.49919926 -02Y10WIB +06TBRYRA +02XMNO8XH 22679
+2 58752                          -000C7N6L +0003QQ4Y +0001MWZG     01
+
+# Worst residual: 11.15 km
+# MJD 60408.500000 (2024 Apr  8 12:00)
+Peregrine Centaur
+1 58752U 24006B   24099.49919926 -030YKKG7 +06U6P2BU +02Y06TESH 22673
+2 58752                          -000C7S28 +0003EX7Y +0001HU89     05
+
+# Worst residual: 11.18 km
+# MJD 60409.500000 (2024 Apr  9 12:00)
+Peregrine Centaur
+1 58752U 24006B   24100.49919926 -033W3DK0 +06UYRDDL +02YCHNZRH 22671
+2 58752                          -000C7FP7 +00032XQH +0001CNYI     00
+Avg worst resid: 7.68 km
+Worst residual in entire run: 11.18 km on MJD 60409.5
        1     3     10    30    100   300   1K    3K    10K   km
-     6    17    29     0     0     0     0     0     0     0
+     0     0    36     5     0     0     0     0     0     0
