@@ -333,10 +333,6 @@
 # ID: 79947  23999ZYW
 # Include a10zuus.tle
 
-# Range: 2023-10-01 2024-07-01
-# ID: 79946  23999ZYV
-# Include a10zv9c.tle
-
 # Range: 2023-10-01 2024-03-14
 # ID: 79945  24999ZZZ
 # Include a111b8y.tle
@@ -515,6 +511,10 @@
 # Range: 2023-11-03 2024-02-15
 # ID: 57804  23137E
 # Include 23137e.tle
+
+# Range: 2023-10-01 2024-07-01
+# ID: 57804  23137E
+# Include 23137e24.tle
 
 # Max error 0.2   (Following TLEs should be good to at least 0.2 degrees)
 
