@@ -118,14 +118,24 @@
 
 #   Following max error carefully selected so that IM-1 = 2024-030A and its
 #   Falcon 9 booster could be distinguished cleanly.  May cause trouble if
-#   somebody's off by more than 0.0025 degree = 9',  though.
+#   somebody's off by more than 0.0025 degree = 9",  though.
 # Max error 0.0025
 
 # Range: 20240215.5 20240221.5
 # ID: 58963  24030A
 # Include im1.tle
 
-# Range: 20240215.5 20250115.5
+# Range: 20240215.5 20240221.5
+# ID: 58964  24030B
+# Include 24030b_1.tle
+
+# After the IM-1 booster gets past the moon,  we need not apply such a
+# low search tolerance (and shouldn't),  so the TLEs for that object
+# are broken into "before lunar encounter" and "after encounter" files.
+
+# Max error 0.1    (resetting to a saner search threshhold)
+
+# Range: 20240221.5 20250115.5
 # ID: 58964  24030B
 # Include 24030b.tle
 

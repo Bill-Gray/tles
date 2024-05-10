@@ -49,9 +49,9 @@
 # computed and minimized the worst error over the "correct" time frame,
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
-# Ephem range: 60355.500000 60690.500000 1.000000
+# Ephem range: 60361.500000 60690.500000 1.000000
 # Created Fri May 10 08:50:55 2024
-# Ephemeris start: 15 Feb 2024 12:00:00
+# Ephemeris start: 21 Feb 2024 12:00:00
 # Ephemeris end:   15 Jan 2025 12:00:00
 # Times are all TDT
 # Positions/velocities are in equatorial J2000
@@ -68,42 +68,6 @@
 #
 # 1 NoradU COSPAR   Epoch.epoch     dn/dt/2  d2n/dt2/6 BSTAR    T El# C
 # 2 NoradU Inclina RAAscNode Eccent  ArgPeri MeanAno  MeanMotion Rev# C
-
-# Worst residual: 0.49 km
-# MJD 60355.500000 (2024 Feb 15 12:00)
-2024-030B = NORAD 58964 = Falcon 9-300 Stage 2
-1 58964U 24030B   24046.49919926 -0002UK4B +0017VXGG +000ADN45H 23220
-2 58964                          -00063BGK +000F6DCX +00065T6Y     07
-
-# Worst residual: 0.79 km
-# MJD 60356.500000 (2024 Feb 16 12:00)
-2024-030B = NORAD 58964 = Falcon 9-300 Stage 2
-1 58964U 24030B   24047.49919926 -0019A6L3 +003AIBVG +001AZ2DSH 23223
-2 58964                          -00040RA3 +0005KZHK +00035ZXS     05
-
-# Worst residual: 0.85 km
-# MJD 60357.500000 (2024 Feb 17 12:00)
-2024-030B = NORAD 58964 = Falcon 9-300 Stage 2
-1 58964U 24030B   24048.49919926 -002354GF +004B3VPT +001XITW3H 23224
-2 58964                          -0002YT43 +00035UR2 +00025BF3     04
-
-# Worst residual: 1.54 km
-# MJD 60358.500000 (2024 Feb 18 12:00)
-2024-030B = NORAD 58964 = Falcon 9-300 Stage 2
-1 58964U 24030B   24049.49919926 -002PBHI1 +004VRN51 +002D0RWTH 23225
-2 58964                          -00026WBM +0001PFEX +0001GZCQ     05
-
-# Worst residual: 5.45 km
-# MJD 60359.500000 (2024 Feb 19 12:00)
-2024-030B = NORAD 58964 = Falcon 9-300 Stage 2
-1 58964U 24030B   24050.49919926 -00358XEU +0055L0A2 +002NBGQ4H 23226
-2 58964                          -0001HZ51 +0000LQTI +0000XBNV     02
-
-# Worst residual: 155.14 km
-# MJD 60360.500000 (2024 Feb 20 12:00)
-2024-030B = NORAD 58964 = Falcon 9-300 Stage 2
-1 58964U 24030B   24051.49919926 -003F35DI +0056OLWZ +002T6O7BH 23220
-2 58964                          -0000R1FU -0000BSSV +0000FU0Q     07
 
 # Worst residual: 2767.35 km
 # MJD 60361.500000 (2024 Feb 21 12:00)
