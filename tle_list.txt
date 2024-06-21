@@ -385,10 +385,6 @@
 # Include qq2c.tle
 
 # Range: 2024-01-01 2024-07-01
-# ID: 79927  24999ZZQ
-# Include a115nru.tle
-
-# Range: 2024-01-01 2024-07-01
 # ID: 79926  24999ZZP
 # Include a11649f.tle
 
