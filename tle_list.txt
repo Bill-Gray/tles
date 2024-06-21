@@ -384,7 +384,7 @@
 # ID: 79928  24999ZZR
 # Include qq2c.tle
 
-# Range: 2024-01-01 2024-07-01
+# Range: 2024-01-01 2024-09-11
 # ID: 79926  24999ZZP
 # Include a11649f.tle
 
