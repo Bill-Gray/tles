@@ -2419,12 +2419,28 @@
 # TLEs expected: 25444
 # Include old_tles/20240108.tle
 
-# Range: 2024-01-23 2024-02-26
+# Range: 2024-01-23 2024-02-24
 # TLEs expected: 25396
 # Include old_tles/20240208.tle
 
-# Range: 2024-02-26 3000-01-01
-# TLEs expected: 24500
+# Range: 2024-02-24 2024-03-25
+# TLEs expected: 25751
+# Include old_tles/20240311.tle
+
+# Range: 2024-03-25 2024-04-26
+# TLEs expected: 25940
+# Include old_tles/20240409.tle
+
+# Range: 2024-04-26 2024-05-30
+# TLEs expected: 26104
+# Include old_tles/20240513.tle
+
+# Range: 2024-05-30 2024-06-21
+# TLEs expected: 26113
+# Include old_tles/20240616.tle
+
+# TLEs expected: 25000
+# Range: 2024-06-25 3000-01-01
 # Include all_tle.txt
 
 # We don't actually expect to get TLEs from tle_list.txt itself:
