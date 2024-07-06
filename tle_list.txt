@@ -84,6 +84,10 @@
 # ID: 56176  23053A
 # Include juice.tle
 
+# Range: 2024-05-01 2024-10-01
+# ID: 56176  23053A
+# Include 23053a.tle
+
 # Range: 20230414.6 20230801.6
 # ID: 56177  23053B
 # Include juice_b.tle
