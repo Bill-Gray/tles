@@ -148,6 +148,17 @@
 # ID: 58964  24030B
 # Include 24030b.tle
 
+   The following lines ensure that we are 'warned' of certain known
+   upcoming events.  This was prompted by the August 2024 JUICE flyby;
+   we spotted the object on 2024 July 06 and briefly thought it was a
+   largish possible impactor.  (I found that slightly embarrassing.)  In
+   the future,  I want to be nudged into adding TLEs for such known
+   returning heliocentric objects.  (And possibly of other events we
+   need to be alert for;  cislunar/heliocentric launches,  for example.)
+
+# Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
+# Warn 2028-Oct-01 | JUICE flyby in January; generate TLEs
+
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
 # Range: 2021-09-01 2022-05-01
