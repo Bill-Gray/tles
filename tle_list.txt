@@ -156,8 +156,11 @@
    returning heliocentric objects.  (And possibly of other events we
    need to be alert for;  cislunar/heliocentric launches,  for example.)
 
+# Warn 2025-Jun-01 | OSIRIS-REx flyby in September; generate TLEs
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
+# Warn 2027-Feb-01 | OSIRIS-REx flyby in March; generate TLEs
 # Warn 2028-Oct-01 | JUICE flyby in January; generate TLEs
+# Warn 2029-Feb-01 | OSIRIS-REx flyby in April; generate TLEs
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
@@ -423,7 +426,11 @@
 # ID: 79921  24999ZZK
 # Include a118fdh.tle
 
-  note : next artsat will be 79920, 23999ZYU (or 24999ZZJ)
+# Range: 2024-04-01 2024-10-11
+# ID: 79920  24999ZZJ
+# Include a117ffg.tle
+
+  note : next artsat will be 79919, 23999ZYU (or 24999ZZH)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
