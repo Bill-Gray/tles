@@ -121,7 +121,7 @@
 # ID: 57210  23092B
 # Include euclid_b.tle
 
-# Range: 2024-06-20 2024-08-15
+# Range: 2024-06-20 2025-01-01
 # ID: 59627  24083A
 # Include 24083a.tle
 
