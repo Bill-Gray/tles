@@ -155,12 +155,19 @@
    the future,  I want to be nudged into adding TLEs for such known
    returning heliocentric objects.  (And possibly of other events we
    need to be alert for;  cislunar/heliocentric launches,  for example.)
+   (2024 Aug 19 : Juan-Luis Cano told me that ESA had a similar thought,
+   and passed along a list including an additional four events.  I've
+   updated accordingly.)
 
-# Warn 2025-Jun-01 | OSIRIS-REx flyby in September; generate TLEs
+# Warn 2024-Oct-01 | Lucy flyby in December; generate TLEs
+# Warn 2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
-# Warn 2027-Feb-01 | OSIRIS-REx flyby in March; generate TLEs
+# Warn 2026-Dec-01 | Europa Clipper launch coming up; generate TLEs
+# Warn 2027-Feb-01 | OSIRIS-APEX flyby in March; generate TLEs
+# Warn 2027-Sep-01 | Hayabusa 2 flyby in December; generate TLEs
+# Warn 2028-Mar-01 | Hayabusa 2 flyby in June; generate TLEs
 # Warn 2028-Oct-01 | JUICE flyby in January; generate TLEs
-# Warn 2029-Feb-01 | OSIRIS-REx flyby in April; generate TLEs
+# Warn 2029-Feb-01 | OSIRIS-APEX flyby in April; generate TLEs
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
