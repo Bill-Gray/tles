@@ -449,7 +449,11 @@
 # ID: 79917  24999ZZF
 # Include a119h5o.tle
 
-  note : next artsat will be 79916, 23999ZYU (or 24999ZZE)
+# Range: 2024-08-01 2024-12-07
+# ID: 79916  24999ZZE
+# Include a11acbv.tle
+
+  note : next artsat will be 79915, 23999ZYU (or 24999ZZD)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
