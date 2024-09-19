@@ -38,10 +38,6 @@
 # ID: 50463  21130A
 # Include 21130a24.tle
 
-# Range: 2024-06-01 2024-11-15
-# ID: 53766  22110B
-# Include 22110b.tle
-
 # Range: 2021-12-25 2022-04-01
 # ID: 50464  21130B
 # Include 21130b.tle
@@ -451,7 +447,8 @@
 
 # Range: 2024-08-01 2024-12-07
 # ID: 79916  24999ZZE
-# Include a11acbv.tle
+# No longer used;  it's either SSA01 or SSA02,  can't tell which */
+# # Include a11acbv.tle
 
 # Range: 2024-07-01 2024-11-27
 # ID: 79915  24999ZZD
@@ -461,7 +458,20 @@
 # ID: 79914  24999ZZC
 # Include zts0275.tle
 
-  note : next artsat will be 79913, 23999ZYU (or 24999ZZB)
+# Max error 0.05  (SSA01 and SSA02 are close together;  we need to use
+#  a smaller search distance to avoid double identifications)
+
+# Range: 2024-08-01 2025-02-07
+# ID: 79913  24048ZZZ
+# Include ssa01.tle
+
+# Range: 2024-08-01 2025-02-07
+# ID: 79912  24048ZZY
+# Include ssa02.tle
+
+# Max error 3.0   (...and switching back to assuming mediocre accuracy)
+
+  note : next artsat will be 79911, 23999ZYU (or 24999ZZB)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
