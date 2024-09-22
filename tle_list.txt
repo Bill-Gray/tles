@@ -55,6 +55,9 @@
 # Range: 2022-10-13 2022-11-22
 # ID: 49328  21093A
 # Include lucy22.tle
+# Range: 2024-11-15 2025-02-01
+# ID: 49328  21093A
+# Include lucy24.tle
 
 # Range: 2021-11-25 2022-02-01
 # ID: 49497  21110A
@@ -155,7 +158,6 @@
    and passed along a list including an additional four events.  I've
    updated accordingly.)
 
-# Warn 2024-Oct-01 | Lucy flyby in December; generate TLEs
 # Warn 2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
 # Warn 2026-Dec-01 | Europa Clipper launch coming up; generate TLEs
