@@ -473,6 +473,10 @@
 
 # Max error 3.0   (...and switching back to assuming mediocre accuracy)
 
+# Range: 2024-07-01 2025-01-01
+# ID: 79911  24999ZZB
+# Include a11bp7g.tle
+
   note : next artsat will be 79911, 23999ZYU (or 24999ZZB)
 
 # Range: 2022-01-01 2022-08-01
