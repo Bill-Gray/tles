@@ -339,7 +339,7 @@
 # ID: 79955  23999ZZE
 # Include a10yhvb.tle
 
-# Range: 2023-11-09 2024-10-13
+# Range: 2023-11-09 2025-01-01
 # ID: 57770  23098C
 # Include 23098c.tle
 
