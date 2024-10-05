@@ -1815,7 +1815,10 @@
 # ID: 89972  00000ABB
 # Include ztf0ewd_23.tle
 # Range: 2024-01-01 2025-01-01
-# ID: 89972  00000ABB
+#   Space-Track apparently figured out that this was part of the
+#   1967-040 launch,  but -- like us -- couldn't figure out which
+#   part.  So they added a new 'G' designation and used that.
+# ID: 60000  67040G
 # Include ztf0ewd_24.tle
 
 # Range: 2020-08-01 2021-01-01
