@@ -124,12 +124,6 @@
 # ID: 59627  24083A
 # Include 24083a.tle
 
-# TLEs for the following Vulcan Centaur test required _extreme_ guesswork :
-
-# Range: 2024-10-04 2024-11-23
-# ID: 61448  24179A
-# Include 24179a.tle
-
 #   Following max error carefully selected so that IM-1 = 2024-030A and its
 #   Falcon 9 booster could be distinguished cleanly.  May cause trouble if
 #   somebody's off by more than 0.0025 degree = 9",  though.
@@ -148,6 +142,10 @@
 # are broken into "before lunar encounter" and "after encounter" files.
 
 # Max error 0.1    (resetting to a saner search threshhold)
+
+# Range: 2024-10-04 2025-01-01
+# ID: 61448  24179A
+# Include 24179a.tle
 
 # Range: 20240221.5 20250115.5
 # ID: 58964  24030B
