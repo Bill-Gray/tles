@@ -114,6 +114,14 @@
 # ID: 58752  24006B
 # Include 24006b.tle
 
+# Range: 2024-10-15 2024-11-24
+# ID: 61508 24182B
+# Include 24182b.tle
+
+# Range: 2024-10-15 2024-10-25
+# ID: 61507 24182A
+# Include 24182a.tle
+
 # Max error 3.0   (following TLEs for the Euclid booster involved guesswork)
 
 # Range: 2023-07-02 2023-11-01
@@ -2547,12 +2555,28 @@
 # TLEs expected: 26104
 # Include old_tles/20240513.tle
 
-# Range: 2024-05-30 2024-06-21
+# Range: 2024-05-30 2024-06-27
 # TLEs expected: 26113
 # Include old_tles/20240616.tle
 
-# TLEs expected: 25000
-# Range: 2024-06-25 3000-01-01
+# Range: 2024-06-27 2024-07-24
+# TLEs expected: 26388
+# Include old_tles/20240709.tle
+
+# Range: 2024-07-24 2024-08-24
+# TLEs expected: 26400
+# Include old_tles/20240808.tle
+
+# Range: 2024-08-24 2024-09-23
+# TLEs expected: 26808
+# Include old_tles/20240909.tle
+
+# Range: 2024-09-23 2024-10-12
+# TLEs expected: 27020
+# Include old_tles/20241007.tle
+
+# TLEs expected: 26000
+# Range: 2024-10-12 3000-01-01
 # Include all_tle.txt
 
 # We don't actually expect to get TLEs from tle_list.txt itself:
