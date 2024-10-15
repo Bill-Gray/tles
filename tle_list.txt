@@ -115,11 +115,11 @@
 # Include 24006b.tle
 
 # Range: 2024-10-15 2024-11-24
-# ID: 61508 24182B
+# ID: 61508  24182B
 # Include 24182b.tle
 
 # Range: 2024-10-15 2024-10-25
-# ID: 61507 24182A
+# ID: 61507  24182A
 # Include 24182a.tle
 
 # Max error 3.0   (following TLEs for the Euclid booster involved guesswork)
