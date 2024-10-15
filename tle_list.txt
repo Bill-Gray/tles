@@ -179,12 +179,16 @@
    updated accordingly.)
 
 # Warn 2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
+# Warn 2025-Sep-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
-# Warn 2026-Dec-01 | Europa Clipper launch coming up; generate TLEs
+# Warn 2026-Nov-10 | 2024-179A = Vulcan Centaur test returning
+# Warn 2026-Dec-01 | Europa Clipper flyby coming up; generate TLEs
 # Warn 2027-Feb-01 | OSIRIS-APEX flyby in March; generate TLEs
 # Warn 2027-Sep-01 | Hayabusa 2 flyby in December; generate TLEs
+# Warn 2027-Dec-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2028-Mar-01 | Hayabusa 2 flyby in June; generate TLEs
 # Warn 2028-Oct-01 | JUICE flyby in January; generate TLEs
+# Warn 2028-Dec-23 | 2024-179A = Vulcan Centaur test returning
 # Warn 2029-Feb-01 | OSIRIS-APEX flyby in April; generate TLEs
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
