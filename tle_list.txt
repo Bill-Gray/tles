@@ -144,6 +144,10 @@
 # ID: 54260  22157B
 # Include 22157b.tle
 
+# Range: 2024-11-05 2024-12-01
+# ID: 55509  23017B
+# Include 23017b.tle
+
 #   Following max error carefully selected so that IM-1 = 2024-030A and its
 #   Falcon 9 booster could be distinguished cleanly.  May cause trouble if
 #   somebody's off by more than 0.0025 degree = 9",  though.
