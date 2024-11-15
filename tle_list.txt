@@ -186,18 +186,30 @@
    and passed along a list including an additional four events.  I've
    updated accordingly.)
 
+# Warn 2025-Feb-01 | WMAP returns in early April
 # Warn 2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
 # Warn 2025-Sep-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
 # Warn 2026-Nov-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2026-Dec-01 | Europa Clipper flyby coming up; generate TLEs
 # Warn 2027-Feb-01 | OSIRIS-APEX flyby in March; generate TLEs
+# Warn 2027-Mar-01 | Planck returns in early June
+# Warn 2027-Aug-01 | Herschel returns in late October
 # Warn 2027-Sep-01 | Hayabusa 2 flyby in December; generate TLEs
 # Warn 2027-Dec-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2028-Mar-01 | Hayabusa 2 flyby in June; generate TLEs
 # Warn 2028-Oct-01 | JUICE flyby in January; generate TLEs
 # Warn 2028-Dec-23 | 2024-179A = Vulcan Centaur test returning
 # Warn 2029-Feb-01 | OSIRIS-APEX flyby in April; generate TLEs
+# Warn 2032-Jun-01 | J002E3 = Apollo 12 SIV-B returns Jul
+# Warn 2033-Nov-01 | 2010-050B = Chang'e-2 booster returns Dec
+# Warn 2034-Sep-01 | 2009-026B = Herschel/Planck booster returns Dec
+# Warn 2035-Aug-01 | RK252A5 = 2010 KQ returns
+# Warn 2036-Mar-01 | 2020 SO = Surveyor 2 stage returns
+# Warn 2037-May-01 | 2018 AV returns July
+# Warn 2038-Apr-01 | 2019-040B = Spektr-RG booster returns June
+# Warn 2041-Sep-01 | 2018-103B = Chang'e-4 booster returns Nov
+# Warn 2044-Oct-01 | 2024-030B returns in April
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
