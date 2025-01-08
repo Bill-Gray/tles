@@ -477,12 +477,6 @@
 # ID: 79925  24999ZZO
 # Include a116cgx.tle
 
-# Re-designation occurred : 2024-048Z = A116CgX
-
-# Range: 2025-01-01 2026-01-01
-# ID: 99999  24048Z
-# Include 24048z25.tle
-
 # Range: 2024-03-01 2024-11-07
 # ID: 79924  24999ZZN
 # Include a116xpy.tle
