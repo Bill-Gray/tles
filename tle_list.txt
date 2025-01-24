@@ -173,6 +173,14 @@
 # ID: 99998  25010F
 # Include a11hsi4.tle
 
+# Range: 2025-01-22 2025-06-01
+# ID: 99999  01027AA
+# Include wmap.tle
+
+# Range: 2025-01-22 2025-06-01
+# ID: 26859  01027A
+# Include wmap2.tle
+
 #   Following max error carefully selected so that IM-1 = 2024-030A and its
 #   Falcon 9 booster could be distinguished cleanly.  May cause trouble if
 #   somebody's off by more than 0.0025 degree = 9",  though.
@@ -211,7 +219,7 @@
    and passed along a list including an additional four events.  I've
    updated accordingly.)
 
-# Warn 2025-Feb-01 | WMAP returns in early April
+# Warn 2025-Mar-15 | WMAP returns in early April
 # Warn 2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
 # Warn 2025-Sep-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
