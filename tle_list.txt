@@ -615,7 +615,11 @@
 # ID: 79898  24999ZYP
 # Include a11evs8.tle
 
-  note : next artsat will be 79897,  24999ZYN
+# Range: 2024-12-01 2025-01-30
+# ID: 79897  25000ZZZ
+# Include a11iash.tle
+
+  note : next artsat will be 79896,  25000ZZY (or 24999ZYN)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
