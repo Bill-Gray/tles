@@ -132,6 +132,10 @@
 # ID: 61507  24182A
 # Include 24182a.tle
 
+# Range: 2018-02-07 2018-03-30
+# ID: 43205  18017A
+# Include 18017a.tle
+
 # Max error 3.0   (following TLEs for the Euclid booster involved guesswork)
 
 # Range: 2023-07-02 2023-11-01
