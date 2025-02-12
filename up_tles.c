@@ -116,6 +116,7 @@ int main( const int argc, const char **argv)
          while( !got_elements && fgets( ibuff, sizeof( ibuff), add_file))
             if( !memcmp( ibuff, "# Orbital elements:", 19))
                {
+               fprintf( ofile, "%s", ibuff);
                while( strlen( ibuff) > 4 && fgets( ibuff, sizeof( ibuff), add_file))
                    fprintf( ofile, "%s", ibuff);
                got_elements = 1;
