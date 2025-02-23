@@ -631,10 +631,6 @@
 # ID: 79897  25000ZZZ
 # Include a11iash.tle
 
-# Range: 2025-01-01 2025-06-22
-# ID: 79896  25000ZZY
-# Include c44dva1.tle
-
 # Range: 2025-01-01 2025-05-17
 # ID: 79895  25000ZZX
 # Include a11itwu.tle
