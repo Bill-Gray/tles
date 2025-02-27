@@ -1,5 +1,5 @@
-# Made by eph2tle, compiled Oct 15 2024 16:52:11
-# Run at Thu Oct 17 16:41:23 2024
+# Made by eph2tle, compiled Feb  2 2025 14:11:09
+# Run at Thu Feb 27 22:10:03 2025 UTC
 #
 # No updates
 #
@@ -52,323 +52,399 @@
 # but the ephemeris may (or may not) diverge wildly outside of it.
 #
 # Ephem range: 60590.700000 60640.700000 1.000000
-# Created Thu Oct 17 16:39:42 2024
-# Ephemeris start:  7 Oct 2024 16:48:00
-# Ephemeris end:   26 Nov 2024 16:48:00
-# Times are all TDT
-# Positions/velocities are in equatorial J2000
-# Orbital elements:  Hera upper stage
-#    Perigee 2024 Oct 7.6573 +/- 3.08e-5 TT = 15:46:30 (JD 2460591.1573)
-# Epoch 2024 Oct  9.0 TT = JDT 2460592.5                           Find_Orb
-# q  6562.7927 +/- 1.88               (J2000 equator)
-# H   25.40 G 0.15                    Peri.  321.2001 +/- 0.009
-#                                     Node    34.6864 +/- 0.0042
-# e   1.516564 +/- 0.000308           Incl.   34.0665 +/- 0.000050
-# 48 of 65 observations 2024 Oct. 7-9; mean residual 1".484
+# Created from Horizons data by 'jpl2mpc', ver Feb 27 2025, at Thu Feb 27 22:09:44 2025 UTC
+# ******************************************************************************
+#  Revised: Feb 05, 2025                  Hera / (Sun)                       -91
+#                https://www.dlr.de/en/ar/topics-missions/space-safety/hera
+#                  https://esamultimedia.esa.int/docs/HERA_Launch_Kit.pdf
+#
+#  Launch Date:                                            Didymos Arrival Date:
+#   2024-Oct-07 14:52 UTC                                     Late 2026
+#
+#  Launch Vehicle:                                         Launch Site:
+#   SpaceX Falcon 9                                         Cape Canaveral, SFS
+#
+#  MILESTONES
+#    2024-Nov   : DSM-1
+#    2025-Mar   : Mars flyby (~6000 km from Mars, ~1000 km from Deimos)
+#    2026-Feb   : DSM-2
+#    2026-Oct   : Rendevous maneuver
+#    Late 2026  : Didymos/Dimorphos system arrival
+#
+#  OBJECTIVES:
+#   Assess the size and depth of the crater on the 151-m diameter asteroidal moon
+#   Dimorphos, created by NASA's DART (Double Asteroid Redirection Test)
+#   spacecraft 2022-Sep-26, and determine whether the impact reshaped the rubble
+#   pile object that orbits 65803 Didymos at a distance of 1.1 km every 11h 22m,
+#   as preliminary results indicate.
+#
+#   Once deployed, two CubeSats ("Milani" and "Juventas") will be used to assess
+#   Dimorphos' internal structure, surface minerals, as well as gravity. The data
+#   will help correctly reproduce the asteroid's final structure and inform
+#   future planetary defense missions.
+#
+#  SPACECRAFT PHYSICAL PROPERTIES:
+#   1.6 x 1.6 x 1.7 m box
+#   Two 5-m solar panel arms (deployed)
+#   1801 kg fully fueled (hydrazine bipropellant)
+#   3-axis stabilization
+#     4 reaction wheels, gyroscopes, star trackers, solar sensors
+#
+#  SCIENCE INSTRUMENTS
+#    Asteroid Framing Camera (AFC)
+#    Thermal Infrared Imager (TIRI)
+#    HyperScout-H camera
+#    Spacecraft Monitoring Camera (SMC)
+#    Laser Rangefinder
+#    X-band antenna radio science
+#    Gravimeter for the Investigation of Small Solar System
+#    Two deployable CubeSats (eventual landing)
+#     Juventas: Radar
+#     Juventas: Narrow Angle Camera
+#     Milani  : Narrow Angle Camera
+#     Milani  : Asteroid Spectral Imager
+#     Milani  : Volatile In-Situ Thermogravimetre Analyser
+#
+#  SPACECRAFT TRAJECTORY:
+#   Post-launch tracking-data based trajectory from ESA 2025-Jan-27.
+#   Prediction thereafter.
+#
+#    Name                                    Start (TDB)          Stop (TDB)
+#    --------------------------------------- -----------------  -----------------
+#    hera_fcp_000038_241007_261118_v02       2024-Oct-07 16:10  2026-Nov-18 01:59
+# *******************************************************************************
+#
+#
+# *******************************************************************************
+# Ephemeris / WWW_USER Thu Feb 27 14:08:30 2025 Pasadena, USA      / Horizons
+# *******************************************************************************
+# Target body name: Hera (spacecraft) (-91)         {source: hera_current}
+# Center body name: Earth (399)                     {source: DE441}
+# Center-site name: BODY CENTER
+# *******************************************************************************
+# Start time      : A.D. 2024-Oct-07 16:48:00.0000 TDB
+# Stop  time      : A.D. 2024-Nov-26 16:48:00.0000 TDB
+# Step-size       : 500 steps
+# *******************************************************************************
+# Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+# Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+# Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}
+# Output units    : KM-S
+# Calendar mode   : Mixed Julian/Gregorian
+# Output type     : GEOMETRIC cartesian states
+# Output format   : 2 (position and velocity)
+# EOP file        : eop.250226.p250525
+# EOP coverage    : DATA-BASED 1962-JAN-20 TO 2025-FEB-26. PREDICTS-> 2025-MAY-24
+# Reference frame : Ecliptic of J2000.0
+# *******************************************************************************
+# JDTDB
+#    X     Y     Z
+#    VX    VY    VZ
+# *******************************************************************************
 #
 # 1 NoradU COSPAR   Epoch.epoch     dn/dt/2  d2n/dt2/6 BSTAR    T El# C
 # 2 NoradU Inclina RAAscNode Eccent  ArgPeri MeanAno  MeanMotion Rev# C
 
-# Worst residual: 7.06 km
+# Worst residual: 5.90 km
 # MJD 60590.700000 (2024 Oct  7 16:48)
-Hera upper stage
-1 99999U 24180Z   24281.69919926 -0002TJ8L +000FH796 +0009N2XOH 24829
-2 99999                          -000L2279 +000USHMF +000P5AYS     03
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24281.69919926 -0002SO18 +000FF5PZ +0009LZ4IH 26152
+2 61449                          -000L2DBV +000UTS99 +000P5SDL     02
 
-# Worst residual: 29.58 km
+# Worst residual: 29.48 km
 # MJD 60591.700000 (2024 Oct  8 16:48)
-Hera upper stage
-1 99999U 24180Z   24282.69919926 -004EML1S +0060L6BG +0050Y1MMH 24820
-2 99999                          -000HFJYC +000MAPWB +000J1X70     06
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24282.69919926 -004ELWCM +0060L9OG +0050UMRAH 26158
+2 61449                          -000HFJO6 +000MAWWY +000J1ME3     07
 
-# Worst residual: 2.05 km
+# Worst residual: 1.74 km
 # MJD 60592.700000 (2024 Oct  9 16:48)
-Hera upper stage
-1 99999U 24180Z   24283.69919926 -008KAYGZ +00BBZ0DW +009KHO60H 24821
-2 99999                          -000H94UN +000M1YYL +000IUH1I     03
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24283.69919926 -008KA6G9 +00BC0RGE +009KBNT8H 26155
+2 61449                          -000H94EE +000M25U2 +000IU68D     03
 
-# Worst residual: 1.19 km
+# Worst residual: 2.65 km
 # MJD 60593.700000 (2024 Oct 10 16:48)
-Hera upper stage
-1 99999U 24180Z   24284.69919926 -00CP31TP +00GM2QMJ +00E2XN3FH 24820
-2 99999                          -000H70S8 +000LYKQ3 +000IRISF     06
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24284.69919926 -00CP25FA +00GM6532 +00E2P1IYH 26152
+2 61449                          -000H708C +000LYRM5 +000IR813     09
 
-# Worst residual: 1.35 km
+# Worst residual: 1.04 km
 # MJD 60594.700000 (2024 Oct 11 16:48)
-Hera upper stage
-1 99999U 24180Z   24285.69919926 -00GTJ74Z +00LVJDDQ +00IKTHY8H 24829
-2 99999                          -000H66AR +000LWD9X +000IPLQB     09
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24285.69919926 -00GTI7LO +00LVOIM6 +00IKID7IH 26157
+2 61449                          -000H66HA +000LWLGE +000IPBNP     09
 
-# Worst residual: 1.73 km
+# Worst residual: 1.42 km
 # MJD 60595.700000 (2024 Oct 12 16:48)
-Hera upper stage
-1 99999U 24180Z   24286.69919926 -00KXUR53 +00R4IH23 +00N2A8VYH 24828
-2 99999                          -000H5W40 +000LUFQ8 +000INYGE     05
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24286.69919926 -00KXTSUC +00R4PL97 +00N1WPDUH 26159
+2 61449                          -000H5W7T +000LUNZ5 +000INOG1     05
 
-# Worst residual: 2.25 km
+# Worst residual: 5.45 km
 # MJD 60596.700000 (2024 Oct 13 16:48)
-Hera upper stage
-1 99999U 24180Z   24287.69919926 -00P258KV +00WD0SHK +00RJCVX1H 24828
-2 99999                          -000H5W4Y +000LSG5D +000IMB4J     06
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24287.69919926 -00P24AVD +00WD9W93 +00RIWY73H 26156
+2 61449                          -000H5W62 +000LSOGW +000IM16G     07
 
-# Worst residual: 2.80 km
+# Worst residual: 2.56 km
 # MJD 60597.700000 (2024 Oct 14 16:48)
-Hera upper stage
-1 99999U 24180Z   24288.69919926 -00T6GCRX +011L132E +00W00SLKH 24827
-2 99999                          -000H60IA +000LQ8W3 +000IKJ5X     00
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24288.69919926 -00T6FJ29 +011LCCY8 +00VZIKHUH 26157
+2 61449                          -000H6209 +000LQJJI +000IKAJ4     08
 
-# Worst residual: 3.24 km
+# Worst residual: 3.03 km
 # MJD 60598.700000 (2024 Oct 15 16:48)
-Hera upper stage
-1 99999U 24180Z   24289.69919926 -00XASL3H +016SH442 +010G8JC8H 24821
-2 99999                          -000H64NX +000LNQY5 +000IIK4W     07
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24289.69919926 -00XAS42V +016SUYBD +010FO8XAH 26153
+2 61449                          -000H663V +000LO1O1 +000IIBKG     04
 
-# Worst residual: 3.42 km
+# Worst residual: 3.23 km
 # MJD 60599.700000 (2024 Oct 16 16:48)
-Hera upper stage
-1 99999U 24180Z   24290.69919926 -011F5DJS +01BZA43O +014VY8WPH 24824
-2 99999                          -000H64G1 +000LKWVF +000IGCRN     09
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24290.69919926 -011F58RV +01BZQJ78 +014VBWR9H 26158
+2 61449                          -000H65U2 +000LL7NP +000IG49N     00
 
-# Worst residual: 3.36 km
+# Worst residual: 4.13 km
 # MJD 60600.700000 (2024 Oct 17 16:48)
-Hera upper stage
-1 99999U 24180Z   24291.69919926 -015JH74X +01H5D4E1 +019B3US4H 24822
-2 99999                          -000H5VWX +000LHQFI +000IDWLX     03
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24291.69919926 -015JHE5G +01H5W4Z9 +019AFHIFH 26154
+2 61449                          -000H5X93 +000LI1AA +000IDO6L     01
 
-# Worst residual: 3.25 km
+# Worst residual: 3.06 km
 # MJD 60601.700000 (2024 Oct 18 16:48)
-Hera upper stage
-1 99999U 24180Z   24292.69919926 -019NPMBD +01MAN8VH +01DPN9FWH 24827
-2 99999                          -000H5BIJ +000LE8ET +000IB7US     08
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24292.69919926 -019NQ5XG +01MB8YIG +01DOWV4XH 26154
+2 61449                          -000H5DET +000LEKRE +000IAZ8J     00
 
-# Worst residual: 3.32 km
+# Worst residual: 3.13 km
 # MJD 60602.700000 (2024 Oct 19 16:48)
-Hera upper stage
-1 99999U 24180Z   24293.69919926 -01DRRFB5 +01RF1VV7 +01I3IHA7H 24825
-2 99999                          -000H4CAX +000LAGDW +000I8B6O     06
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24293.69919926 -01DRSF2G +01RFQKI1 +01I2Q0UUH 26154
+2 61449                          -000H4E56 +000LASSX +000I82N9     01
 
-# Worst residual: 3.67 km
+# Worst residual: 3.49 km
 # MJD 60603.700000 (2024 Oct 20 16:48)
-Hera upper stage
-1 99999U 24180Z   24294.69919926 -01HVIS5H +01WIIVHP +01MGNPYFH 24828
-2 99999                          -000H2W3I +000L6GE1 +000I57KG     02
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24294.69919926 -01HVK7KB +01WJAJPG +01MFT83VH 26158
+2 61449                          -000H2XVP +000L6SVI +000I4Z41     04
 
-# Worst residual: 4.23 km
+# Worst residual: 4.05 km
 # MJD 60604.700000 (2024 Oct 21 16:48)
-Hera upper stage
-1 99999U 24180Z   24295.69919926 -01LYVFAG +021L0KBE +01QT1G2KH 24829
-2 99999                          -000H0XGE +000L2ALY +000I1Y2Z     03
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24295.69919926 -01LYX9UN +021LV8OS +01QS4XJ2H 26156
+2 61449                          -000H0Z6G +000L2N5Q +000I1PPL     01
 
-# Worst residual: 4.84 km
+# Worst residual: 1760.23 km
 # MJD 60605.700000 (2024 Oct 22 16:48)
-Hera upper stage
-1 99999U 24180Z   24296.69919926 -01Q1OTEY +026MHTMJ +01V4MDJDH 24827
-2 99999                          -000GYFJ3 +000KY15Y +000HYJSA     07
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24296.69919926 -01Q1R2LT +026NFIPT +01V3NV1ZH 26156
+2 61449                          -000GYH6X +000KYDS6 +000HYBI6     05
 
-# Worst residual: 5.33 km
+# Worst residual: 5.15 km
 # MJD 60606.700000 (2024 Oct 23 16:48)
-Hera upper stage
-1 99999U 24180Z   24297.69919926 -01U3U9SN +02BMY0A4 +01ZFDH26H 24821
-2 99999                          -000GVDVS +000KTPZU +000HV1ND     09
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24297.69919926 -01U5I3MR +02BPB34I +01ZEU8IAH 26157
+2 61449                          -000HI28V +000LD7J3 +000I1N9X     07
 
-# Worst residual: 5.66 km
+# Worst residual: 5.49 km
 # MJD 60607.700000 (2024 Oct 24 16:48)
-Hera upper stage
-1 99999U 24180Z   24298.69919926 -01Y5711O +02GMCX23 +023P9XAZH 24820
-2 99999                          -000GRSBD +000KPEUJ +000HRGJO     08
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24298.69919926 -01YCARUN +02GTECLI +023QBPXXH 26159
+2 61449                          -000HEGKL +000L8W77 +000HY26D     07
 
-# Worst residual: 5.86 km
+# Worst residual: 5.70 km
 # MJD 60608.700000 (2024 Oct 25 16:48)
-Hera upper stage
-1 99999U 24180Z   24299.69919926 -0225MAPS +02LKQR34 +027YB43AH 24829
-2 99999                          -000GNMRJ +000KL5B0 +000HNT9H     02
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24299.69919926 -022I5X8P +02LWGGEB +0280XXGLH 26151
+2 61449                          -000HAATY +000L4M5Z +000HUES8     04
 
-# Worst residual: 6.00 km
+# Worst residual: 5.84 km
 # MJD 60609.700000 (2024 Oct 26 16:48)
-Hera upper stage
-1 99999U 24180Z   24300.69919926 -0264ZA66 +02QI42N7 +02C6GLRBH 24825
-2 99999                          -000GIX8X +000KGYU3 +000HK4IY     03
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24300.69919926 -026MYQAZ +02QYHW7N +02CAOEG5H 26159
+2 61449                          -000H5L0A +000L0EWY +000HQPTY     02
 
-# Worst residual: 6.15 km
+# Worst residual: 6.01 km
 # MJD 60610.700000 (2024 Oct 27 16:48)
-Hera upper stage
-1 99999U 24180Z   24301.69919926 -02A3576W +02VEHSBT +02GDQ4Q2H 24822
-2 99999                          -000GDNUB +000KCWTT +000HGF0Q     08
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24301.69919926 -02AQKDN8 +02VZJI6R +02GJIUF8H 26154
+2 61449                          -000H0B54 +000KWBUN +000HN00B     06
 
-# Worst residual: 6.37 km
+# Worst residual: 6.23 km
 # MJD 60611.700000 (2024 Oct 28 16:48)
-Hera upper stage
-1 99999U 24180Z   24302.69919926 -02DZZAIO +0309X4HH +02KK3L6NH 24829
-2 99999                          -000G7UOZ +000K90M6 +000HCPEC     00
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24302.69919926 -02ESU2JH +030ZMGE7 +02KRH4R2H 26159
+2 61449                          -000GUHCJ +000KSEBT +000HJ9Z8     04
 
-# Worst residual: 6.65 km
+# Worst residual: 6.52 km
 # MJD 60612.700000 (2024 Oct 29 16:48)
-Hera upper stage
-1 99999U 24180Z   24303.69919926 -02HVCUH9 +0354FMRZ +02OPL0VXH 24826
-2 99999                          -000G1I0Y +000K5BHF +000H90AI     03
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24303.69919926 -02ITN1LB +035YS8DY +02OYJAFBH 26159
+2 61449                          -000GO3TJ +000KONNI +000HFKDP     00
 
-# Worst residual: 6.96 km
+# Worst residual: 6.85 km
 # MJD 60613.700000 (2024 Oct 30 16:48)
-Hera upper stage
-1 99999U 24180Z   24304.69919926 -02LP57PL +039Y35Q8 +02SU6MW3H 24825
-2 99999                          -000FUM5F +000K1UNR +000H5CAS     09
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24304.69919926 -02MSULG1 +03AX2MSQ +02T4PHUCH 26153
+2 61449                          -000GH6U9 +000KL52W +000HBVTQ     09
 
-# Worst residual: 7.27 km
+# Worst residual: 7.17 km
 # MJD 60614.700000 (2024 Oct 31 16:48)
-Hera upper stage
-1 99999U 24180Z   24305.69919926 -02PH7TWY +03EQXU6V +02WXWRAGH 24823
-2 99999                          -000FN7GS +000JYNAY +000H1PZF     06
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24305.69919926 -02QQC3L7 +03FUJQSU +02XA02J0H 26159
+2 61449                          -000G9QS5 +000KHVSM +000H88VZ     07
 
-# Worst residual: 7.55 km
+# Worst residual: 7.46 km
 # MJD 60615.700000 (2024 Nov  1 16:48)
-Hera upper stage
-1 99999U 24180Z   24306.69919926 -02T7G8L8 +03JJ22NU +0310RUUFH 24820
-2 99999                          -000FFAG6 +000JVQHJ +000GY5V2     01
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24306.69919926 -02ULZ134 +03KR9XG5 +031EFGS1H 26153
+2 61449                          -000G1S3J +000KEWW6 +000H4O3J     04
 
-# Worst residual: 7.80 km
+# Worst residual: 7.72 km
 # MJD 60616.700000 (2024 Nov  2 16:48)
-Hera upper stage
-1 99999U 24180Z   24307.69919926 -02WVQ3MA +03OAIIGP +0352SIJVH 24823
-2 99999                          -000F6VMW +000JT56F +000GUOEC     05
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24307.69919926 -02YFMZ7E +03PNBSUU +035I098JH 26159
+2 61449                          -000FTBAY +000KC9DI +000H15XG     02
 
-# Worst residual: 8.02 km
+# Worst residual: 7.95 km
 # MJD 60617.700000 (2024 Nov  3 16:48)
-Hera upper stage
-1 99999U 24180Z   24308.69919926 -030HX7OT +03T1E0TH +0393ZF5BH 24820
-2 99999                          -000EXZLF +000JQW8H +000GR9ZR     05
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24308.69919926 -03277NU0 +03UIS7AG +039KR4E7H 26155
+2 61449                          -000FKCY9 +000K9Y4M +000GXQSR     09
 
-# Worst residual: 8.23 km
+# Worst residual: 8.17 km
 # MJD 60618.700000 (2024 Nov  4 16:48)
-Hera upper stage
-1 99999U 24180Z   24309.69919926 -0341XIGE +03XRRNV8 +03D4DCL3H 24826
-2 99999                          -000EOMWK +000JP0EI +000GNYZL     08
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24309.69919926 -035WKXOV +03ZDQ673 +03DMOU2YH 26156
+2 61449                          -000FAXLM +000K7ZXB +000GUF27     03
 
-# Worst residual: 8.43 km
+# Worst residual: 368.89 km
 # MJD 60619.700000 (2024 Nov  5 16:48)
-Hera upper stage
-1 99999U 24180Z   24310.69919926 -037JN2H2 +042HQNOI +03H3Z5IDH 24820
-2 99999                          -000EEU47 +000JNIB5 +000GKRO0     04
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24310.69919926 -039JMS9Z +04488X7S +03HNU8XVH 26159
+2 61449                          -000F11SK +000K6FFE +000GR70H     02
 
-# Worst residual: 8.62 km
+# Worst residual: 8.57 km
 # MJD 60620.700000 (2024 Nov  6 16:48)
-Hera upper stage
-1 99999U 24180Z   24311.69919926 -03AYY2W6 +0477EDAU +03L2TQQPH 24824
-2 99999                          -000E4LQI +000JMEH7 +000GHO91     09
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24311.69919926 -03D4JYDW +0492NC65 +03LOBBHCH 26153
+2 61449                          -000EU34F +000K7MWH +000GP1K0     02
 
-# Worst residual: 8.80 km
+# Worst residual: 8.77 km
 # MJD 60621.700000 (2024 Nov  7 16:48)
-Hera upper stage
-1 99999U 24180Z   24312.69919926 -03EBQUW0 +04BWU9TM +03P0Y2SJH 24822
-2 99999                          -000DTY6O +000JLPBO +000GEOWP     04
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24312.69919926 -03GNGGK2 +04DX6EV0 +03PO78RUH 26151
+2 61449                          -000EJBRW +000K6VCF +000GM1J6     00
 
-# Worst residual: 9.00 km
+# Worst residual: 8.98 km
 # MJD 60622.700000 (2024 Nov  8 16:48)
-Hera upper stage
-1 99999U 24180Z   24313.69919926 -03HLXSSA +04GM5XJF +03SYD5ESH 24822
-2 99999                          -000DIVRI +000JLF6B +000GBTRC     04
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24313.69919926 -03K3Q614 +04IRKO3I +03TNDQWZH 26156
+2 61449                          -000E8550 +000K6ITS +000GJ5QS     06
 
-# Worst residual: 9.27 km
+# Worst residual: 9.26 km
 # MJD 60623.700000 (2024 Nov  9 16:48)
-Hera upper stage
-1 99999U 24180Z   24314.69919926 -03KTFCSK +04LBGZ80 +03WV3Z74H 24825
-2 99999                          -000D7ELJ +000JLKA7 +000G92VV     03
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24314.69919926 -03NH9FDW +04NLXR3W +03XLVUX6H 26158
+2 61449                          -000DWJC4 +000K6LMY +000GGEA9     06
 
 # Worst residual: 9.62 km
 # MJD 60624.700000 (2024 Nov 10 16:48)
-Hera upper stage
-1 99999U 24180Z   24315.69919926 -03NY3Z8M +04Q0V3OI +040R7LDPH 24826
-2 99999                          -000CVIKT +000JM4VN +000G6GCR     08
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24315.69919926 -03QRYLAF +04SGDDGS +041JQMKGH 26153
+2 61449                          -000DKI97 +000K741G +000GDR8O     03
 
-# Worst residual: 10.02 km
+# Worst residual: 10.03 km
 # MJD 60625.700000 (2024 Nov 11 16:48)
-Hera upper stage
-1 99999U 24180Z   24316.69919926 -03QZW2A2 +04UQG1WB +044MP1W2H 24828
-2 99999                          -000CJ7AZ +000JN593 +000G3Y9R     04
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24316.69919926 -03TZPY8A +04XAZB7O +045GZ4H2H 26159
+2 61449                          -000D81HU +000K82CZ +000GB8QC     04
 
 # Worst residual: 10.37 km
 # MJD 60626.700000 (2024 Nov 12 16:48)
-Hera upper stage
-1 99999U 24180Z   24317.69919926 -03TYNVAD +04ZGBO3C +048HLFY5H 24823
-2 99999                          -000C6G2N +000JOLVY +000G1KUD     07
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24317.69919926 -03X4FNWY +0525VFWX +049DMGOIH 26155
+2 61449                          -000CV4CU +000K9H45 +000G8UZC     07
 
-# Worst residual: 10.52 km
+# Worst residual: 10.54 km
 # MJD 60627.700000 (2024 Nov 13 16:48)
-Hera upper stage
-1 99999U 24180Z   24318.69919926 -03WUBGFS +0546LY21 +04CBXXCKH 24822
-2 99999                          -000BT7XV +000JQJM7 +000FZCH2     04
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24318.69919926 -0405ZOWD +05715T01 +04D9PTXUH 26155
+2 61449                          -000CHPWE +000KBD64 +000G6MEO     03
 
-# Worst residual: 10.43 km
+# Worst residual: 10.45 km
 # MJD 60628.700000 (2024 Nov 14 16:48)
-Hera upper stage
-1 99999U 24180Z   24319.69919926 -03ZMQNC4 +058XF4SC +04G5RSGKH 24821
-2 99999                          -000BFHWM +000JSZR6 +000FX9TT     03
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24319.69919926 -04349R86 +05BWYPDY +04H5AJPBH 26153
+2 61449                          -000C3T4T +000KDRVD +000G4JOT     08
 
-# Worst residual: 10.21 km
+# Worst residual: 10.25 km
 # MJD 60629.700000 (2024 Nov 15 16:48)
-Hera upper stage
-1 99999U 24180Z   24320.69919926 -042BT1LG +05DOVUXA +04JZ4IOMH 24820
-2 99999                          -000B1963 +000JW053 +000FVDV7     02
-
-# Worst residual: 10.05 km
-# MJD 60630.700000 (2024 Nov 16 16:48)
-Hera upper stage
-1 99999U 24180Z   24321.69919926 -044XE3UB +05IH58Z6 +04NS1UTQH 24821
-2 99999                          -000AMHEY +000JZN1M +000FTPSH     09
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24320.69919926 -045Z5D17 +05GTETWI +04L0E4KWH 26152
+2 61449                          -000BPD9M +000KGR38 +000G2NSW     09
 
 # Worst residual: 10.09 km
+# MJD 60630.700000 (2024 Nov 16 16:48)
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24321.69919926 -048QHVK9 +05LQNDI5 +04OV2CPAH 26155
+2 61449                          -000BADZZ +000KKD4H +000G0ZYO     01
+
+# Worst residual: 10.14 km
 # MJD 60631.700000 (2024 Nov 17 16:48)
-Hera upper stage
-1 99999U 24180Z   24322.69919926 -047FDARA +05NAD062 +04RKLUQ7H 24827
-2 99999                          -000A76ZO +000K3YY7 +000FSAXK     01
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24322.69919926 -04BE6O8J +05QOU447 +04SPDBCRH 26151
+2 61449                          -000AUVOW +000KOOHI +000FZLIG     07
 
-# Worst residual: 10.35 km
+# Worst residual: 10.41 km
 # MJD 60632.700000 (2024 Nov 18 16:48)
-Hera upper stage
-1 99999U 24180Z   24323.69919926 -049TM90W +05S4PF67 +04VCUVRNH 24821
-2 99999                          -0009REXF +000K92AQ +000FR6LU     04
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24323.69919926 -04DY3AM6 +05VO5FCQ +04WJDFGPH 26157
+2 61449                          -000AEVE4 +000KTRN7 +000FYHS4     02
 
-# Worst residual: 10.69 km
+# Worst residual: 10.76 km
 # MJD 60633.700000 (2024 Nov 19 16:48)
-Hera upper stage
-1 99999U 24180Z   24324.69919926 -04C40WTG +05X0DCSU +04Z4VM8EH 24823
-2 99999                          -0009B6TR +000KEZA4 +000FQE0A     07
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24324.69919926 -04GE3LWC +060OS96V +050D5EYZH 26159
+2 61449                          -0009YEPW +000KZOTE +000FXPZ1     07
 
-# Worst residual: 10.99 km
+# Worst residual: 17.56 km
 # MJD 60634.700000 (2024 Nov 20 16:48)
-Hera upper stage
-1 99999U 24180Z   24325.69919926 -04EAHNW2 +061XK5BD +052WQZXGH 24820
-2 99999                          -0008UKNT +000KLRQJ +000FPY54     05
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24325.69919926 -04IQ3X14 +065QY19G +0546S9FMH 26159
+2 61449                          -0009HJO0 +000L6HV3 +000FXB3T     08
 
-# Worst residual: 11.14 km
+# Worst residual: 11.22 km
 # MJD 60635.700000 (2024 Nov 21 16:48)
-Hera upper stage
-1 99999U 24180Z   24326.69919926 -04GCXE0T +066WHJ8N +056OK6IEH 24827
-2 99999                          -0008DMLO +000KTH4U +000FPVTK     00
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24326.69919926 -04KY18XI +06AUUQ05 +0580D8PSH 26158
+2 61449                          -00090FLX +000LEA1W +000FXAZ1     08
 
-# Worst residual: 11.17 km
+# Worst residual: 11.25 km
 # MJD 60636.700000 (2024 Nov 22 16:48)
-Hera upper stage
-1 99999U 24180Z   24327.69919926 -04IB9I3E +06BXDKD3 +05AGEHW5H 24822
-2 99999                          -0007WEVU +000L24MD +000FQ7OQ     08
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24327.69919926 -04N1T9ZQ +06G0QNMR +05BTZUB0H 26159
+2 61449                          -0008IYFU +000LMZ01 +000FXOA7     03
 
-# Worst residual: 11.13 km
+# Worst residual: 11.22 km
 # MJD 60637.700000 (2024 Nov 23 16:48)
-Hera upper stage
-1 99999U 24180Z   24328.69919926 -04K5FYB0 +06H0GJ8R +05E8DEXIH 24824
-2 99999                          -0007EZQK +000LBR3B +000FQY8Y     06
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24328.69919926 -04P1DCGE +06L8TXMG +05FNRF1FH 26150
+2 61449                          -000819LF +000LWNE9 +000FYGIV     04
 
-# Worst residual: 11.11 km
+# Worst residual: 11.21 km
 # MJD 60638.700000 (2024 Nov 24 16:48)
-Hera upper stage
-1 99999U 24180Z   24329.69919926 -04LVF805 +06M5YXA4 +05I0KIEVH 24826
-2 99999                          -0006XFD2 +000LMD8T +000FS3WT     07
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24329.69919926 -04QWNVMU +06QJD5GM +05JHRLRXH 26156
+2 61449                          -0007JFAS +000M7BYC +000FZO3Z     04
 
-# Worst residual: 11.18 km
+# Worst residual: 11.28 km
 # MJD 60639.700000 (2024 Nov 25 16:48)
-Hera upper stage
-1 99999U 24180Z   24330.69919926 -04NH6BFZ +06RE5D8F +05LT3GA6H 24824
-2 99999                          -0006FRXT +000LXZMJ +000FTP03     07
-Avg worst resid: 7.57 km
-Worst residual in entire run: 29.58 km on MJD 60591.7
+Hera = 2024-180A = NORAD 61449
+1 61449U 24180A   24330.69919926 -04SNNTYZ +06VWL24E +05NC44L7H 26154
+2 61449                          -00071HR9 +000MJ18H +000G1BDI     04
+Avg worst resid: 50.03 km
+Worst residual in entire run: 1760.23 km on MJD 60605.7
        1     3     10    30    100   300   1K    3K    10K   km
-     0     6    28    16     0     0     0     0     0     0
+     0     5    27    16     0     0     1     1     0     0
