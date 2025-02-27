@@ -120,6 +120,7 @@
 # Range: 20240108.5 20240122.5
 # ID: 58751  24006A
 # Include peregr.tle
+
 # Range: 20240108.5 20240410.5
 # ID: 58752  24006B
 # Include 24006b.tle
@@ -139,8 +140,6 @@
 # Range: 2018-02-07 2018-03-30
 # ID: 43205  18017A
 # Include 18017a.tle
-
-# Max error 3.0   (following TLEs for the Euclid booster involved guesswork)
 
 # Range: 2023-07-02 2023-11-01
 # ID: 57210  23092B
@@ -162,6 +161,16 @@
 # ID: 99999  24180Z
 # Include 24180z.tle
 
+# Range: 2025-02-28 2025-08-20
+# ID: 63101  25038C
+# Include 25038c.tle
+
+# Range: 2025-01-16 2025-03-31
+# ID: 62719  25010D
+# Include 25010d.tle
+
+# Max error 3.0   (following TLEs are somewhat approximate)
+
 # Range: 2025-01-01 2025-03-30
 # ID: 62029  24214B
 # Include 24214b.tle
@@ -170,17 +179,11 @@
 # ID: 54260  22157B
 # Include 22157b.tle
 
+# Max error 0.2     (reverting to default tolerance)
+
 # Range: 2024-11-05 2024-12-01
 # ID: 55509  23017B
 # Include 23017b.tle
-
-# Range: 2025-02-28 2025-08-20
-# ID: 63101  25038C
-# Include 25038c.tle
-
-# Range: 2025-01-16 2025-03-31
-# ID: 62719  25010D
-# Include 25010d.tle
 
 # Range: 2025-01-17 2025-04-01
 # ID: 62717  25010B
