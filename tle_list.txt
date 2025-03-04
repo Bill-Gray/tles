@@ -659,7 +659,11 @@
 # ID: 79893  25000ZZV
 # Include zts0365.tle
 
-  note : next artsat will be 79892,  25000ZZU (or 24999ZYN)
+# Range: 2024-12-17 2025-05-17
+# ID: 79892  25000ZZU
+# Include a11kala.tle
+
+  note : next artsat will be 79891,  25000ZZT (or 24999ZYN)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
