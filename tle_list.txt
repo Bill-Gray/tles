@@ -590,7 +590,7 @@
 
 # Range: 2024-08-01 2025-04-03
 # ID: 59228  24048A
-# Include ssa02.tle
+# Include 24048a.tle
 
 # Max error 3.0   (...and switching back to assuming mediocre accuracy)
 
