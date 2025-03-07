@@ -161,6 +161,14 @@
 # ID: 99999  24180Z
 # Include 24180z.tle
 
+# Range: 2025-03-04 2025-03-20
+# ID: 63100  25038BZZ
+# Include 25038bzz.tle
+
+# Range: 2025-03-04 2025-03-20
+# ID: 63102  25038DZZ
+# Include 25038dzz.tle
+
 # Range: 2025-02-28 2025-08-20
 # ID: 63101  25038C
 # Include 25038c.tle
@@ -577,8 +585,8 @@
 #  a smaller search distance to avoid double identifications)
 
 # Range: 2024-08-01 2025-05-11
-# ID: 60058  24048ZZZ
-# Include ssa01.tle
+# ID: 60058  24048D
+# Include 24048d.tle
 
 # Range: 2024-08-01 2025-04-03
 # ID: 59228  24048ZZY
