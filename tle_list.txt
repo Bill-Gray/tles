@@ -577,11 +577,11 @@
 #  a smaller search distance to avoid double identifications)
 
 # Range: 2024-08-01 2025-05-11
-# ID: 79913  24048ZZZ
+# ID: 60058  24048ZZZ
 # Include ssa01.tle
 
 # Range: 2024-08-01 2025-04-03
-# ID: 79912  24048ZZY
+# ID: 59228  24048ZZY
 # Include ssa02.tle
 
 # Max error 3.0   (...and switching back to assuming mediocre accuracy)
