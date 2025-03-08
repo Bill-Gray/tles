@@ -161,14 +161,6 @@
 # ID: 99999  24180Z
 # Include 24180z.tle
 
-# Range: 2025-03-04 2025-03-20
-# ID: 63100  25038BZZ
-# Include 25038bzz.tle
-
-# Range: 2025-03-04 2025-03-20
-# ID: 63102  25038DZZ
-# Include 25038dzz.tle
-
 # Range: 2025-02-28 2025-08-20
 # ID: 63101  25038C
 # Include 25038c.tle
