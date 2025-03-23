@@ -274,6 +274,7 @@
 # Warn 2037-May-01 | 2018 AV returns July
 # Warn 2038-Apr-01 | 2019-040B = Spektr-RG booster returns June
 # Warn 2041-Sep-01 | 2018-103B = Chang'e-4 booster returns Nov
+# Warn 2042-Dec-01 | 2025-038E = IM-1/Lunar Trailblazer stage returns Mar
 # Warn 2044-Oct-01 | 2024-030B returns in April
 # Warn 2047-Jan-01 | 2021-130B = JWST upper stage returns June
 
@@ -583,6 +584,12 @@
 # Range: 2024-08-01 2025-04-03
 # ID: 59228  24048A
 # Include 24048a.tle
+
+# Max error 1.0       (not observed for a while and may have drifted)
+
+# Range: 2025-01-01 2026-01-01
+# ID: 60326  24048E
+# Include 24048e.tle
 
 # Max error 3.0   (...and switching back to assuming mediocre accuracy)
 
