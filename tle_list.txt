@@ -673,7 +673,15 @@
 # ID: 79891  25000ZZT
 # Include savas01.tle
 
-  note : next artsat will be 79890,  25000ZZS (or 24999ZYN)
+# Range: 2025-03-01 2025-06-11
+# ID: 79890  25000ZZS
+# Include zts0390.tle
+
+# Range: 2025-03-01 2025-06-17
+# ID: 79889  25000ZZR
+# Include 5c24001.tle
+
+  note : next artsat will be 79888,  25000ZZQ (or 24999ZYN)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
