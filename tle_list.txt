@@ -649,7 +649,7 @@
 # ID: 79899  24999ZYQ
 # Include a11host.tle
 
-# Range: 2024-08-01 2025-04-17
+# Range: 2024-08-01 2025-06-03
 # ID: 79898  24999ZYP
 # Include a11evs8.tle
 
