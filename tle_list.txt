@@ -585,9 +585,17 @@
 # ID: 60058  24048D
 # Include 24048d.tle
 
-# Range: 2024-08-01 2025-04-03
+# Range: 2024-08-01 2025-05-23
 # ID: 59228  24048A
 # Include 24048a.tle
+
+# Range: 2025-03-30 2025-07-02
+# ID: 59288  24048APL
+# Include dro_apl.tle
+
+# Range: 2025-03-30 2025-07-02
+# ID: 60058  24048BPL
+# Include dro_bpl.tle
 
 # Max error 1.0       (not observed for a while and may have drifted)
 
@@ -637,7 +645,7 @@
 # ID: 79902  24999ZYT
 # Include a11dxi4.tle
 
-# Range: 2024-10-01 2025-04-19
+# Range: 2024-10-01 2025-06-07
 # ID: 79901  24999ZYS
 # Include a11drcc.tle
 
