@@ -669,7 +669,7 @@
 # ID: 79893  25000ZZV
 # Include zts0365.tle
 
-# Range: 2024-12-17 2025-05-17
+# Range: 2024-12-17 2025-07-03
 # ID: 79892  25000ZZU
 # Include a11kala.tle
 
