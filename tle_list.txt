@@ -709,7 +709,11 @@
 # ID: 79883  25000ZZK
 # Include zts0406.tle
 
-  note : next artsat will be 79882,  25000ZZJ (or 24999ZYN)
+# Range: 2025-03-17 2025-07-22
+# ID: 79882  25000ZZJ
+# Include a11mxyq.tle
+
+  note : next artsat will be 79881,  25000ZZH (or 24999ZYN)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
