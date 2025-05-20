@@ -673,7 +673,7 @@
 # ID: 79892  25000ZZU
 # Include a11kala.tle
 
-# Range: 2025-02-15 2025-05-30
+# Range: 2025-02-15 2025-06-27
 # ID: 79891  25000ZZT
 # Include savas01.tle
 
