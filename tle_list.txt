@@ -74,6 +74,10 @@
 # ID: 41757  16055A
 # Include osiris.tle
 
+# Range: 2025-09-01 2025-09-24
+# ID: 41757  16055A
+# Include 16055a.tle
+
 # Range: 2022-10-20 2023-03-24
 # ID: 52916  22070C
 # Include 22070c.tle
@@ -255,7 +259,7 @@
    and passed along a list including an additional four events.  I've
    updated accordingly.)
 
-# Warn 2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
+#      2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
 # Warn 2025-Sep-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
 # Warn 2026-Nov-10 | 2024-179A = Vulcan Centaur test returning
