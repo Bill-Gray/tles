@@ -721,7 +721,7 @@
 # ID: 79881  25000ZZH
 # Include zts0405.tle
 
-# Range: 2025-05-05 2025-08-01
+# Range: 2025-04-12 2025-08-15
 # ID: 79880  25000ZZG
 # Include a11nptg.tle
 
