@@ -585,11 +585,11 @@
 # Max error 0.2   (SSA01 and SSA02 are close together;  we need to use
 #  a smaller search distance to avoid double identifications)
 
-# Range: 2024-08-01 2025-07-25
+# Range: 2024-08-01 2026-01-01
 # ID: 60058  24048D
 # Include 24048d.tle
 
-# Range: 2024-08-01 2025-07-11
+# Range: 2024-08-01 2026-01-01
 # ID: 59228  24048A
 # Include 24048a.tle
 
