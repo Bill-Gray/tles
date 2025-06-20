@@ -741,7 +741,11 @@
 # ID: 79876  25000ZZC
 # Include ztf101a.tle
 
-  note : next artsat will be 79875,  25000ZZB (or 24999ZYN)
+# Range: 2025-05-01 2025-09-23
+# ID: 79875  25000ZZB
+# Include a11ntfj.tle
+
+  note : next artsat will be 79874,  25000ZZA (or 24999ZYN)
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
