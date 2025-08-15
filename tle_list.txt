@@ -285,6 +285,7 @@
 # Warn 2042-Dec-01 | 2025-038E = IM-1/Lunar Trailblazer stage returns Mar
 # Warn 2044-Oct-01 | 2024-030B returns in April
 # Warn 2047-Jan-01 | 2021-130B = JWST upper stage returns June
+# Warn 2048-Sep-01 | 2024 BY15 returns in January
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
