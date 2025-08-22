@@ -261,6 +261,7 @@
 
 #      2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
 # Warn 2025-Sep-10 | 2024-179A = Vulcan Centaur test returning
+# Warn 2026-Mar-01 | 2021-110B = DART upper stage returns May; generate TLEs
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
 # Warn 2026-Nov-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2026-Dec-01 | Europa Clipper flyby coming up; generate TLEs
