@@ -244,6 +244,10 @@
 # ID: 61448  24179A
 # Include 24179a.tle
 
+# Range: 2025-09-03 2025-12-25
+# ID: 61448  24179A
+# Include 24179a25.tle
+
 # Range: 20240221.5 20250115.5
 # ID: 58964  24030B
 # Include 24030b.tle
@@ -260,7 +264,6 @@
    updated accordingly.)
 
 #      2025-Jun-01 | OSIRIS-APEX flyby in September; generate TLEs
-# Warn 2025-Sep-10 | 2024-179A = Vulcan Centaur test returning
 # Warn 2026-Mar-01 | 2021-110B = DART upper stage returns May; generate TLEs
 # Warn 2026-Jul-01 | JUICE flyby in September; generate TLEs
 # Warn 2026-Nov-10 | 2024-179A = Vulcan Centaur test returning
