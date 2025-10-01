@@ -3,27 +3,22 @@
 #include <string.h>
 #include <assert.h>
 #include <time.h>
+#include <zlib.h>
 #include "watdefs.h"
 #include "date.h"
 #include "afuncs.h"
 
 /* A utility probably of use only to me.  The TLEs in 'old_tles'
-have names YYYYMMDD.tle;  each file should be used,  roughly speaking,
-over a time span extending halfway to its neighboring file.
-'tle_list.txt' shows how this works.  Maintaining those date spans
-without messing them up can be annoying.
+have names YYYYMMDD.tle or YYYYMMDD.tle.gz.  Each file should be
+used,  roughly speaking, over a time span extending halfway to its
+neighboring file. 'tle_list.txt' shows how this works.  Maintaining
+those date spans without messing them up can be annoying.
 
-Run as './range *.tle' in the 'old_tles' directory,  this will figure out
-the ranges over which the TLEs ought to be used and output them in the
+Run as './range *.tle.gz' in the 'old_tles' directory,  this will figure
+out the ranges over which the TLEs ought to be used and output them in the
 form desired by 'tle_list.txt'.  We rely here on the above command causing
 main() to get the TLE names as command line arguments sorted in correct
-order... which,  on most *nix/BSD* systems,  ought to be true.  You do
-have to modify the first line to deal with 'all_tle.txt',  but that's
-relatively easy.  Compile with
-
-gcc -Wall -Wextra -pedantic -o range range.c -I ~/include ~/lunar/liblunar.a -lm
-
-(uses date-parsing routines from the 'lunar' library.)             */
+order... which,  on most *nix/BSD* systems,  ought to be true.   */
 
 static char *make_date_text( const long jd, char *buff)
 {
@@ -42,7 +37,7 @@ int main( const int argc, const char **argv)
       {
       const long dmy = atol( argv[i]);
 
-      if( dmy > 19570000 && dmy < 20570000 && !strcmp( argv[i] + 8, ".tle"))
+      if( dmy > 19570000 && dmy < 20570000 && !memcmp( argv[i] + 8, ".tle", 4))
          {
          int month, day;
          long year;
@@ -59,10 +54,10 @@ int main( const int argc, const char **argv)
       }
    for( i = 1; i < j; i++)
       {
-      char t1[20], t2[20], buff[100];
+      char t1[20], t2[20], buff[100], *tptr;
       long jd_start = 2436204L, jd_end;
       int n_tles = 0;
-      FILE *ifile = fopen( argv[i], "rb");
+      gzFile ifile = gzopen( argv[i], "rb");
       const long JD_1970 = 2440587;  /* 1969 Dec 31.5 = JD 2440587 */
 
       assert( ifile);
@@ -74,13 +69,17 @@ int main( const int argc, const char **argv)
          jd_end = (JD_1970 + (long)time( NULL) / seconds_per_day + jds[i]) / 2;
       printf( "# Range: %s %s\n", make_date_text( jd_start, t1),
                                   make_date_text( jd_end, t2));
-      while( fgets( buff, sizeof( buff), ifile))
+      while( gzgets( ifile, buff, sizeof( buff)))
          if( *buff == '1' && buff[1] == ' ' && buff[7] == 'U'
                   && buff[23] =='.' && strlen( buff) > 69)
             n_tles++;
-      fclose( ifile);
+      gzclose( ifile);
       printf( "# TLEs expected: %d\n", n_tles);
-      printf( "# Include old_tles/%s\n\n", argv[i]);
+      strcpy( buff, argv[i]);
+      tptr = strstr( buff, ".gz");
+      if( tptr)
+         *tptr = '\0';
+      printf( "# Include old_tles/%s\n\n", buff);
 
       if( i == argc - 1)
          {
