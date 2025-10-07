@@ -2955,7 +2955,7 @@
 # TLEs expected: 28488
 # Include old_tles/20250901.tle
 
-# Range: 2025-09-05 3000-01-01
+# Range: 2025-09-18 3000-01-01
 # Include all_tle.txt
 
 # We don't actually expect to get TLEs from tle_list.txt itself:
