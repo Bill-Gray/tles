@@ -754,7 +754,7 @@
 # ID: 79874  25000ZZA
 # Include a11qfda.tle
 
-# Range: 2025-07-01 2025-11-21
+# Range: 2025-07-01 2026-01-21
 # ID: 79873  25000ZYZ
 # Include a11qrzd.tle
 
