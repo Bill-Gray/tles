@@ -778,7 +778,11 @@
 # ID: 79868  25000ZYU
 # Include ztf106u.tle
 
-  note : next artsat will be 79867,  25000ZYT
+# Range: 2025-09-15 2026-02-03
+# ID: 79867  25000ZYT
+# Include a11ud19.tle
+
+  note : next artsat will be 79866,  25000ZYS
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
