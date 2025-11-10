@@ -798,7 +798,11 @@
 # ID: 79863  25000ZYP
 # Include ztf107a.tle
 
-  note : next artsat will be 79862,  25000ZYN
+# Range: 2025-10-20 2026-02-19
+# ID: 79862  25000ZYN
+# Include c458gp1.tle
+
+  note : next artsat will be 79861,  25000ZYM
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
