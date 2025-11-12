@@ -802,7 +802,11 @@
 # ID: 79862  25000ZYN
 # Include c458gp1.tle
 
-  note : next artsat will be 79861,  25000ZYM
+# Range: 2025-08-01 2026-01-01
+# ID: 79861  25000ZYM
+# Include cdt9az2.tle
+
+  note : next artsat will be 79860,  25000ZYL
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
