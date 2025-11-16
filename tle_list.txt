@@ -185,6 +185,10 @@
 # ID: 62719  25010D
 # Include 25010d.tle
 
+# Range: 2025-11-14 2026-09-04
+# ID: 66453  25260C
+# Include 25260c.tle
+
 # Max error 3.0   (following TLEs are somewhat approximate)
 
 # Range: 2025-01-01 2025-03-30
