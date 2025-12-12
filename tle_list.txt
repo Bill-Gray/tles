@@ -834,7 +834,11 @@
 # ID: 79855  25000ZYF
 # Include st25k62.tle
 
-  note : next artsat will be 79854,  25000ZYE
+# Range: 2025-11-15 2026-02-13
+# ID: 79854  25000ZYE
+# Include a11wjpd.tle
+
+  note : next artsat will be 79853,  25000ZYD
 
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
