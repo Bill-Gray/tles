@@ -157,6 +157,10 @@
 # ID: 59627  24083A
 # Include 24083a25.tle
 
+# Range: 2026-01-01 2026-07-01
+# ID: 59627  24083A
+# Include 24083a26.tle
+
 # Range: 2024-10-07.7 2024-11-26.7
 # ID: 61449  24180A
 # Include hera.tle
@@ -602,7 +606,19 @@
 # ID: 59228  24048A
 # Include 24048a.tle
 
+# Range: 2026-01-01 2026-07-01
+# ID: 59228  24048A
+# Include 24048a26.tle
+
 # Max error 1.0       (not observed for a while and may have drifted)
+
+# Range: 2026-01-01 2026-07-01
+# ID: 60058  24048D
+# Include 24048d26.tle
+
+# Range: 2026-01-01 2026-07-01
+# ID: 59228  24048A
+# Include 24048a26.tle
 
 # Range: 2025-01-01 2026-01-01
 # ID: 60326  24048E
@@ -733,6 +749,10 @@
 # Range: 2025-04-12 2026-01-01
 # ID: 59278  24051C
 # Include 24051c.tle
+
+# Range: 2026-01-01 2026-07-01
+# ID: 59278  24051C
+# Include 24051c26.tle
 
 # Range: 2025-04-20 2025-11-13
 # ID: 79879  25000ZZF
