@@ -874,7 +874,7 @@
 # ID: 79852  25000ZYC
 # Include a11wfsg.tle
 
-# Range: 2025-12-01 2026-04-29
+# Range: 2025-12-01 2027-01-01
 # ID: 79851  69046Z
 # Include c45gf81.tle
 
