@@ -299,13 +299,26 @@
 # Warn 2034-Sep-01 | 2009-026B = Herschel/Planck booster returns Dec
 # Warn 2035-Aug-01 | RK252A5 = 2010 KQ returns
 # Warn 2036-Mar-01 | 2020 SO = Surveyor 2 stage returns
-# Warn 2037-May-01 | 2018 AV returns July
+# Warn 2037-May-01 | 2018 AV2 returns July
 # Warn 2038-Apr-01 | 2019-040B = Spektr-RG booster returns June
+
+# Jon Giorgini tells me 'every 14 years' for Gaia,  at that distance.
+# I have a surprisingly good orbit from optical astrometry that confirms
+# this.  It's distant,  but reaches mag 24 in September 2039.
+
+# Warn 2039-Jan-01 | 2013-074A = Gaia : distant return (over 10 million km)
+# Warn 2040-Jun-01 | 2023-053B = JUICE upper stage returns August
 # Warn 2041-Sep-01 | 2018-103B = Chang'e-4 booster returns Nov
 # Warn 2042-Dec-01 | 2025-038E = IM-1/Lunar Trailblazer stage returns Mar
 # Warn 2044-Oct-01 | 2024-030B returns in April
+# Warn 2046-Jun-01 | 2020-049B = Tianwen-1 upper stage returns late Aug
+# Warn 2046-Nov-01 | 2018-017A = Falcon Heavy & Tesla returns January
 # Warn 2047-Jan-01 | 2021-130B = JWST upper stage returns June
-# Warn 2048-Sep-01 | 2024 BY15 returns in January
+# Warn 2047-Jul-01 | 2024 BY15 returns in coming year?
+# Warn 2049-Apr-01 | 2020-047B = EMM-1 upper stage returns late July
+# Warn 2051-Jul-01 | 2024-180Z = Hera upper stage returns November
+# Warn 2051-Aug-01 | 2021-093B = Lucy Centaur returns October
+# Warn 2052-Aug-01 | 2025-260C = ESCAPADE upper stage return Oct/Nov
 
 # Max error 3.0   (Following TLEs are ETBOs of usually mediocre quality)
 
