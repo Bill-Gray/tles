@@ -893,6 +893,10 @@
 
   note : next artsat will be 79850,  25000ZYA
 
+# Range: 2026-06-22 2027-01-01
+# ID: 69123  26109A
+# Include 26109a.tle
+
 # Range: 2022-01-01 2022-08-01
 # ID: 89944  00000ACD
 # Include ztf0nev.tle
