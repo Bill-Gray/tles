@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 #include <assert.h>
 #include <time.h>
 #include <stdlib.h>
@@ -64,6 +65,7 @@ int main( const int argc, const char **argv)
    char buff[200];
    tle_info_t add, orig;
    time_t t0 = time( NULL);
+   bool update_elems = true;
 
    assert( add_file);
    get_tle_info( &add, add_file);
@@ -96,6 +98,11 @@ int main( const int argc, const char **argv)
    assert( add.step == orig.step);
    assert( !strcmp( orig.cospar_id, add.cospar_id));
    assert( !strcmp( orig.norad_id, add.norad_id));
+   if( !memcmp( orig.cospar_id, "07004", 5))
+      {
+      fprintf( stderr, "THEMIS object,  presumably from Berkeley data\n");
+      update_elems = false;
+      }
    ofile = fopen( "up.tle", "wb");
    assert( ofile);
    while( fgets( buff, sizeof( buff), ifile))
@@ -107,7 +114,7 @@ int main( const int argc, const char **argv)
          snprintf( buff + 28, 13, "%.6f", add.mjd_end);
          buff[40] = ' ';
          }
-      else if( !memcmp( buff, "# 1 NoradU COSPAR", 17))
+      else if( !memcmp( buff, "# 1 NoradU COSPAR", 17) && update_elems)
          {
          char ibuff[200];
          int got_elements = 0;
